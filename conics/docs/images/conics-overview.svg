@@ -367,7 +367,7 @@
 <path clip-rule="nonzero" d="M 846 581.523438 L 1020.855469 581.523438 L 1020.855469 591.488281 L 846 591.488281 Z M 846 581.523438 "/>
 </clipPath>
 </defs>
-<path fill="none" stroke-width="0.1" stroke-linecap="butt" stroke-linejoin="miter" stroke="rgb(100%, 100%, 100%)" stroke-opacity="1" stroke-miterlimit="10" d="M 0 0 L 0 680 L 1200 680 L 1200 0 Z M 0 0 " transform="matrix(1, 0, 0, -1, 1, 681)"/>
+<path fill-rule="evenodd" fill="rgb(100%, 100%, 100%)" fill-opacity="1" stroke-width="0.1" stroke-linecap="butt" stroke-linejoin="miter" stroke="rgb(100%, 100%, 100%)" stroke-opacity="1" stroke-miterlimit="10" d="M 0 0 L 0 680 L 1200 680 L 1200 0 Z M 0 0 " transform="matrix(1, 0, 0, -1, 1, 681)"/>
 <g clip-path="url(#clip-0)">
 <g fill="rgb(6.7%, 9.4%, 15.3%)" fill-opacity="1">
 <use xlink:href="#glyph-0-0" x="56" y="51.003"/>
