@@ -1,0 +1,392 @@
+<?xml version="1.0"?>
+<!DOCTYPE ipe SYSTEM "ipe.dtd">
+<ipe version="70218" creator="Ipe 7.2.30">
+<info created="D:20260829062559" modified="D:20260829062559" title="Conics for Ipe — editable examples" author="japbcoelho" subject="Standalone Conics ipelet publication examples" keywords="Ipe, conics, ellipse, parabola, hyperbola" language="en"/>
+<ipestyle name="conics-publication">
+<color name="hex_0f766e" value="0.059 0.463 0.431"/>
+<color name="hex_111827" value="0.067 0.094 0.153"/>
+<color name="hex_2563eb" value="0.145 0.388 0.922"/>
+<color name="hex_667085" value="0.4 0.439 0.522"/>
+<color name="hex_7c3aed" value="0.486 0.227 0.929"/>
+<color name="hex_94a3b8" value="0.58 0.639 0.722"/>
+<color name="hex_d0d5dd" value="0.816 0.835 0.867"/>
+<color name="hex_e11d48" value="0.882 0.114 0.282"/>
+<color name="hex_ea580c" value="0.918 0.345 0.047"/>
+<color name="hex_f8fafc" value="0.973 0.98 0.988"/>
+<color name="hex_ffffff" value="1"/>
+</ipestyle>
+<page title="Conics overview">
+<layer name="alpha"/>
+<view layers="alpha" active="alpha"/>
+<path layer="alpha" stroke="hex_ffffff" pen="0.1" join="0">
+0 0 m
+0 680 l
+1200 680 l
+1200 0 l
+h
+</path>
+<text transformations="translations" pos="55 630" stroke="hex_111827" type="label" width="332.193" height="11.953" depth="3.35" valign="baseline">\textsf{\LARGE\bfseries From five points to exact, editable conics.}</text>
+<text transformations="translations" pos="55 598" stroke="hex_667085" type="label" width="301.813" height="6.926" depth="1.93" valign="baseline">\textsf{Construct, classify, inspect, and expose the geometry behind each curve.}</text>
+<path stroke="hex_d0d5dd" pen="0.8" join="0">
+40 70 m
+40 555 l
+390 555 l
+390 70 l
+h
+</path>
+<path stroke="hex_d0d5dd" pen="0.8" join="0">
+430 70 m
+430 555 l
+780 555 l
+780 70 l
+h
+</path>
+<path stroke="hex_d0d5dd" pen="0.8" join="0">
+820 70 m
+820 555 l
+1170 555 l
+1170 70 l
+h
+</path>
+<path custom="conics:v1;role=curve;id=c00000046;kind=ellipse;source=five_points;coordinate_space=object;coefficients=-7.2309374763176277e-06,8.1180212683180301e-06,-1.4540436658007063e-05,0.0007144868406627617,0.0068334830555357891,-1;fingerprint=d9b1e02e;trusted=true" stroke="hex_7c3aed" pen="1.6" join="0">
+114.193 50.8421 -29.285 65.7753 215 295 e
+</path>
+<use name="mark/disk(sx)" pos="324.006 354.501" size="large" stroke="hex_2563eb"/>
+<path stroke="hex_2563eb" pen="3" join="0">
+6 0 0 6 324.006 354.501 e
+</path>
+<use name="mark/disk(sx)" pos="214.211 371.121" size="large" stroke="hex_2563eb"/>
+<path stroke="hex_2563eb" pen="3" join="0">
+6 0 0 6 214.211 371.121 e
+</path>
+<use name="mark/disk(sx)" pos="102.64 286.739" size="large" stroke="hex_2563eb"/>
+<path stroke="hex_2563eb" pen="3" join="0">
+6 0 0 6 102.64 286.739 e
+</path>
+<use name="mark/disk(sx)" pos="149.733 213.205" size="large" stroke="hex_2563eb"/>
+<path stroke="hex_2563eb" pen="3" join="0">
+6 0 0 6 149.733 213.205 e
+</path>
+<use name="mark/disk(sx)" pos="304.487 270.282" size="large" stroke="hex_2563eb"/>
+<path stroke="hex_2563eb" pen="3" join="0">
+6 0 0 6 304.487 270.282 e
+</path>
+<path custom="conics:v1;role=curve;id=c00000047;kind=ellipse;source=ellipse_from_foci;coordinate_space=object;coefficients=1.3954992421800348e-06,1.2363570186433652e-06,3.0971986898884058e-06,-0.0020594611886308517,-0.0026063152102122791,1;fingerprint=ab401e9b;trusted=true" stroke="hex_111827" pen="1.5" join="0">
+102.714 -33.3738 20.0861 61.8187 605 300 e
+</path>
+<use custom="conics:v1;role=center;id=c00000048;kind=ellipse;source=properties;trusted=true" name="mark/disk(sx)" pos="605 300" size="large" stroke="hex_2563eb"/>
+<use custom="conics:v1;role=vertex;id=c00000048;kind=ellipse;source=properties;trusted=true" name="mark/disk(sx)" pos="502.286 333.374" size="large" stroke="hex_2563eb"/>
+<use custom="conics:v1;role=vertex;id=c00000048;kind=ellipse;source=properties;trusted=true" name="mark/disk(sx)" pos="707.714 266.626" size="large" stroke="hex_2563eb"/>
+<use custom="conics:v1;role=focus;id=c00000048;kind=ellipse;source=properties;trusted=true" name="mark/disk(sx)" pos="522.972 326.653" size="large" stroke="hex_2563eb"/>
+<use custom="conics:v1;role=focus;id=c00000048;kind=ellipse;source=properties;trusted=true" name="mark/disk(sx)" pos="687.028 273.347" size="large" stroke="hex_2563eb"/>
+<path custom="conics:v1;role=axis;id=c00000048;kind=ellipse;source=properties;trusted=true" stroke="hex_94a3b8" dash="dotted" pen="0.65" join="0">
+502.286 333.374 m
+707.714 266.626 l
+</path>
+<path custom="conics:v1;role=axis;id=c00000048;kind=ellipse;source=properties;trusted=true" stroke="hex_94a3b8" dash="dotted" pen="0.65" join="0">
+625.086 361.819 m
+584.914 238.181 l
+</path>
+<path custom="conics:v1;role=directrix;id=c00000048;kind=ellipse;source=properties;trusted=true" stroke="hex_ea580c" dash="dashed" pen="0.75" join="0">
+452.435 268.083 m
+500.332 415.497 l
+</path>
+<path custom="conics:v1;role=directrix;id=c00000048;kind=ellipse;source=properties;trusted=true" stroke="hex_ea580c" dash="dashed" pen="0.75" join="0">
+709.668 184.503 m
+757.565 331.917 l
+</path>
+<path stroke="hex_2563eb" pen="2.8" join="0">
+5.2 0 0 5.2 605 300 e
+</path>
+<path stroke="hex_2563eb" pen="2.8" join="0">
+5.2 0 0 5.2 502.286 333.374 e
+</path>
+<path stroke="hex_2563eb" pen="2.8" join="0">
+5.2 0 0 5.2 707.714 266.626 e
+</path>
+<path stroke="hex_2563eb" pen="2.8" join="0">
+5.2 0 0 5.2 522.972 326.653 e
+</path>
+<path stroke="hex_2563eb" pen="2.8" join="0">
+5.2 0 0 5.2 687.028 273.347 e
+</path>
+<path custom="conics:v1;role=curve;id=c00000049;kind=parabola;source=directrix_foci;coordinate_space=object;coefficients=1.1055526381249827e-06,0,0,-0.0020342168541499684,-0.00027638815953124566,1;fingerprint=a17efa94;trusted=true" stroke="hex_7c3aed" pen="1.5" join="0">
+788 302.196 m
+920 162.804
+1052 302.196 c
+</path>
+<path custom="conics:v1;role=curve;id=c0000004a;kind=parabola;source=directrix_foci;coordinate_space=object;coefficients=8.4566596194503168e-07,0,0,-0.0017758985200845665,-0.00027061310782241013,1;fingerprint=a17efa94;trusted=true" stroke="hex_0f766e" pen="1.5" join="0">
+918 304.45 m
+1050 195.55
+1182 304.45 c
+</path>
+<path stroke="hex_ea580c" dash="dashed" pen="0.85" join="0">
+855 170 m
+1135 170 l
+</path>
+<use name="mark/disk(sx)" pos="920 295" size="large" stroke="hex_2563eb"/>
+<path stroke="hex_2563eb" pen="3" join="0">
+6 0 0 6 920 295 e
+</path>
+<use name="mark/disk(sx)" pos="1050 330" size="large" stroke="hex_2563eb"/>
+<path stroke="hex_2563eb" pen="3" join="0">
+6 0 0 6 1050 330 e
+</path>
+<text transformations="translations" pos="65 515" stroke="hex_111827" type="label" width="84.102" height="8.307" depth="2.32" valign="baseline">\textsf{\large\bfseries 1\enspace Fit any conic}</text>
+<text transformations="translations" pos="65 487" stroke="hex_667085" type="label" width="185.499" height="6.926" depth="1.93" valign="baseline">\textsf{Five points determine and classify the curve.}</text>
+<text transformations="translations" pos="455 515" stroke="hex_111827" type="label" width="121.953" height="8.307" depth="2.32" valign="baseline">\textsf{\large\bfseries 2\enspace Reveal its geometry}</text>
+<text transformations="translations" pos="455 487" stroke="hex_667085" type="label" width="202.408" height="6.926" depth="1.93" valign="baseline">\textsf{Axes, vertices, foci, and directrices stay editable.}</text>
+<text transformations="translations" pos="845 515" stroke="hex_111827" type="label" width="122.534" height="8.302" depth="0" valign="baseline">\textsf{\large\bfseries 3\enspace Build whole families}</text>
+<text transformations="translations" pos="845 487" stroke="hex_667085" type="label" width="211.845" height="6.926" depth="1.93" valign="baseline">\textsf{One directrix can generate several exact parabolas.}</text>
+<text transformations="translations" pos="65 92" stroke="hex_667085" type="label" width="165.292" height="6.926" depth="1.93" valign="baseline">\textsf{\bfseries Blue: inputs\qquad Violet: fitted curve}</text>
+<text transformations="translations" pos="455 92" stroke="hex_667085" type="label" width="171.519" height="7.473" depth="2.49" valign="baseline">\textsf{\bfseries Black: conic\qquad Gray/orange: guides}</text>
+<text transformations="translations" pos="845 92" stroke="hex_667085" type="label" width="174.856" height="7.473" depth="2.49" valign="baseline">\textsf{\bfseries Blue/orange: inputs\qquad Color: results}</text>
+</page>
+<page title="Conic through five points">
+<layer name="alpha"/>
+<view layers="alpha" active="alpha"/>
+<path layer="alpha" stroke="hex_ffffff" pen="0.1" join="0">
+0 0 m
+0 680 l
+1200 680 l
+1200 0 l
+h
+</path>
+<text transformations="translations" pos="55 630" stroke="hex_111827" type="label" width="232.448" height="11.953" depth="3.35" valign="baseline">\textsf{\LARGE\bfseries Five points. One exact conic.}</text>
+<text transformations="translations" pos="55 598" stroke="hex_667085" type="label" width="349.744" height="6.926" depth="1.93" valign="baseline">\textsf{The direct homogeneous fit is classified before Ipe chooses its native representation.}</text>
+<path stroke="hex_d0d5dd" pen="0.8" join="0">
+120 75 m
+120 560 l
+1080 560 l
+1080 75 l
+h
+</path>
+<path custom="conics:v1;role=curve;id=c0000004b;kind=ellipse;source=five_points;coordinate_space=object;coefficients=-3.6799697351582697e-06,4.356683428431209e-06,-8.1914474928878124e-06,0.0031089586536605612,0.0023008584386739615,-1;fingerprint=c8636fe8;trusted=true" stroke="hex_7c3aed" pen="1.6" join="0">
+292.063 118.001 -65.5562 162.257 600 300 e
+</path>
+<use name="mark/disk(sx)" pos="872.051 449.158" size="large" stroke="hex_2563eb"/>
+<path stroke="hex_2563eb" pen="3" join="0">
+6 0 0 6 872.051 449.158 e
+</path>
+<use name="mark/disk(sx)" pos="575.729 477.101" size="large" stroke="hex_2563eb"/>
+<path stroke="hex_2563eb" pen="3" join="0">
+6 0 0 6 575.729 477.101 e
+</path>
+<use name="mark/disk(sx)" pos="308.758 265.07" size="large" stroke="hex_2563eb"/>
+<path stroke="hex_2563eb" pen="3" join="0">
+6 0 0 6 308.758 265.07 e
+</path>
+<use name="mark/disk(sx)" pos="453.289 100.461" size="large" stroke="hex_2563eb"/>
+<path stroke="hex_2563eb" pen="3" join="0">
+6 0 0 6 453.289 100.461 e
+</path>
+<use name="mark/disk(sx)" pos="855.632 272.17" size="large" stroke="hex_2563eb"/>
+<path stroke="hex_2563eb" pen="3" join="0">
+6 0 0 6 855.632 272.17 e
+</path>
+<text transformations="translations" pos="155 98" stroke="hex_667085" type="label" width="272.145" height="6.926" depth="1.93" valign="baseline">\textsf{\bfseries Blue: five defining marks\qquad Violet: resulting native ellipse}</text>
+</page>
+<page title="Editable property guides">
+<layer name="alpha"/>
+<view layers="alpha" active="alpha"/>
+<path layer="alpha" stroke="hex_ffffff" pen="0.1" join="0">
+0 0 m
+0 680 l
+1200 680 l
+1200 0 l
+h
+</path>
+<text transformations="translations" pos="55 630" stroke="hex_111827" type="label" width="254.125" height="11.955" depth="0" valign="baseline">\textsf{\LARGE\bfseries A conic is more than its outline.}</text>
+<text transformations="translations" pos="55 598" stroke="hex_667085" type="label" width="357.576" height="6.926" depth="1.93" valign="baseline">\textsf{Property guides create native, independently editable geometry for the selected curve.}</text>
+<path stroke="hex_d0d5dd" pen="0.8" join="0">
+120 60 m
+120 570 l
+1080 570 l
+1080 60 l
+h
+</path>
+<path custom="conics:v1;role=curve;id=c0000004c;kind=ellipse;source=ellipse_from_foci;coordinate_space=object;coefficients=1.401797256449868e-06,1.4364422865179162e-06,3.5314105239625254e-06,-0.0021202716051278063,-0.00301602579152789,1;fingerprint=ea52efef;trusted=true" stroke="hex_111827" pen="1.5" join="0">
+272.547 -83.3259 46.7795 153.009 600 305 e
+</path>
+<use custom="conics:v1;role=center;id=c0000004d;kind=ellipse;source=properties;trusted=true" name="mark/disk(sx)" pos="600 305" size="large" stroke="hex_2563eb"/>
+<text transformations="translations" custom="conics:v1;role=label;id=c0000004d;kind=ellipse;source=properties;trusted=true" pos="604 309" stroke="hex_111827" type="label" width="7.833" height="6.808" depth="0" valign="baseline" size="small">$C$</text>
+<use custom="conics:v1;role=vertex;id=c0000004d;kind=ellipse;source=properties;trusted=true" name="mark/disk(sx)" pos="327.453 388.326" size="large" stroke="hex_2563eb"/>
+<text transformations="translations" custom="conics:v1;role=label;id=c0000004d;kind=ellipse;source=properties;trusted=true" pos="331.453 392.326" stroke="hex_111827" type="label" width="10.281" height="6.812" depth="1.49" valign="baseline" size="small">$V_1$</text>
+<use custom="conics:v1;role=vertex;id=c0000004d;kind=ellipse;source=properties;trusted=true" name="mark/disk(sx)" pos="872.547 221.674" size="large" stroke="hex_2563eb"/>
+<text transformations="translations" custom="conics:v1;role=label;id=c0000004d;kind=ellipse;source=properties;trusted=true" pos="876.547 225.674" stroke="hex_111827" type="label" width="10.281" height="6.812" depth="1.49" valign="baseline" size="small">$V_2$</text>
+<use custom="conics:v1;role=focus;id=c0000004d;kind=ellipse;source=properties;trusted=true" name="mark/disk(sx)" pos="374.456 373.956" size="large" stroke="hex_2563eb"/>
+<text transformations="translations" custom="conics:v1;role=label;id=c0000004d;kind=ellipse;source=properties;trusted=true" pos="378.456 377.956" stroke="hex_111827" type="label" width="10.876" height="6.812" depth="1.49" valign="baseline" size="small">$F_1$</text>
+<use custom="conics:v1;role=focus;id=c0000004d;kind=ellipse;source=properties;trusted=true" name="mark/disk(sx)" pos="825.544 236.044" size="large" stroke="hex_2563eb"/>
+<text transformations="translations" custom="conics:v1;role=label;id=c0000004d;kind=ellipse;source=properties;trusted=true" pos="829.544 240.044" stroke="hex_111827" type="label" width="10.876" height="6.812" depth="1.49" valign="baseline" size="small">$F_2$</text>
+<path custom="conics:v1;role=axis;id=c0000004d;kind=ellipse;source=properties;trusted=true" stroke="hex_94a3b8" dash="dotted" pen="0.65" join="0">
+327.453 388.326 m
+872.547 221.674 l
+</path>
+<path custom="conics:v1;role=axis;id=c0000004d;kind=ellipse;source=properties;trusted=true" stroke="hex_94a3b8" dash="dotted" pen="0.65" join="0">
+646.779 458.009 m
+553.221 151.991 l
+</path>
+<path custom="conics:v1;role=directrix;id=c0000004d;kind=ellipse;source=properties;trusted=true" stroke="hex_ea580c" dash="dashed" pen="0.75" join="0">
+247.996 331.577 m
+293.314 479.804 l
+</path>
+<path custom="conics:v1;role=directrix;id=c0000004d;kind=ellipse;source=properties;trusted=true" stroke="hex_ea580c" dash="dashed" pen="0.75" join="0">
+906.686 130.196 m
+952.004 278.423 l
+</path>
+<path stroke="hex_2563eb" pen="2.8" join="0">
+5.2 0 0 5.2 600 305 e
+</path>
+<path stroke="hex_2563eb" pen="2.8" join="0">
+5.2 0 0 5.2 327.453 388.326 e
+</path>
+<path stroke="hex_2563eb" pen="2.8" join="0">
+5.2 0 0 5.2 872.547 221.674 e
+</path>
+<path stroke="hex_2563eb" pen="2.8" join="0">
+5.2 0 0 5.2 374.456 373.956 e
+</path>
+<path stroke="hex_2563eb" pen="2.8" join="0">
+5.2 0 0 5.2 825.544 236.044 e
+</path>
+<text transformations="translations" pos="155 83" stroke="hex_667085" type="label" width="382.097" height="6.926" depth="1.93" valign="baseline">\textsf{\bfseries Black: ellipse\qquad Blue: characteristic points\qquad Gray: axes\qquad Orange: directrices}</text>
+</page>
+<page title="Multiple exact parabolas">
+<layer name="alpha"/>
+<view layers="alpha" active="alpha"/>
+<path layer="alpha" stroke="hex_ffffff" pen="0.1" join="0">
+0 0 m
+0 680 l
+1200 680 l
+1200 0 l
+h
+</path>
+<text transformations="translations" pos="55 630" stroke="hex_111827" type="label" width="306.427" height="11.953" depth="3.35" valign="baseline">\textsf{\LARGE\bfseries One directrix. Several exact parabolas.}</text>
+<text transformations="translations" pos="55 598" stroke="hex_667085" type="label" width="344.32" height="6.926" depth="1.93" valign="baseline">\textsf{Every selected focus becomes an exact quadratic spline in one undoable operation.}</text>
+<path stroke="hex_d0d5dd" pen="0.8" join="0">
+100 60 m
+100 570 l
+1100 570 l
+1100 60 l
+h
+</path>
+<path custom="conics:v1;role=curve;id=c0000004e;kind=parabola;source=directrix_foci;coordinate_space=object;coefficients=4.2789901583226358e-06,0,0,-0.003337612323491656,-0.0014548566538296961,1;fingerprint=a17efa94;trusted=true" stroke="hex_7c3aed" pen="1.5" join="0">
+120 454.412 m
+390 25.5882
+660 454.412 c
+</path>
+<path custom="conics:v1;role=curve;id=c0000004f;kind=parabola;source=directrix_foci;coordinate_space=object;coefficients=1.9993002449142798e-06,0,0,-0.0024391462987954217,-0.00093967111510971158,1;fingerprint=a17efa94;trusted=true" stroke="hex_0f766e" pen="1.5" join="0">
+340 427.606 m
+610 117.394
+880 427.606 c
+</path>
+<path custom="conics:v1;role=curve;id=c00000050;kind=parabola;source=directrix_foci;coordinate_space=object;coefficients=1.3394053040450039e-06,0,0,-0.0022100187516742565,-0.00038842753817305115,1;fingerprint=a17efa94;trusted=true" stroke="hex_e11d48" pen="1.5" join="0">
+555 478.879 m
+825 -23.8793
+1095 478.879 c
+</path>
+<path stroke="hex_ea580c" dash="dashed" pen="0.85" join="0">
+205 155 m
+995 155 l
+</path>
+<use name="mark/disk(sx)" pos="390 325" size="large" stroke="hex_2563eb"/>
+<path stroke="hex_2563eb" pen="3" join="0">
+6 0 0 6 390 325 e
+</path>
+<use name="mark/disk(sx)" pos="610 390" size="large" stroke="hex_2563eb"/>
+<path stroke="hex_2563eb" pen="3" join="0">
+6 0 0 6 610 390 e
+</path>
+<use name="mark/disk(sx)" pos="825 300" size="large" stroke="hex_2563eb"/>
+<path stroke="hex_2563eb" pen="3" join="0">
+6 0 0 6 825 300 e
+</path>
+<text transformations="translations" pos="155 83" stroke="hex_667085" type="label" width="341.446" height="6.926" depth="1.93" valign="baseline">\textsf{\bfseries Orange: shared directrix\qquad Blue: foci\qquad Color: exact editable parabolas}</text>
+</page>
+<page title="Exact and adaptive open conics">
+<layer name="alpha"/>
+<view layers="alpha" active="alpha"/>
+<path layer="alpha" stroke="hex_ffffff" pen="0.1" join="0">
+0 0 m
+0 680 l
+1200 680 l
+1200 0 l
+h
+</path>
+<text transformations="translations" pos="55 630" stroke="hex_111827" type="label" width="310.745" height="11.953" depth="3.35" valign="baseline">\textsf{\LARGE\bfseries Open conics without broken fragments.}</text>
+<text transformations="translations" pos="55 598" stroke="hex_667085" type="label" width="427.536" height="6.926" depth="1.93" valign="baseline">\textsf{Exact parabolas and tolerance-controlled continuous hyperbola branches remain compact and editable.}</text>
+<path stroke="hex_d0d5dd" pen="0.8" join="0">
+50 65 m
+50 565 l
+580 565 l
+580 65 l
+h
+</path>
+<path stroke="hex_d0d5dd" pen="0.8" join="0">
+620 65 m
+620 565 l
+1150 565 l
+1150 65 l
+h
+</path>
+<path custom="conics:v1;role=curve;id=c00000051;kind=parabola;source=focus_directrix_point;coordinate_space=object;coefficients=5.2083333333333332e-06,0,0,-0.0031250000000000002,-0.0020833333333333333,1;fingerprint=a17efa94;trusted=true" stroke="hex_0f766e" pen="1.6" join="0">
+115 340.562 m
+300 169.437
+485 340.562 c
+</path>
+<path stroke="hex_ea580c" dash="dashed" pen="0.85" join="0">
+105 155 m
+525 155 l
+</path>
+<use name="mark/disk(sx)" pos="300 355" size="large" stroke="hex_2563eb"/>
+<path stroke="hex_2563eb" pen="3" join="0">
+6 0 0 6 300 355 e
+</path>
+<path custom="conics:v1;role=branch;id=c00000052;kind=hyperbola;source=parameters;coordinate_space=object;coefficients=1.8025008798457421e-06,0,-4.0556269796529196e-06,-0.0031904265573269638,0.0025550449971813395,1;fingerprint=ca61e79d;trusted=true" stroke="hex_7c3aed" pen="1.6" join="0">
+1090 187.04 m
+1035.39 225.924
+1004.55 249.928
+984.86 268.87 c
+965.172 287.811
+957 301.343
+957 315 c
+957 328.657
+965.172 342.189
+984.86 361.13 c
+1004.55 380.072
+1035.39 404.076
+1090 442.96 c
+</path>
+<path custom="conics:v1;role=branch;id=c00000052;kind=hyperbola;source=parameters;coordinate_space=object;coefficients=1.8025008798457421e-06,0,-4.0556269796529196e-06,-0.0031904265573269638,0.0025550449971813395,1;fingerprint=ca61e79d;trusted=true" stroke="hex_7c3aed" pen="1.6" join="0">
+680 187.04 m
+734.611 225.924
+765.453 249.928
+785.14 268.87 c
+804.828 287.811
+813 301.343
+813 315 c
+813 328.657
+804.828 342.189
+785.14 361.13 c
+765.453 380.072
+734.611 404.076
+680 442.96 c
+</path>
+<path custom="conics:v1;role=asymptote;id=c00000052;kind=hyperbola;source=parameters;trusted=true" stroke="hex_94a3b8" dash="dashed" pen="0.75" join="0">
+735.231 215.154 m
+1034.77 414.846 l
+</path>
+<path custom="conics:v1;role=asymptote;id=c00000052;kind=hyperbola;source=parameters;trusted=true" stroke="hex_94a3b8" dash="dashed" pen="0.75" join="0">
+735.231 414.846 m
+1034.77 215.154 l
+</path>
+<use name="mark/disk(sx)" pos="885 315" size="large" stroke="hex_2563eb"/>
+<path stroke="hex_2563eb" pen="3" join="0">
+6 0 0 6 885 315 e
+</path>
+<text transformations="translations" pos="80 520" stroke="hex_111827" type="label" width="165.308" height="8.307" depth="2.32" valign="baseline">\textsf{\large\bfseries Exact focus--directrix parabola}</text>
+<text transformations="translations" pos="650 520" stroke="hex_111827" type="label" width="157.985" height="8.307" depth="2.32" valign="baseline">\textsf{\large\bfseries Adaptive hyperbola branches}</text>
+<text transformations="translations" pos="80 492" stroke="hex_667085" type="label" width="134.081" height="6.926" depth="1.93" valign="baseline">\textsf{No marching-squares fragments.}</text>
+<text transformations="translations" pos="650 492" stroke="hex_667085" type="label" width="147.669" height="6.926" depth="1.93" valign="baseline">\textsf{Subdivision follows geometric error.}</text>
+</page>
+</ipe>
