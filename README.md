@@ -4,6 +4,8 @@
 
 A curated collection of independent extensions for the [Ipe drawing editor](https://ipe.otfried.org/). Each ipelet lives in its own directory with installation instructions, examples, tests, and release notes.
 
+[![Circles: preview every tangent-circle candidate and click to create one](circles/docs/images/circles-overview.svg)](circles/)
+
 ## Available ipelets
 
 | Ipelet | Version | Description |
