@@ -1,0 +1,34 @@
+name: Feature request
+description: Suggest a construction or workflow improvement.
+title: "[Feature]: "
+labels:
+  - enhancement
+body:
+  - type: dropdown
+    id: ipelet
+    attributes:
+      label: Ipelet
+      options:
+        - Circles
+        - Repository-wide
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or use case
+      description: Explain the drawing task that is currently difficult.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed behavior
+      description: Describe inputs, output, menu placement, and useful options.
+    validations:
+      required: true
+  - type: textarea
+    id: references
+    attributes:
+      label: Geometric references or examples
+      description: Add formulas, diagrams, or links that define the expected construction.

@@ -1,0 +1,64 @@
+name: Bug report
+description: Report incorrect behavior in an ipelet.
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: dropdown
+    id: ipelet
+    attributes:
+      label: Ipelet
+      options:
+        - Circles
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Ipelet version
+      placeholder: 1.0.0
+    validations:
+      required: true
+  - type: input
+    id: ipe-version
+    attributes:
+      label: Ipe version
+      placeholder: 7.2.30
+    validations:
+      required: true
+  - type: input
+    id: operating-system
+    attributes:
+      label: Operating system and installation method
+      placeholder: Linux, Ipe Flatpak
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Include the selected objects, menu action, and dialog options.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+      description: Include the full warning or error message. Attach a minimal `.ipe` file when possible.
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checklist
+      options:
+        - label: I restarted Ipe after installing or updating the ipelet.
+          required: true
+        - label: I removed private or sensitive content from attached files.
+          required: true
