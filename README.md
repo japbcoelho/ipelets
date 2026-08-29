@@ -6,11 +6,14 @@ A curated collection of independent extensions for the [Ipe drawing editor](http
 
 [![Circles: preview every tangent-circle candidate and click to create one](circles/docs/images/circles-overview.svg)](circles/)
 
+[![Conics: construct, classify, inspect, and annotate editable conics](conics/docs/images/conics-overview.svg)](conics/)
+
 ## Available ipelets
 
 | Ipelet | Version | Description |
 | --- | --- | --- |
 | [Circles](circles/) | 1.0.0 | Circle construction, tangencies, inversion, radical geometry, center marking, and live previews. |
+| [Conics](conics/) | 1.1.0 | Exact and fitted conics, dual and mixed constructions, intersections, arcs, analytic features, inspection, and metadata repair. |
 
 ## Quick installation
 
@@ -20,16 +23,19 @@ On Linux, install an ipelet with the repository helper:
 ./scripts/install.sh circles
 ```
 
+Replace `circles` with `conics` to install Conics.
+
 The helper detects the Ipe Flatpak installation and otherwise uses the standard `~/.ipe/ipelets` directory. Restart Ipe after installation.
 
 Manual installation and platform-specific details are documented inside each ipelet directory.
-Prebuilt archives are available from the [latest GitHub release](https://github.com/japbcoelho/ipelets/releases/latest).
+Prebuilt archives for each ipelet are available on the [GitHub releases page](https://github.com/japbcoelho/ipelets/releases).
 
 ## Repository layout
 
 ```text
 .
 ├── circles/          Circles source, documentation, examples, and tests
+├── conics/           Conics source, documentation, examples, and tests
 ├── scripts/          Installation, validation, and packaging helpers
 ├── .github/          Continuous integration and contribution templates
 └── LICENSE           Repository license

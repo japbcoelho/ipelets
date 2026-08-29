@@ -47,7 +47,7 @@ O Ipelet utiliza objetos documentados da API Lua do Ipe e não exige compilaçã
 
 ## Instalação
 
-Baixe o pacote autocontido na [versão mais recente do GitHub](https://github.com/japbcoelho/ipelets/releases/latest) ou utilize um dos métodos abaixo.
+Baixe o pacote autocontido na [versão 1.0.0 de Circles](https://github.com/japbcoelho/ipelets/releases/tag/v1.0.0) ou utilize um dos métodos abaixo.
 
 ### Utilitário do repositório no Linux
 

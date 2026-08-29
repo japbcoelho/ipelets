@@ -28,8 +28,10 @@ package_root="$stage_root/$ipelet_name-v$version"
 mkdir -p -- "$package_root/docs/images" "$package_root/examples" "$archive_dir"
 
 install -m 0644 -- "$ipelet_root/$ipelet_name.lua" "$package_root/$ipelet_name.lua"
-sed 's#](../LICENSE)#](LICENSE)#g' "$ipelet_root/README.md" > "$package_root/README.md"
-sed 's#](../LICENSE)#](LICENSE)#g' "$ipelet_root/README.pt-BR.md" > "$package_root/README.pt-BR.md"
+sed -e 's#](../LICENSE)#](LICENSE)#g' -e 's#](../NOTICE.md)#](NOTICE.md)#g' \
+  "$ipelet_root/README.md" > "$package_root/README.md"
+sed -e 's#](../LICENSE)#](LICENSE)#g' -e 's#](../NOTICE.md)#](NOTICE.md)#g' \
+  "$ipelet_root/README.pt-BR.md" > "$package_root/README.pt-BR.md"
 chmod 0644 "$package_root/README.md" "$package_root/README.pt-BR.md"
 install -m 0644 -- "$ipelet_root/CHANGELOG.md" "$package_root/CHANGELOG.md"
 install -m 0644 -- "$version_file" "$package_root/VERSION"
@@ -41,7 +43,30 @@ install -m 0644 -- "$ipelet_root/examples/"*.ipe "$package_root/examples/"
 
 (
   cd -- "$stage_root"
-  python3 -m zipfile -c "$archive" "$ipelet_name-v$version"
+  python3 - "$archive" "$ipelet_name-v$version" <<'PY'
+import pathlib
+import stat
+import sys
+import zipfile
+
+archive = pathlib.Path(sys.argv[1])
+package_root = pathlib.Path(sys.argv[2])
+files = sorted(path for path in package_root.rglob("*") if path.is_file())
+
+with zipfile.ZipFile(
+    archive,
+    mode="x",
+    compression=zipfile.ZIP_DEFLATED,
+    compresslevel=9,
+) as package:
+    for path in files:
+        info = zipfile.ZipInfo(path.as_posix(), date_time=(1980, 1, 1, 0, 0, 0))
+        info.create_system = 3
+        info.compress_type = zipfile.ZIP_DEFLATED
+        info.external_attr = (stat.S_IFREG | 0o644) << 16
+        package.writestr(info, path.read_bytes(), compress_type=zipfile.ZIP_DEFLATED,
+                         compresslevel=9)
+PY
 )
 
 python3 - "$archive" "$checksum" <<'PY'

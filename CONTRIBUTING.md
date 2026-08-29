@@ -25,6 +25,12 @@ luac5.4 -p circles/circles.lua
 python3 -m unittest discover -s circles/tests -v
 ```
 
+For a focused Conics check:
+
+```bash
+./scripts/validate.sh conics
+```
+
 ## Visual changes
 
 When a change affects generated geometry or dialogs:
