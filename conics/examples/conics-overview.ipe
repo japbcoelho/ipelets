@@ -18,7 +18,7 @@
 <page title="Conics overview">
 <layer name="alpha"/>
 <view layers="alpha" active="alpha"/>
-<path layer="alpha" stroke="hex_ffffff" pen="0.1" join="0">
+<path layer="alpha" stroke="hex_ffffff" fill="hex_ffffff" pen="0.1" join="0">
 0 0 m
 0 680 l
 1200 680 l
@@ -145,7 +145,7 @@ h
 <page title="Conic through five points">
 <layer name="alpha"/>
 <view layers="alpha" active="alpha"/>
-<path layer="alpha" stroke="hex_ffffff" pen="0.1" join="0">
+<path layer="alpha" stroke="hex_ffffff" fill="hex_ffffff" pen="0.1" join="0">
 0 0 m
 0 680 l
 1200 680 l
@@ -189,7 +189,7 @@ h
 <page title="Editable property guides">
 <layer name="alpha"/>
 <view layers="alpha" active="alpha"/>
-<path layer="alpha" stroke="hex_ffffff" pen="0.1" join="0">
+<path layer="alpha" stroke="hex_ffffff" fill="hex_ffffff" pen="0.1" join="0">
 0 0 m
 0 680 l
 1200 680 l
@@ -254,7 +254,7 @@ h
 <page title="Multiple exact parabolas">
 <layer name="alpha"/>
 <view layers="alpha" active="alpha"/>
-<path layer="alpha" stroke="hex_ffffff" pen="0.1" join="0">
+<path layer="alpha" stroke="hex_ffffff" fill="hex_ffffff" pen="0.1" join="0">
 0 0 m
 0 680 l
 1200 680 l
@@ -306,7 +306,7 @@ h
 <page title="Exact and adaptive open conics">
 <layer name="alpha"/>
 <view layers="alpha" active="alpha"/>
-<path layer="alpha" stroke="hex_ffffff" pen="0.1" join="0">
+<path layer="alpha" stroke="hex_ffffff" fill="hex_ffffff" pen="0.1" join="0">
 0 0 m
 0 680 l
 1200 680 l
