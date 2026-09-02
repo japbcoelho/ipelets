@@ -1,0 +1,736 @@
+<?xml version="1.0"?>
+<!DOCTYPE ipe SYSTEM "ipe.dtd">
+<ipe version="70218" creator="Ipe 7.2.30">
+<info created="D:20260902183732" modified="D:20260902183732" title="Vectors 1.0.0 visual guide" author="japbcoelho" subject="Editable examples generated with the standalone Vectors ipelet" language="en"/>
+<preamble>\usepackage{amsmath}
+</preamble>
+<ipestyle name="python-mcp-colors">
+<color name="hex_0f766e" value="0.059 0.463 0.431"/>
+<color name="hex_15803d" value="0.082 0.502 0.239"/>
+<color name="hex_1d4ed8" value="0.114 0.306 0.847"/>
+<color name="hex_667085" value="0.4 0.439 0.522"/>
+<color name="hex_98a2b3" value="0.596 0.635 0.702"/>
+<color name="hex_b42318" value="0.706 0.137 0.094"/>
+<color name="hex_c2410c" value="0.761 0.255 0.047"/>
+</ipestyle>
+<ipestyle name="basic-with-tikz-styles">
+<symbol name="arrow/normal(spx)">
+<path stroke="sym-stroke" fill="sym-stroke" pen="sym-pen">
+0 0 m
+-1 0.333 l
+-1 -0.333 l
+h
+</path>
+</symbol>
+<symbol name="mark/circle(sx)" transformations="translations">
+<path fill="sym-stroke">
+0.6 0 0 0.6 0 0 e
+0.4 0 0 0.4 0 0 e
+</path>
+</symbol>
+<symbol name="mark/disk(sx)" transformations="translations">
+<path fill="sym-stroke">
+0.6 0 0 0.6 0 0 e
+</path>
+</symbol>
+<symbol name="mark/fdisk(sfx)" transformations="translations">
+<group>
+<path fill="sym-fill">
+0.5 0 0 0.5 0 0 e
+</path>
+<path fill="sym-stroke" fillrule="eofill">
+0.6 0 0 0.6 0 0 e
+0.4 0 0 0.4 0 0 e
+</path>
+</group>
+</symbol>
+<symbol name="mark/box(sx)" transformations="translations">
+<path fill="sym-stroke" fillrule="eofill">
+-0.6 -0.6 m
+0.6 -0.6 l
+0.6 0.6 l
+-0.6 0.6 l
+h
+-0.4 -0.4 m
+0.4 -0.4 l
+0.4 0.4 l
+-0.4 0.4 l
+h
+</path>
+</symbol>
+<symbol name="mark/square(sx)" transformations="translations">
+<path fill="sym-stroke">
+-0.6 -0.6 m
+0.6 -0.6 l
+0.6 0.6 l
+-0.6 0.6 l
+h
+</path>
+</symbol>
+<symbol name="mark/fsquare(sfx)" transformations="translations">
+<group>
+<path fill="sym-fill">
+-0.5 -0.5 m
+0.5 -0.5 l
+0.5 0.5 l
+-0.5 0.5 l
+h
+</path>
+<path fill="sym-stroke" fillrule="eofill">
+-0.6 -0.6 m
+0.6 -0.6 l
+0.6 0.6 l
+-0.6 0.6 l
+h
+-0.4 -0.4 m
+0.4 -0.4 l
+0.4 0.4 l
+-0.4 0.4 l
+h
+</path>
+</group>
+</symbol>
+<symbol name="mark/cross(sx)" transformations="translations">
+<group>
+<path fill="sym-stroke">
+-0.43 -0.57 m
+0.57 0.43 l
+0.43 0.57 l
+-0.57 -0.43 l
+h
+</path>
+<path fill="sym-stroke">
+-0.43 0.57 m
+0.57 -0.43 l
+0.43 -0.57 l
+-0.57 0.43 l
+h
+</path>
+</group>
+</symbol>
+<symbol name="arrow/To(spx)">
+<group matrix="0.25 0 0 0.25 0 0">
+<path stroke="sym-stroke" pen="sym-pen" cap="1" join="1">
+-2.07224 2.39104 m
+-1.69365 0.95639
+-0.84999 0.27895
+0 0 c
+-0.84999 -0.27895
+-1.69365 -0.95639
+-2.07224 -2.39104 c
+</path>
+</group>
+</symbol>
+<symbol name="arrow/To To(spx)">
+<group matrix="0.25 0 0 0.25 0 0">
+<path stroke="sym-stroke" pen="sym-pen" cap="1" join="1">
+-2.07224 2.39104 m
+-1.69365 0.95639
+-0.84999 0.27895
+0 0 c
+-0.84999 -0.27895
+-1.69365 -0.95639
+-2.07224 -2.39104 c
+</path>
+<path matrix="1 0 0 1 -2.47075 0" stroke="sym-stroke" pen="sym-pen" cap="1" join="1">
+-2.07224 2.39104 m
+-1.69365 0.95639
+-0.84999 0.27895
+0 0 c
+-0.84999 -0.27895
+-1.69365 -0.95639
+-2.07224 -2.39104 c
+</path>
+</group>
+</symbol>
+<symbol name="arrow/Latex(spx)">
+<group matrix="0.25 0 0 0.25 0 0">
+<path matrix="1 0 0 1 -3.7613 0" stroke="sym-stroke" fill="sym-stroke" pen="sym-pen" cap="0" join="0">
+3.7613 0 m
+3.2994 0.11273
+1.26901 0.75153
+0 1.44672 c
+0 -1.44672 l
+1.26901 -0.75153
+3.2994 -0.11273
+3.7613 0 c
+h
+</path>
+</group>
+</symbol>
+<symbol name="arrow/Latex[open](spx)">
+<group matrix="0.25 0 0 0.25 0 0">
+<path matrix="1 0 0 1 -3.7613 0" stroke="sym-stroke" fill="white" pen="sym-pen" cap="0" join="0">
+3.7613 0 m
+3.2994 0.11273
+1.26901 0.75153
+0 1.44672 c
+0 -1.44672 l
+1.26901 -0.75153
+3.2994 -0.11273
+3.7613 0 c
+h
+</path>
+</group>
+</symbol>
+<symbol name="arrow/Stealth(spx)">
+<group matrix="0.25 0 0 0.25 0 0">
+<path matrix="1 0 0 1 -4.21463 0" stroke="sym-stroke" fill="sym-stroke" pen="sym-pen" cap="0" join="0">
+4.21463 0 m
+0.64343 1.34572 l
+1.8178 0 l
+0.64343 -1.34572 l
+h
+</path>
+</group>
+</symbol>
+<symbol name="arrow/Stealth[open](spx)">
+<group matrix="0.25 0 0 0.25 0 0">
+<path matrix="1 0 0 1 -4.21463 0" stroke="sym-stroke" fill="white" pen="sym-pen" cap="0" join="0">
+4.21463 0 m
+0.64343 1.34572 l
+1.8178 0 l
+0.64343 -1.34572 l
+h
+</path>
+</group>
+</symbol>
+<symbol name="arrow/Triangle(spx)">
+<group matrix="0.25 0 0 0.25 0 0">
+<path matrix="1 0 0 1 -3.17348 0" stroke="sym-stroke" fill="sym-stroke" pen="sym-pen" cap="0" join="0">
+3.17348 0 m
+0.19925 1.76338 l
+0.19925 0 l
+0.19925 -1.76338 l
+h
+</path>
+</group>
+</symbol>
+<symbol name="arrow/Triangle[open](spx)">
+<group matrix="0.25 0 0 0.25 0 0">
+<path matrix="1 0 0 1 -3.17348 0" stroke="sym-stroke" fill="white" pen="sym-pen" cap="0" join="0">
+3.17348 0 m
+0.19925 1.76338 l
+0.19925 0 l
+0.19925 -1.76338 l
+h
+</path>
+</group>
+</symbol>
+<symbol name="arrow/Kite(spx)">
+<group matrix="0.25 0 0 0.25 0 0">
+<path matrix="1 0 0 1 -5.10841 0" stroke="sym-stroke" fill="sym-stroke" pen="sym-pen" cap="0" join="0">
+5.10841 0 m
+1.48842 1.20667 l
+0.28177 0 l
+1.48842 -1.20667 l
+h
+</path>
+</group>
+</symbol>
+<symbol name="arrow/Kite[open](spx)">
+<group matrix="0.25 0 0 0.25 0 0">
+<path matrix="1 0 0 1 -5.10841 0" stroke="sym-stroke" fill="white" pen="sym-pen" cap="0" join="0">
+5.10841 0 m
+1.48842 1.20667 l
+0.28177 0 l
+1.48842 -1.20667 l
+h
+</path>
+</group>
+</symbol>
+<symbol name="arrow/Hooks(spx)">
+<group matrix="0.25 0 0 0.25 0 0">
+<path stroke="sym-stroke" pen="sym-pen" cap="0" join="0">
+0 2.09215 m
+0.57773 2.09215
+1.04607 1.62381
+1.04607 1.04607 c
+1.04607 0.46834
+0.57773 0
+0 0 c
+0.57773 0
+1.04607 -0.46834
+1.04607 -1.04607 c
+1.04607 -1.62381
+0.57773 -2.09215
+0 -2.09215 c
+</path>
+</group>
+</symbol>
+<symbol name="arrow/Hooks[harpoon](spx)">
+<group matrix="0.25 0 0 0.25 0 0">
+<path stroke="sym-stroke" pen="sym-pen" cap="0" join="0">
+0 2.09215 m
+0.57773 2.09215
+1.04607 1.62381
+1.04607 1.04607 c
+1.04607 0.46834
+0.57773 0
+0 0 c
+</path>
+</group>
+</symbol>
+<symbol name="arrow/Hooks[harpoon,swap](spx)">
+<group matrix="0.25 0 0 0.25 0 0">
+<path stroke="sym-stroke" pen="sym-pen" cap="0" join="0">
+0 0 m
+0.57773 0
+1.04607 -0.46834
+1.04607 -1.04607 c
+1.04607 -1.62381
+0.57773 -2.09215
+0 -2.09215 c
+</path>
+</group>
+</symbol>
+<symbol name="arrow/Bar(spx)">
+<group matrix="0.25 0 0 0.25 0 0">
+<path stroke="sym-stroke" pen="sym-pen" cap="0" join="0">
+0 2.29141 m
+0 -2.29141 l
+</path>
+</group>
+</symbol>
+<symbol name="arrow/To Bar(spx)">
+<group matrix="0.25 0 0 0.25 0 0">
+<path matrix="1 0 0 1 -0.3985 0" stroke="sym-stroke" pen="sym-pen" cap="1" join="1">
+-2.07224 2.39104 m
+-1.69365 0.95639
+-0.84999 0.27895
+0 0 c
+-0.84999 -0.27895
+-1.69365 -0.95639
+-2.07224 -2.39104 c
+</path>
+<path stroke="sym-stroke" pen="sym-pen" cap="0" join="0">
+0 2.29141 m
+0 -2.29141 l
+</path>
+</group>
+</symbol>
+<anglesize name="22.5 deg" value="22.5"/>
+<anglesize name="30 deg" value="30"/>
+<anglesize name="45 deg" value="45"/>
+<anglesize name="60 deg" value="60"/>
+<anglesize name="90 deg" value="90"/>
+<arrowsize name="huge" value="14"/>
+<arrowsize name="large" value="10"/>
+<arrowsize name="normal" value="7"/>
+<arrowsize name="small" value="5"/>
+<arrowsize name="tiny" value="3"/>
+<color name="blue" value="0 0 1"/>
+<color name="brown" value="0.647 0.165 0.165"/>
+<color name="darkblue" value="0 0 0.545"/>
+<color name="darkcyan" value="0 0.545 0.545"/>
+<color name="darkgray" value="0.663"/>
+<color name="darkgreen" value="0 0.392 0"/>
+<color name="darkmagenta" value="0.545 0 0.545"/>
+<color name="darkorange" value="1 0.549 0"/>
+<color name="darkred" value="0.545 0 0"/>
+<color name="gold" value="1 0.843 0"/>
+<color name="gray" value="0.745"/>
+<color name="green" value="0 1 0"/>
+<color name="lightblue" value="0.678 0.847 0.902"/>
+<color name="lightcyan" value="0.878 1 1"/>
+<color name="lightgray" value="0.827"/>
+<color name="lightgreen" value="0.565 0.933 0.565"/>
+<color name="lightyellow" value="1 1 0.878"/>
+<color name="navy" value="0 0 0.502"/>
+<color name="orange" value="1 0.647 0"/>
+<color name="pink" value="1 0.753 0.796"/>
+<color name="purple" value="0.627 0.125 0.941"/>
+<color name="red" value="1 0 0"/>
+<color name="seagreen" value="0.18 0.545 0.341"/>
+<color name="turquoise" value="0.251 0.878 0.816"/>
+<color name="violet" value="0.933 0.51 0.933"/>
+<color name="yellow" value="1 1 0"/>
+<dashstyle name="dash dot dot" value="[3 2 1 2 1 2] 0"/>
+<dashstyle name="dash dot" value="[3 2 1 2] 0"/>
+<dashstyle name="dashed" value="[3] 0"/>
+<dashstyle name="densely dash dot dot" value="[3 1 1 1 1 1] 0"/>
+<dashstyle name="densely dash dot" value="[3 1 1 1] 0"/>
+<dashstyle name="densely dashed" value="[3 2] 0"/>
+<dashstyle name="densely dotted" value="[1 1] 0"/>
+<dashstyle name="dotted" value="[1 3] 0"/>
+<dashstyle name="loosely dash dot dot" value="[3 4 1 4 1 4] 0"/>
+<dashstyle name="loosely dash dot" value="[3 4 1 4] 0"/>
+<dashstyle name="loosely dashed" value="[3 6] 0"/>
+<dashstyle name="loosely dotted" value="[1 4] 0"/>
+<dashstyle name="solid" value="[] 0"/>
+<gridsize name="10 pts (~3.5 mm)" value="10"/>
+<gridsize name="14 pts (~5 mm)" value="14"/>
+<gridsize name="16 pts (~6 mm)" value="16"/>
+<gridsize name="20 pts (~7 mm)" value="20"/>
+<gridsize name="28 pts (~10 mm)" value="28"/>
+<gridsize name="32 pts (~12 mm)" value="32"/>
+<gridsize name="4 pts" value="4"/>
+<gridsize name="56 pts (~20 mm)" value="56"/>
+<gridsize name="8 pts (~3 mm)" value="8"/>
+<opacity name="nearly opaque (75%)" value="0.75"/>
+<opacity name="nearly transparent (25%)" value="0.25"/>
+<opacity name="semitransparent (50%)" value="0.5"/>
+<opacity name="transparent (0%)" value="0"/>
+<opacity name="ultra nearly opaque (95%)" value="0.95"/>
+<opacity name="ultra nearly transparent (5%)" value="0.05"/>
+<opacity name="very nearly opaque (90%)" value="0.9"/>
+<opacity name="very nearly transparent (10%)" value="0.1"/>
+<pen name="normal" value="0.4"/>
+<pen name="semithick" value="0.6"/>
+<pen name="thick" value="0.8"/>
+<pen name="thin" value="0.4"/>
+<pen name="ultra thick" value="1.6"/>
+<pen name="ultra thin" value="0.1"/>
+<pen name="very thick" value="1.2"/>
+<pen name="very thin" value="0.2"/>
+<symbolsize name="large" value="5"/>
+<symbolsize name="small" value="2"/>
+<symbolsize name="tiny" value="1.1"/>
+<textsize name="Huge" value="\Huge"/>
+<textsize name="LARGE" value="\LARGE"/>
+<textsize name="Large" value="\Large"/>
+<textsize name="footnote" value="\footnotesize"/>
+<textsize name="huge" value="\huge"/>
+<textsize name="large" value="\large"/>
+<textsize name="script" value="\scriptsize"/>
+<textsize name="small" value="\small"/>
+<textsize name="tiny" value="\tiny"/>
+<textstyle name="center" begin="\begin{center}" end="\end{center}"/>
+<textstyle name="item" begin="\begin{itemize}\item{}" end="\end{itemize}"/>
+<textstyle name="itemize" begin="\begin{itemize}" end="\end{itemize}"/>
+<pathstyle join="0"/>
+<tiling name="falling" angle="-60" step="4" width="1"/>
+<tiling name="rising" angle="30" step="4" width="1"/>
+<tiling name="horizontal lines" angle="0" step="2.9888" width="0.3985"/>
+<tiling name="vertical lines" angle="90" step="2.9888" width="0.3985"/>
+<tiling name="north east lines" angle="45" step="2.1134" width="0.3985"/>
+<tiling name="north west lines" angle="135" step="2.1134" width="0.3985"/>
+</ipestyle>
+<page title="Components Standard">
+<layer name="alpha"/>
+<view layers="alpha" active="alpha"/>
+<path layer="alpha" stroke="hex_98a2b3" pen="0.5" join="0" arrow="normal/small">
+63 105 m
+360 105 l
+</path>
+<path stroke="hex_98a2b3" pen="0.5" join="0" arrow="normal/small">
+105 63 m
+105 360 l
+</path>
+<path stroke="hex_1d4ed8" pen="1.35" join="0" arrow="normal/small">
+105 105 m
+325 255 l
+</path>
+<path custom="vectors:components;label_base=F;label_style=xy;role=component_1;source=3" stroke="hex_15803d" dash="dashed" pen="1.05" join="0" arrow="normal/large">
+105 105 m
+325 105 l
+</path>
+<path custom="vectors:components;label_base=F;label_style=xy;role=component_2;source=3" stroke="hex_15803d" dash="dashed" pen="1.05" join="0" arrow="normal/large">
+105 105 m
+105 255 l
+</path>
+<path custom="vectors:components;label_base=F;label_style=xy;role=guide_1;source=3" stroke="hex_98a2b3" dash="dotted" pen="0.55">
+325 255 m
+325 105 l
+</path>
+<path custom="vectors:components;label_base=F;label_style=xy;role=guide_2;source=3" stroke="hex_98a2b3" dash="dotted" pen="0.55">
+325 255 m
+105 255 l
+</path>
+<text matrix="1 0 0 1 325 96" custom="vectors:components;label_base=F;label_style=xy;role=label_1;source=3" pos="0 0" stroke="hex_15803d" type="label" halign="right" valign="top" size="large" style="math">\mathbf{F}_{x}</text>
+<text matrix="0 1 -1 0 96 255" custom="vectors:components;label_base=F;label_style=xy;role=label_2;source=3" pos="0 0" stroke="hex_15803d" type="label" halign="right" valign="bottom" size="large" style="math">\mathbf{F}_{y}</text>
+<text transformations="translations" pos="328 264" stroke="hex_1d4ed8" type="label" valign="baseline" size="large" style="math">\mathbf{F}</text>
+</page>
+<page title="Components Rotated Axes">
+<layer name="alpha"/>
+<view layers="alpha" active="alpha"/>
+<path layer="alpha" stroke="hex_98a2b3" pen="0.5" join="0" arrow="normal/small">
+107.916 100.282 m
+370.152 239.715 l
+</path>
+<path stroke="hex_98a2b3" pen="0.5" join="0" arrow="normal/small">
+164.718 82.9162 m
+25.2848 345.152 l
+</path>
+<path stroke="hex_1d4ed8" pen="1.35" join="0" arrow="normal/small">
+145 120 m
+335 280 l
+</path>
+<path custom="vectors:components;label_base=F;label_style=12;role=component_1;source=3" stroke="hex_15803d" dash="dashed" pen="1.05" join="0" arrow="normal/large">
+145 120 m
+359.446 234.023 l
+</path>
+<path custom="vectors:components;label_base=F;label_style=12;role=component_2;source=3" stroke="hex_15803d" dash="dashed" pen="1.05" join="0" arrow="normal/large">
+145 120 m
+120.554 165.977 l
+</path>
+<path custom="vectors:components;label_base=F;label_style=12;role=guide_1;source=3" stroke="hex_98a2b3" dash="dotted" pen="0.55">
+335 280 m
+359.446 234.023 l
+</path>
+<path custom="vectors:components;label_base=F;label_style=12;role=guide_2;source=3" stroke="hex_98a2b3" dash="dotted" pen="0.55">
+335 280 m
+120.554 165.977 l
+</path>
+<text matrix="0.882948 0.469472 -0.469472 0.882948 363.672 226.077" custom="vectors:components;label_base=F;label_style=12;role=label_1;source=3" pos="0 0" stroke="hex_15803d" type="label" halign="right" valign="top" size="large" style="math">\mathbf{F}_{1}</text>
+<text matrix="0.469472 -0.882948 0.882948 0.469472 112.607 161.752" custom="vectors:components;label_base=F;label_style=12;role=label_2;source=3" pos="0 0" stroke="hex_15803d" type="label" valign="top" size="large" style="math">\mathbf{F}_{2}</text>
+<text transformations="translations" pos="339 289" stroke="hex_1d4ed8" type="label" valign="baseline" size="large" style="math">\mathbf{F}</text>
+</page>
+<page title="Oblique Positive Components">
+<layer name="alpha"/>
+<view layers="alpha" active="alpha"/>
+<path layer="alpha" stroke="hex_667085" dash="dashed" pen="0.65" join="0">
+105 100 m
+385 100 l
+</path>
+<path stroke="hex_667085" dash="dashed" pen="0.65" join="0">
+105 100 m
+230 350 l
+</path>
+<path stroke="hex_1d4ed8" pen="1.35" join="0" arrow="normal/small">
+105 100 m
+325 265 l
+</path>
+<path custom="vectors:oblique-components;direction_1=1;direction_2=2;label_base=A;label_style=12;role=component_1;source=3" stroke="hex_15803d" dash="dashed" pen="1.05" join="0" arrow="normal/large">
+105 100 m
+242.5 100 l
+</path>
+<path custom="vectors:oblique-components;direction_1=1;direction_2=2;label_base=A;label_style=12;role=component_2;source=3" stroke="hex_15803d" dash="dashed" pen="1.05" join="0" arrow="normal/large">
+105 100 m
+187.5 265 l
+</path>
+<path custom="vectors:oblique-components;direction_1=1;direction_2=2;label_base=A;label_style=12;role=guide_1;source=3" stroke="hex_98a2b3" dash="dotted" pen="0.55">
+325 265 m
+242.5 100 l
+</path>
+<path custom="vectors:oblique-components;direction_1=1;direction_2=2;label_base=A;label_style=12;role=guide_2;source=3" stroke="hex_98a2b3" dash="dotted" pen="0.55">
+325 265 m
+187.5 265 l
+</path>
+<text matrix="1 0 0 1 242.5 91" custom="vectors:oblique-components;direction_1=1;direction_2=2;label_base=A;label_style=12;role=label_1;source=3" pos="0 0" stroke="hex_15803d" type="label" halign="right" valign="top" size="large" style="math">\mathbf{A}_{1}</text>
+<text matrix="0.447214 0.894427 -0.894427 0.447214 179.45 269.025" custom="vectors:oblique-components;direction_1=1;direction_2=2;label_base=A;label_style=12;role=label_2;source=3" pos="0 0" stroke="hex_15803d" type="label" halign="right" valign="bottom" size="large" style="math">\mathbf{A}_{2}</text>
+<text transformations="translations" pos="329 274" stroke="hex_1d4ed8" type="label" valign="baseline" size="large" style="math">\mathbf{A}</text>
+</page>
+<page title="Oblique Negative Nonprimary">
+<layer name="alpha"/>
+<view layers="alpha" active="alpha"/>
+<path layer="alpha" stroke="hex_667085" dash="dashed" pen="0.65" join="0">
+205 115 m
+410 115 l
+</path>
+<path stroke="hex_667085" dash="dashed" pen="0.65" join="0">
+205 115 m
+300 350 l
+</path>
+<path stroke="hex_1d4ed8" pen="1.35" join="0" arrow="normal/small">
+205 115 m
+105 285 l
+</path>
+<path custom="vectors:oblique-components;direction_1=1;direction_2=2;label_base=N;label_style=12;role=component_1;source=3" stroke="hex_15803d" dash="dashed" pen="1.05" join="0" arrow="normal/large">
+205 115 m
+36.2766 115 l
+</path>
+<path custom="vectors:oblique-components;direction_1=1;direction_2=2;label_base=N;label_style=12;role=component_2;source=3" stroke="hex_15803d" dash="dashed" pen="1.05" join="0" arrow="normal/large">
+205 115 m
+273.723 285 l
+</path>
+<path custom="vectors:oblique-components;direction_1=1;direction_2=2;label_base=N;label_style=12;role=guide_1;source=3" stroke="hex_98a2b3" dash="dotted" pen="0.55">
+105 285 m
+36.2766 115 l
+</path>
+<path custom="vectors:oblique-components;direction_1=1;direction_2=2;label_base=N;label_style=12;role=guide_2;source=3" stroke="hex_98a2b3" dash="dotted" pen="0.55">
+105 285 m
+273.723 285 l
+</path>
+<text matrix="1 0 0 1 36.2766 106" custom="vectors:oblique-components;direction_1=1;direction_2=2;label_base=N;label_style=12;role=label_1;source=3" pos="0 0" stroke="hex_15803d" type="label" valign="top" size="large" style="math">\mathbf{N}_{1}</text>
+<text matrix="0.374789 0.92711 -0.92711 0.374789 282.067 281.627" custom="vectors:oblique-components;direction_1=1;direction_2=2;label_base=N;label_style=12;role=label_2;source=3" pos="0 0" stroke="hex_15803d" type="label" halign="right" valign="top" size="large" style="math">\mathbf{N}_{2}</text>
+<text transformations="translations" pos="88 293" stroke="hex_1d4ed8" type="label" valign="baseline" size="large" style="math">\mathbf{N}</text>
+</page>
+<page title="Oblique All Arrowed Inference">
+<layer name="alpha"/>
+<view layers="alpha" active="alpha"/>
+<path layer="alpha" stroke="hex_1d4ed8" pen="1.35" join="0" arrow="normal/small">
+105 100 m
+300 260 l
+</path>
+<path stroke="hex_0f766e" pen="1" join="0" arrow="normal/small">
+105 100 m
+385 100 l
+</path>
+<path stroke="hex_c2410c" pen="1" join="0" arrow="normal/small">
+105 100 m
+210 355 l
+</path>
+<path custom="vectors:oblique-components;direction_1=2;direction_2=3;label_base=V;label_style=12;role=component_1;source=1" stroke="hex_15803d" dash="dashed" pen="1.05" join="0" arrow="normal/large">
+105 100 m
+234.118 100 l
+</path>
+<path custom="vectors:oblique-components;direction_1=2;direction_2=3;label_base=V;label_style=12;role=component_2;source=1" stroke="hex_15803d" dash="dashed" pen="1.05" join="0" arrow="normal/large">
+105 100 m
+170.882 260 l
+</path>
+<path custom="vectors:oblique-components;direction_1=2;direction_2=3;label_base=V;label_style=12;role=guide_1;source=1" stroke="hex_98a2b3" dash="dotted" pen="0.55">
+300 260 m
+234.118 100 l
+</path>
+<path custom="vectors:oblique-components;direction_1=2;direction_2=3;label_base=V;label_style=12;role=guide_2;source=1" stroke="hex_98a2b3" dash="dotted" pen="0.55">
+300 260 m
+170.882 260 l
+</path>
+<text matrix="1 0 0 1 234.118 91" custom="vectors:oblique-components;direction_1=2;direction_2=3;label_base=V;label_style=12;role=label_1;source=1" pos="0 0" stroke="hex_15803d" type="label" halign="right" valign="top" size="large" style="math">\mathbf{V}_{1}</text>
+<text matrix="0.38075 0.924678 -0.924678 0.38075 162.56 263.427" custom="vectors:oblique-components;direction_1=2;direction_2=3;label_base=V;label_style=12;role=label_2;source=1" pos="0 0" stroke="hex_15803d" type="label" halign="right" valign="bottom" size="large" style="math">\mathbf{V}_{2}</text>
+<text transformations="translations" pos="304 269" stroke="hex_1d4ed8" type="label" valign="baseline" size="large" style="math">\mathbf{V}</text>
+</page>
+<page title="Resultant Tail To Tail">
+<layer name="alpha"/>
+<view layers="alpha" active="alpha"/>
+<path layer="alpha" stroke="hex_1d4ed8" pen="1.25" join="0" arrow="normal/small">
+105 105 m
+305 105 l
+</path>
+<path stroke="hex_0f766e" pen="1.25" join="0" arrow="normal/small">
+105 105 m
+175 275 l
+</path>
+<path custom="vectors:resultant;contact=tail_tail;mode=parallelogram;source_1=1;source_2=2;source_count=2" stroke="hex_b42318" pen="1.55" join="0" arrow="normal/large">
+105 105 m
+375 275 l
+</path>
+<text transformations="translations" pos="265 88" stroke="hex_1d4ed8" type="label" valign="baseline" size="large" style="math">\mathbf{u}</text>
+<text transformations="translations" pos="151 245" stroke="hex_0f766e" type="label" valign="baseline" size="large" style="math">\mathbf{v}</text>
+</page>
+<page title="Resultant Head To Tail">
+<layer name="alpha"/>
+<view layers="alpha" active="alpha"/>
+<path layer="alpha" stroke="hex_1d4ed8" pen="1.25" join="0" arrow="normal/small">
+80 105 m
+245 105 l
+</path>
+<path stroke="hex_0f766e" pen="1.25" join="0" arrow="normal/small">
+245 105 m
+340 255 l
+</path>
+<path custom="vectors:resultant;contact=head_tail;mode=polyline;source_1=1;source_2=2;source_count=2" stroke="hex_b42318" pen="1.55" join="0" arrow="normal/large">
+80 105 m
+340 255 l
+</path>
+<text transformations="translations" pos="190 87" stroke="hex_1d4ed8" type="label" valign="baseline" size="large" style="math">\mathbf{u}</text>
+<text transformations="translations" pos="299 178" stroke="hex_0f766e" type="label" valign="baseline" size="large" style="math">\mathbf{v}</text>
+</page>
+<page title="Resultant Directed Chain">
+<layer name="alpha"/>
+<view layers="alpha" active="alpha"/>
+<path layer="alpha" stroke="hex_1d4ed8" pen="1.25" join="0" arrow="normal/small">
+75 100 m
+205 100 l
+</path>
+<path stroke="hex_0f766e" pen="1.25" join="0" arrow="normal/small">
+205 100 m
+300 210 l
+</path>
+<path stroke="hex_c2410c" pen="1.25" join="0" arrow="normal/small">
+300 210 m
+225 315 l
+</path>
+<path custom="vectors:resultant;contact=head_tail_chain;mode=directed_polyline;source_1=1;source_2=2;source_3=3;source_count=3" stroke="hex_b42318" pen="1.55" join="0" arrow="normal/large">
+75 100 m
+225 315 l
+</path>
+</page>
+<page title="Resultant Connected Sum">
+<layer name="alpha"/>
+<view layers="alpha" active="alpha"/>
+<path layer="alpha" stroke="hex_1d4ed8" pen="1.25" join="0" arrow="normal/small">
+210 120 m
+390 120 l
+</path>
+<path stroke="hex_0f766e" pen="1.25" join="0" arrow="normal/small">
+210 120 m
+260 300 l
+</path>
+<path stroke="hex_c2410c" pen="1.25" join="0" arrow="normal/small">
+210 120 m
+105 215 l
+</path>
+<path custom="vectors:resultant;contact=connected;mode=connected_sum;source_1=1;source_2=2;source_3=3;source_count=3" stroke="hex_b42318" pen="1.55" join="0" arrow="normal/large">
+210 120 m
+335 395 l
+</path>
+</page>
+<page title="Subtraction Common Tail">
+<layer name="alpha"/>
+<view layers="alpha" active="alpha"/>
+<path layer="alpha" stroke="hex_1d4ed8" pen="1.3" join="0" arrow="normal/small">
+105 105 m
+330 150 l
+</path>
+<path stroke="hex_0f766e" pen="1.2" join="0" arrow="normal/small">
+105 105 m
+185 285 l
+</path>
+<path custom="vectors:subtraction;contact=tail_tail;minuend=1;mode=common_tail;source_1=1;source_2=2;source_count=2;subtrahend=2" stroke="hex_b42318" pen="1.55" join="0" arrow="normal/large">
+185 285 m
+330 150 l
+</path>
+<text transformations="translations" pos="294 137" stroke="hex_1d4ed8" type="label" valign="baseline" size="large" style="math">\mathbf{u}</text>
+<text transformations="translations" pos="166 255" stroke="hex_0f766e" type="label" valign="baseline" size="large" style="math">\mathbf{v}</text>
+</page>
+<page title="Subtraction Common Head">
+<layer name="alpha"/>
+<view layers="alpha" active="alpha"/>
+<path layer="alpha" stroke="hex_1d4ed8" pen="1.3" join="0" arrow="normal/small">
+85 115 m
+300 260 l
+</path>
+<path stroke="hex_0f766e" pen="1.2" join="0" arrow="normal/small">
+345 105 m
+300 260 l
+</path>
+<path custom="vectors:subtraction;contact=head_head;minuend=1;mode=common_head;source_1=1;source_2=2;source_count=2;subtrahend=2" stroke="hex_b42318" pen="1.55" join="0" arrow="normal/large">
+85 115 m
+345 105 l
+</path>
+<text transformations="translations" pos="181 172" stroke="hex_1d4ed8" type="label" valign="baseline" size="large" style="math">\mathbf{u}</text>
+<text transformations="translations" pos="326 172" stroke="hex_0f766e" type="label" valign="baseline" size="large" style="math">\mathbf{v}</text>
+</page>
+<page title="Subtraction Chain Primary First">
+<layer name="alpha"/>
+<view layers="alpha" active="alpha"/>
+<path layer="alpha" stroke="hex_1d4ed8" pen="1.3" join="0" arrow="normal/small">
+80 180 m
+230 200 l
+</path>
+<path stroke="hex_0f766e" pen="1.2" join="0" arrow="normal/small">
+230 200 m
+340 300 l
+</path>
+<path stroke="hex_c2410c" pen="1.2" join="0" arrow="normal/small">
+340 300 m
+320 270 l
+</path>
+<path custom="vectors:subtraction;contact=head_tail_chain;minuend=1;mode=chain_difference;source_1=1;source_2=2;source_3=3;source_count=3;subtrahend=2" stroke="hex_b42318" pen="1.55" join="0" arrow="normal/large">
+80 180 m
+140 130 l
+</path>
+</page>
+<page title="Subtraction Chain Primary Middle">
+<layer name="alpha"/>
+<view layers="alpha" active="alpha"/>
+<path layer="alpha" stroke="hex_0f766e" pen="1.2" join="0" arrow="normal/small">
+80 180 m
+230 200 l
+</path>
+<path stroke="hex_1d4ed8" pen="1.3" join="0" arrow="normal/small">
+230 200 m
+340 300 l
+</path>
+<path stroke="hex_c2410c" pen="1.2" join="0" arrow="normal/small">
+340 300 m
+320 270 l
+</path>
+<path custom="vectors:subtraction;contact=head_tail_chain;minuend=2;mode=chain_difference;source_1=2;source_2=1;source_3=3;source_count=3;subtrahend=1" stroke="hex_b42318" pen="1.55" join="0" arrow="normal/large">
+230 200 m
+210 310 l
+</path>
+</page>
+</ipe>

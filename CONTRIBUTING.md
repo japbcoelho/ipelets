@@ -31,6 +31,12 @@ For a focused Conics check:
 ./scripts/validate.sh conics
 ```
 
+For a focused Vectors check:
+
+```bash
+./scripts/validate.sh vectors
+```
+
 ## Visual changes
 
 When a change affects generated geometry or dialogs:

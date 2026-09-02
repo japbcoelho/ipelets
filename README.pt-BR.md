@@ -8,12 +8,15 @@ Uma coleção organizada de extensões independentes para o [editor de desenhos 
 
 [**Conics: construa, classifique, inspecione e anote cônicas editáveis**](conics/README.pt-BR.md)
 
+[![Vectors: decomponha vetores e construa aritmética vetorial exata](vectors/docs/images/01_vectors_overview.png)](vectors/README.pt-BR.md)
+
 ## Ipelets disponíveis
 
 | Ipelet | Versão | Descrição |
 | --- | --- | --- |
 | [Circles](circles/README.pt-BR.md) | 1.0.0 | Construções de circunferências, tangências, inversão, geometria radical, marcação de centros e pré-visualização ao vivo. |
 | [Conics](conics/README.pt-BR.md) | 1.1.0 | Cônicas exatas e ajustadas, construções duais e mistas, interseções, arcos, elementos analíticos, inspeção e reparo de metadados. |
+| [Vectors](vectors/README.pt-BR.md) | 1.0.0 | Decomposição em eixos e direções oblíquas, resultantes conectadas, subtração ordenada, topologia estrita e saída editável atômica. |
 
 ## Instalação rápida
 
@@ -23,7 +26,7 @@ No Linux, instale um Ipelet com o utilitário do repositório:
 ./scripts/install.sh circles
 ```
 
-Substitua `circles` por `conics` para instalar o Conics.
+Substitua `circles` por `conics` ou `vectors` para instalar outro Ipelet.
 
 O utilitário detecta a instalação Flatpak do Ipe e, nos demais casos, utiliza a pasta padrão `~/.ipe/ipelets`. Reinicie o Ipe depois da instalação.
 
@@ -36,6 +39,7 @@ Os pacotes prontos de cada Ipelet estão disponíveis na [página de versões do
 .
 ├── circles/          Código, documentação, exemplos e testes do Circles
 ├── conics/           Código, documentação, exemplos e testes do Conics
+├── vectors/          Código, documentação, exemplos e testes do Vectors
 ├── scripts/          Utilitários de instalação, validação e empacotamento
 ├── .github/          Integração contínua e modelos de contribuição
 └── LICENSE           Licença do repositório
