@@ -672,8 +672,9 @@ h
 185 285 m
 330 150 l
 </path>
-<text transformations="translations" pos="294 137" stroke="hex_1d4ed8" type="label" valign="baseline" size="large" style="math">\mathbf{u}</text>
-<text transformations="translations" pos="166 255" stroke="hex_0f766e" type="label" valign="baseline" size="large" style="math">\mathbf{v}</text>
+<text transformations="translations" pos="220 105" stroke="hex_1d4ed8" type="label" halign="center" valign="baseline" size="large" style="math">\mathbf{u}</text>
+<text transformations="translations" pos="128 200" stroke="hex_0f766e" type="label" halign="center" valign="baseline" size="large" style="math">\mathbf{v}</text>
+<text transformations="translations" pos="271 231" stroke="hex_b42318" type="label" halign="center" valign="baseline" size="large" style="math">\mathbf{u}-\mathbf{v}</text>
 </page>
 <page title="Subtraction Common Head">
 <layer name="alpha"/>
@@ -690,8 +691,9 @@ h
 85 115 m
 345 105 l
 </path>
-<text transformations="translations" pos="181 172" stroke="hex_1d4ed8" type="label" valign="baseline" size="large" style="math">\mathbf{u}</text>
-<text transformations="translations" pos="326 172" stroke="hex_0f766e" type="label" valign="baseline" size="large" style="math">\mathbf{v}</text>
+<text transformations="translations" pos="181 204" stroke="hex_1d4ed8" type="label" halign="center" valign="baseline" size="large" style="math">\mathbf{u}</text>
+<text transformations="translations" pos="342 188" stroke="hex_0f766e" type="label" halign="center" valign="baseline" size="large" style="math">\mathbf{v}</text>
+<text transformations="translations" pos="215 84" stroke="hex_b42318" type="label" halign="center" valign="baseline" size="large" style="math">\mathbf{u}-\mathbf{v}</text>
 </page>
 <page title="Subtraction Chain Primary First">
 <layer name="alpha"/>
@@ -712,6 +714,10 @@ h
 80 180 m
 140 130 l
 </path>
+<text transformations="translations" pos="155 169" stroke="hex_1d4ed8" type="label" halign="center" valign="baseline" size="large" style="math">\mathbf{u}</text>
+<text transformations="translations" pos="270 264" stroke="hex_0f766e" type="label" halign="center" valign="baseline" size="large" style="math">\mathbf{v}</text>
+<text transformations="translations" pos="350 284" stroke="hex_c2410c" type="label" halign="center" valign="baseline" size="large" style="math">\mathbf{w}</text>
+<text transformations="translations" pos="110 108" stroke="hex_b42318" type="label" halign="center" valign="baseline" size="large" style="math">\mathbf{u}-\mathbf{v}-\mathbf{w}</text>
 </page>
 <page title="Subtraction Chain Primary Middle">
 <layer name="alpha"/>
@@ -732,5 +738,9 @@ h
 230 200 m
 210 310 l
 </path>
+<text transformations="translations" pos="155 169" stroke="hex_0f766e" type="label" halign="center" valign="baseline" size="large" style="math">\mathbf{u}</text>
+<text transformations="translations" pos="270 264" stroke="hex_1d4ed8" type="label" halign="center" valign="baseline" size="large" style="math">\mathbf{v}</text>
+<text transformations="translations" pos="350 284" stroke="hex_c2410c" type="label" halign="center" valign="baseline" size="large" style="math">\mathbf{w}</text>
+<text transformations="translations" pos="180 255" stroke="hex_b42318" type="label" halign="center" valign="baseline" size="large" style="math">\mathbf{v}-\mathbf{u}-\mathbf{w}</text>
 </page>
 </ipe>
