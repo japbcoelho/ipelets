@@ -4,9 +4,9 @@
 
 A curated collection of independent extensions for the [Ipe drawing editor](https://ipe.otfried.org/). Each ipelet lives in its own directory with installation instructions, examples, tests, and release notes.
 
-[![Circles: preview every tangent-circle candidate and click to create one](circles/docs/images/circles-overview.svg)](circles/)
+[![Circles: preview every tangent-circle candidate and click to create one](circles/docs/images/01_all_tangent_circle_candidates.png)](circles/)
 
-[![Conics: construct, classify, inspect, and annotate editable conics](conics/docs/images/conics-overview.svg)](conics/)
+[**Conics: construct, classify, inspect, and annotate editable conics**](conics/)
 
 ## Available ipelets
 

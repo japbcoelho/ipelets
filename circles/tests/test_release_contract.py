@@ -38,10 +38,11 @@ class CirclesReleaseContractTest(unittest.TestCase):
     def test_documentation_assets_exist(self) -> None:
         for relative in (
             "examples/circles-overview.ipe",
-            "docs/images/circles-overview.svg",
-            "docs/images/circles-overview.png",
-            "docs/images/tangent-circles-live-preview.png",
-            "docs/images/tangent-circle-result.png",
+            "docs/images/01_all_tangent_circle_candidates.png",
+            "docs/images/02_inversion_and_radicals.png",
+            "docs/images/03_tangent_lines.png",
+            "docs/images/04_tangent_circle_constraints.png",
+            "docs/images/05_mark_ellipse_center.png",
         ):
             with self.subTest(relative=relative):
                 path = ROOT / relative

@@ -37,7 +37,12 @@ install -m 0644 -- "$ipelet_root/CHANGELOG.md" "$package_root/CHANGELOG.md"
 install -m 0644 -- "$version_file" "$package_root/VERSION"
 install -m 0644 -- "$repo_root/LICENSE" "$package_root/LICENSE"
 install -m 0644 -- "$repo_root/NOTICE.md" "$package_root/NOTICE.md"
-install -m 0644 -- "$ipelet_root/docs/images/"* "$package_root/docs/images/"
+shopt -s nullglob
+image_files=("$ipelet_root/docs/images/"*)
+if (( ${#image_files[@]} > 0 )); then
+  install -m 0644 -- "${image_files[@]}" "$package_root/docs/images/"
+fi
+shopt -u nullglob
 install -m 0644 -- "$ipelet_root/examples/README.md" "$package_root/examples/README.md"
 install -m 0644 -- "$ipelet_root/examples/"*.ipe "$package_root/examples/"
 

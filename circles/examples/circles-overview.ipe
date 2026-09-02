@@ -1,38 +1,12 @@
-<?xml version="1.0"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE ipe SYSTEM "ipe.dtd">
 <ipe version="70218" creator="Ipe 7.2.30">
-<info created="D:20260829031149" modified="D:20260829031149"/>
-<ipestyle name="basic">
-<symbol name="arrow/arc(spx)">
+<info created="D:20260902174142" modified="D:20260902174142"/>
+<ipestyle name="basic-with-tikz-styles">
+<symbol name="arrow/normal(spx)">
 <path stroke="sym-stroke" fill="sym-stroke" pen="sym-pen">
 0 0 m
 -1 0.333 l
--1 -0.333 l
-h
-</path>
-</symbol>
-<symbol name="arrow/farc(spx)">
-<path stroke="sym-stroke" fill="white" pen="sym-pen">
-0 0 m
--1 0.333 l
--1 -0.333 l
-h
-</path>
-</symbol>
-<symbol name="arrow/ptarc(spx)">
-<path stroke="sym-stroke" fill="sym-stroke" pen="sym-pen">
-0 0 m
--1 0.333 l
--0.8 0 l
--1 -0.333 l
-h
-</path>
-</symbol>
-<symbol name="arrow/fptarc(spx)">
-<path stroke="sym-stroke" fill="white" pen="sym-pen">
-0 0 m
--1 0.333 l
--0.8 0 l
 -1 -0.333 l
 h
 </path>
@@ -123,127 +97,215 @@ h
 </path>
 </group>
 </symbol>
-<symbol name="arrow/fnormal(spx)">
-<path stroke="sym-stroke" fill="white" pen="sym-pen">
+<symbol name="arrow/To(spx)">
+<group matrix="0.25 0 0 0.25 0 0">
+<path stroke="sym-stroke" pen="sym-pen" cap="1" join="1">
+-2.07224 2.39104 m
+-1.69365 0.95639
+-0.84999 0.27895
+0 0 c
+-0.84999 -0.27895
+-1.69365 -0.95639
+-2.07224 -2.39104 c
+</path>
+</group>
+</symbol>
+<symbol name="arrow/To To(spx)">
+<group matrix="0.25 0 0 0.25 0 0">
+<path stroke="sym-stroke" pen="sym-pen" cap="1" join="1">
+-2.07224 2.39104 m
+-1.69365 0.95639
+-0.84999 0.27895
+0 0 c
+-0.84999 -0.27895
+-1.69365 -0.95639
+-2.07224 -2.39104 c
+</path>
+<path matrix="1 0 0 1 -2.47075 0" stroke="sym-stroke" pen="sym-pen" cap="1" join="1">
+-2.07224 2.39104 m
+-1.69365 0.95639
+-0.84999 0.27895
+0 0 c
+-0.84999 -0.27895
+-1.69365 -0.95639
+-2.07224 -2.39104 c
+</path>
+</group>
+</symbol>
+<symbol name="arrow/Latex(spx)">
+<group matrix="0.25 0 0 0.25 0 0">
+<path matrix="1 0 0 1 -3.7613 0" stroke="sym-stroke" fill="sym-stroke" pen="sym-pen" cap="0" join="0">
+3.7613 0 m
+3.2994 0.11273
+1.26901 0.75153
+0 1.44672 c
+0 -1.44672 l
+1.26901 -0.75153
+3.2994 -0.11273
+3.7613 0 c
+h
+</path>
+</group>
+</symbol>
+<symbol name="arrow/Latex[open](spx)">
+<group matrix="0.25 0 0 0.25 0 0">
+<path matrix="1 0 0 1 -3.7613 0" stroke="sym-stroke" fill="white" pen="sym-pen" cap="0" join="0">
+3.7613 0 m
+3.2994 0.11273
+1.26901 0.75153
+0 1.44672 c
+0 -1.44672 l
+1.26901 -0.75153
+3.2994 -0.11273
+3.7613 0 c
+h
+</path>
+</group>
+</symbol>
+<symbol name="arrow/Stealth(spx)">
+<group matrix="0.25 0 0 0.25 0 0">
+<path matrix="1 0 0 1 -4.21463 0" stroke="sym-stroke" fill="sym-stroke" pen="sym-pen" cap="0" join="0">
+4.21463 0 m
+0.64343 1.34572 l
+1.8178 0 l
+0.64343 -1.34572 l
+h
+</path>
+</group>
+</symbol>
+<symbol name="arrow/Stealth[open](spx)">
+<group matrix="0.25 0 0 0.25 0 0">
+<path matrix="1 0 0 1 -4.21463 0" stroke="sym-stroke" fill="white" pen="sym-pen" cap="0" join="0">
+4.21463 0 m
+0.64343 1.34572 l
+1.8178 0 l
+0.64343 -1.34572 l
+h
+</path>
+</group>
+</symbol>
+<symbol name="arrow/Triangle(spx)">
+<group matrix="0.25 0 0 0.25 0 0">
+<path matrix="1 0 0 1 -3.17348 0" stroke="sym-stroke" fill="sym-stroke" pen="sym-pen" cap="0" join="0">
+3.17348 0 m
+0.19925 1.76338 l
+0.19925 0 l
+0.19925 -1.76338 l
+h
+</path>
+</group>
+</symbol>
+<symbol name="arrow/Triangle[open](spx)">
+<group matrix="0.25 0 0 0.25 0 0">
+<path matrix="1 0 0 1 -3.17348 0" stroke="sym-stroke" fill="white" pen="sym-pen" cap="0" join="0">
+3.17348 0 m
+0.19925 1.76338 l
+0.19925 0 l
+0.19925 -1.76338 l
+h
+</path>
+</group>
+</symbol>
+<symbol name="arrow/Kite(spx)">
+<group matrix="0.25 0 0 0.25 0 0">
+<path matrix="1 0 0 1 -5.10841 0" stroke="sym-stroke" fill="sym-stroke" pen="sym-pen" cap="0" join="0">
+5.10841 0 m
+1.48842 1.20667 l
+0.28177 0 l
+1.48842 -1.20667 l
+h
+</path>
+</group>
+</symbol>
+<symbol name="arrow/Kite[open](spx)">
+<group matrix="0.25 0 0 0.25 0 0">
+<path matrix="1 0 0 1 -5.10841 0" stroke="sym-stroke" fill="white" pen="sym-pen" cap="0" join="0">
+5.10841 0 m
+1.48842 1.20667 l
+0.28177 0 l
+1.48842 -1.20667 l
+h
+</path>
+</group>
+</symbol>
+<symbol name="arrow/Hooks(spx)">
+<group matrix="0.25 0 0 0.25 0 0">
+<path stroke="sym-stroke" pen="sym-pen" cap="0" join="0">
+0 2.09215 m
+0.57773 2.09215
+1.04607 1.62381
+1.04607 1.04607 c
+1.04607 0.46834
+0.57773 0
+0 0 c
+0.57773 0
+1.04607 -0.46834
+1.04607 -1.04607 c
+1.04607 -1.62381
+0.57773 -2.09215
+0 -2.09215 c
+</path>
+</group>
+</symbol>
+<symbol name="arrow/Hooks[harpoon](spx)">
+<group matrix="0.25 0 0 0.25 0 0">
+<path stroke="sym-stroke" pen="sym-pen" cap="0" join="0">
+0 2.09215 m
+0.57773 2.09215
+1.04607 1.62381
+1.04607 1.04607 c
+1.04607 0.46834
+0.57773 0
+0 0 c
+</path>
+</group>
+</symbol>
+<symbol name="arrow/Hooks[harpoon,swap](spx)">
+<group matrix="0.25 0 0 0.25 0 0">
+<path stroke="sym-stroke" pen="sym-pen" cap="0" join="0">
 0 0 m
--1 0.333 l
--1 -0.333 l
-h
+0.57773 0
+1.04607 -0.46834
+1.04607 -1.04607 c
+1.04607 -1.62381
+0.57773 -2.09215
+0 -2.09215 c
 </path>
+</group>
 </symbol>
-<symbol name="arrow/pointed(spx)">
-<path stroke="sym-stroke" fill="sym-stroke" pen="sym-pen">
-0 0 m
--1 0.333 l
--0.8 0 l
--1 -0.333 l
-h
+<symbol name="arrow/Bar(spx)">
+<group matrix="0.25 0 0 0.25 0 0">
+<path stroke="sym-stroke" pen="sym-pen" cap="0" join="0">
+0 2.29141 m
+0 -2.29141 l
 </path>
+</group>
 </symbol>
-<symbol name="arrow/fpointed(spx)">
-<path stroke="sym-stroke" fill="white" pen="sym-pen">
-0 0 m
--1 0.333 l
--0.8 0 l
--1 -0.333 l
-h
+<symbol name="arrow/To Bar(spx)">
+<group matrix="0.25 0 0 0.25 0 0">
+<path matrix="1 0 0 1 -0.3985 0" stroke="sym-stroke" pen="sym-pen" cap="1" join="1">
+-2.07224 2.39104 m
+-1.69365 0.95639
+-0.84999 0.27895
+0 0 c
+-0.84999 -0.27895
+-1.69365 -0.95639
+-2.07224 -2.39104 c
 </path>
-</symbol>
-<symbol name="arrow/linear(spx)">
-<path stroke="sym-stroke" pen="sym-pen">
--1 0.333 m
-0 0 l
--1 -0.333 l
+<path stroke="sym-stroke" pen="sym-pen" cap="0" join="0">
+0 2.29141 m
+0 -2.29141 l
 </path>
-</symbol>
-<symbol name="arrow/fdouble(spx)">
-<path stroke="sym-stroke" fill="white" pen="sym-pen">
-0 0 m
--1 0.333 l
--1 -0.333 l
-h
--1 0 m
--2 0.333 l
--2 -0.333 l
-h
-</path>
-</symbol>
-<symbol name="arrow/double(spx)">
-<path stroke="sym-stroke" fill="sym-stroke" pen="sym-pen">
-0 0 m
--1 0.333 l
--1 -0.333 l
-h
--1 0 m
--2 0.333 l
--2 -0.333 l
-h
-</path>
-</symbol>
-<symbol name="arrow/mid-normal(spx)">
-<path stroke="sym-stroke" fill="sym-stroke" pen="sym-pen">
-0.5 0 m
--0.5 0.333 l
--0.5 -0.333 l
-h
-</path>
-</symbol>
-<symbol name="arrow/mid-fnormal(spx)">
-<path stroke="sym-stroke" fill="white" pen="sym-pen">
-0.5 0 m
--0.5 0.333 l
--0.5 -0.333 l
-h
-</path>
-</symbol>
-<symbol name="arrow/mid-pointed(spx)">
-<path stroke="sym-stroke" fill="sym-stroke" pen="sym-pen">
-0.5 0 m
--0.5 0.333 l
--0.3 0 l
--0.5 -0.333 l
-h
-</path>
-</symbol>
-<symbol name="arrow/mid-fpointed(spx)">
-<path stroke="sym-stroke" fill="white" pen="sym-pen">
-0.5 0 m
--0.5 0.333 l
--0.3 0 l
--0.5 -0.333 l
-h
-</path>
-</symbol>
-<symbol name="arrow/mid-double(spx)">
-<path stroke="sym-stroke" fill="sym-stroke" pen="sym-pen">
-1 0 m
-0 0.333 l
-0 -0.333 l
-h
-0 0 m
--1 0.333 l
--1 -0.333 l
-h
-</path>
-</symbol>
-<symbol name="arrow/mid-fdouble(spx)">
-<path stroke="sym-stroke" fill="white" pen="sym-pen">
-1 0 m
-0 0.333 l
-0 -0.333 l
-h
-0 0 m
--1 0.333 l
--1 -0.333 l
-h
-</path>
+</group>
 </symbol>
 <anglesize name="22.5 deg" value="22.5"/>
 <anglesize name="30 deg" value="30"/>
 <anglesize name="45 deg" value="45"/>
 <anglesize name="60 deg" value="60"/>
 <anglesize name="90 deg" value="90"/>
+<arrowsize name="huge" value="14"/>
 <arrowsize name="large" value="10"/>
+<arrowsize name="normal" value="7"/>
 <arrowsize name="small" value="5"/>
 <arrowsize name="tiny" value="3"/>
 <color name="blue" value="0 0 1"/>
@@ -272,10 +334,19 @@ h
 <color name="turquoise" value="0.251 0.878 0.816"/>
 <color name="violet" value="0.933 0.51 0.933"/>
 <color name="yellow" value="1 1 0"/>
-<dashstyle name="dash dot dotted" value="[4 2 1 2 1 2] 0"/>
-<dashstyle name="dash dotted" value="[4 2 1 2] 0"/>
-<dashstyle name="dashed" value="[4] 0"/>
+<dashstyle name="dash dot dot" value="[3 2 1 2 1 2] 0"/>
+<dashstyle name="dash dot" value="[3 2 1 2] 0"/>
+<dashstyle name="dashed" value="[3] 0"/>
+<dashstyle name="densely dash dot dot" value="[3 1 1 1 1 1] 0"/>
+<dashstyle name="densely dash dot" value="[3 1 1 1] 0"/>
+<dashstyle name="densely dashed" value="[3 2] 0"/>
+<dashstyle name="densely dotted" value="[1 1] 0"/>
 <dashstyle name="dotted" value="[1 3] 0"/>
+<dashstyle name="loosely dash dot dot" value="[3 4 1 4 1 4] 0"/>
+<dashstyle name="loosely dash dot" value="[3 4 1 4] 0"/>
+<dashstyle name="loosely dashed" value="[3 6] 0"/>
+<dashstyle name="loosely dotted" value="[1 4] 0"/>
+<dashstyle name="solid" value="[] 0"/>
 <gridsize name="10 pts (~3.5 mm)" value="10"/>
 <gridsize name="14 pts (~5 mm)" value="14"/>
 <gridsize name="16 pts (~6 mm)" value="16"/>
@@ -285,13 +356,22 @@ h
 <gridsize name="4 pts" value="4"/>
 <gridsize name="56 pts (~20 mm)" value="56"/>
 <gridsize name="8 pts (~3 mm)" value="8"/>
-<opacity name="10%" value="0.1"/>
-<opacity name="30%" value="0.3"/>
-<opacity name="50%" value="0.5"/>
-<opacity name="75%" value="0.75"/>
-<pen name="fat" value="1.2"/>
-<pen name="heavier" value="0.8"/>
-<pen name="ultrafat" value="2"/>
+<opacity name="nearly opaque (75%)" value="0.75"/>
+<opacity name="nearly transparent (25%)" value="0.25"/>
+<opacity name="semitransparent (50%)" value="0.5"/>
+<opacity name="transparent (0%)" value="0"/>
+<opacity name="ultra nearly opaque (95%)" value="0.95"/>
+<opacity name="ultra nearly transparent (5%)" value="0.05"/>
+<opacity name="very nearly opaque (90%)" value="0.9"/>
+<opacity name="very nearly transparent (10%)" value="0.1"/>
+<pen name="normal" value="0.4"/>
+<pen name="semithick" value="0.6"/>
+<pen name="thick" value="0.8"/>
+<pen name="thin" value="0.4"/>
+<pen name="ultra thick" value="1.6"/>
+<pen name="ultra thin" value="0.1"/>
+<pen name="very thick" value="1.2"/>
+<pen name="very thin" value="0.2"/>
 <symbolsize name="large" value="5"/>
 <symbolsize name="small" value="2"/>
 <symbolsize name="tiny" value="1.1"/>
@@ -307,113 +387,638 @@ h
 <textstyle name="center" begin="\begin{center}" end="\end{center}"/>
 <textstyle name="item" begin="\begin{itemize}\item{}" end="\end{itemize}"/>
 <textstyle name="itemize" begin="\begin{itemize}" end="\end{itemize}"/>
+<preamble>
+% ----- Meu Preâmbulo Padrão -----
+\usepackage{amsmath}
+\usepackage{xcolor}
+\newcommand{\wbg}[1]{{
+  \setlength{\fboxsep}{0pt}
+  \colorbox{white}{\ensuremath{#1}}
+}}
+\usepackage{siunitx}
+\usepackage{contour}
+\contournumber{120}
+\usepackage{amssymb}
+\usepackage{bm}
+\usepackage{physics}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\pgfplotsset{compat=newest}
+\usetikzlibrary{
+    patterns,
+    arrows,
+    backgrounds,
+    calc,
+    intersections,
+    plotmarks,
+    quotes,
+    shapes.misc,
+    shapes.symbols,
+    shapes.callouts,
+    through,
+    positioning,
+    shapes,
+    decorations.pathreplacing,
+    calligraphy,
+    arrows.meta,
+    bending,
+    decorations.markings,
+    decorations.pathmorphing,
+    decorations.pathreplacing,
+    decorations.shapes,
+    decorations.text,
+    math,
+    fpu,
+    spy,
+    shadows,
+    patterns.meta,
+    angles
+}
+% ----- Fim do Preâmbulo -----
+</preamble>
+<pathstyle join="0"/>
 <tiling name="falling" angle="-60" step="4" width="1"/>
 <tiling name="rising" angle="30" step="4" width="1"/>
+<tiling name="horizontal lines" angle="0" step="2.9888" width="0.3985"/>
+<tiling name="vertical lines" angle="90" step="2.9888" width="0.3985"/>
+<tiling name="north east lines" angle="45" step="2.1134" width="0.3985"/>
+<tiling name="north west lines" angle="135" step="2.1134" width="0.3985"/>
 </ipestyle>
-<ipestyle name="circles-publication">
-<color name="candidate-red" value="0.9 0.12 0.18"/>
-<color name="ink" value="0.07 0.09 0.14"/>
-<color name="input-blue" value="0.1 0.34 0.95"/>
-<color name="muted" value="0.42 0.45 0.52"/>
-<color name="panel-bg" value="0.975 0.98 0.99"/>
-<color name="panel-border" value="0.82 0.84 0.88"/>
-<pen name="candidate-pen" value="0.45"/>
-<pen name="guide-pen" value="0.55"/>
-<pen name="input-pen" value="1.2"/>
-<pen name="result-pen" value="1.6"/>
-<layout paper="1200 680" origin="0 0" frame="1200 680"/>
-</ipestyle>
-<page>
+<page title="All tangent-circle candidates">
+<notes>Editable geometry generated in Ipe 7.2.30 through the Circles ipelet.</notes>
 <layer name="alpha"/>
 <view layers="alpha" active="alpha"/>
-<path layer="alpha" stroke="white" fill="white" pen="0.1" join="0">
-0 0 m
-0 680 l
-1200 680 l
-1200 0 l
-h
+<path layer="alpha" stroke="darkred" pen="semithick" join="0">
+49.0204 0 0 49.0204 162.744 119.02 e
 </path>
-<path stroke="panel-border" fill="panel-bg" pen="0.8" join="0">
-40 45 m
-40 565 l
-580 565 l
-580 45 l
-h
+<path stroke="red" pen="semithick" join="0">
+59.7839 0 0 59.7839 163.522 136.24 e
 </path>
-<path stroke="panel-border" fill="panel-bg" pen="0.8" join="0">
-620 45 m
-620 565 l
-1160 565 l
-1160 45 l
-h
+<path stroke="red" pen="semithick" join="0">
+70.085 0 0 70.085 191.396 102.166 e
 </path>
-<path stroke="input-blue" pen="input-pen" join="0">
-39 0 0 39 242.5 241 e
+<path stroke="red" pen="semithick" join="0">
+82.0328 0 0 82.0328 197.783 122.387 e
 </path>
-<path stroke="input-blue" pen="input-pen" join="0">
-39 0 0 39 377.5 241 e
+<path stroke="red" pen="semithick" join="0">
+62.2635 0 0 62.2635 142.007 109.285 e
 </path>
-<path stroke="input-blue" pen="input-pen" join="0">
-39 0 0 39 310 358 e
+<path stroke="red" pen="semithick" join="0">
+73.4092 0 0 73.4092 139.551 128.318 e
 </path>
-<path custom="geometry:tangent-circles;operation=three_circles;count=8;total=8;truncated=false" stroke="candidate-red" pen="candidate-pen" join="0">
-38.9712 0 0 38.9712 310 280.029 e
+<path stroke="red" pen="semithick" join="0">
+82.6028 0 0 82.6028 169.601 85.5068 e
 </path>
-<path custom="geometry:tangent-circles;operation=three_circles;count=8;total=8;truncated=false" stroke="candidate-red" pen="candidate-pen" join="0">
-70.1827 0 0 70.1827 310 326.817 e
+<path stroke="red" pen="semithick" join="0">
+88.7924 0 0 88.7924 172.106 107.546 e
 </path>
-<path custom="geometry:tangent-circles;operation=three_circles;count=8;total=8;truncated=false" stroke="candidate-red" pen="candidate-pen" join="0">
-70.1671 0 0 70.1671 350.541 256.64 e
+<path stroke="darkred" pen="semithick" join="0">
+50.8204 0 0 50.8204 162.744 119.02 e
 </path>
-<path custom="geometry:tangent-circles;operation=three_circles;count=8;total=8;truncated=false" stroke="candidate-red" pen="candidate-pen" join="0">
-117.043 0 0 117.043 377.625 319.043 e
+<path stroke="darkblue" pen="semithick" join="0">
+18 0 0 18 105 85 e
 </path>
-<path custom="geometry:tangent-circles;operation=three_circles;count=8;total=8;truncated=false" stroke="candidate-red" pen="candidate-pen" join="0">
-70.1671 0 0 70.1671 269.459 256.64 e
+<path stroke="darkblue" pen="semithick" join="0">
+27 0 0 27 224 74 e
 </path>
-<path custom="geometry:tangent-circles;operation=three_circles;count=8;total=8;truncated=false" stroke="candidate-red" pen="candidate-pen" join="0">
-117.043 0 0 117.043 242.375 319.043 e
+<path stroke="darkblue" pen="semithick" join="0">
+14 0 0 14 165 182 e
 </path>
-<path custom="geometry:tangent-circles;operation=three_circles;count=8;total=8;truncated=false" stroke="candidate-red" pen="candidate-pen" join="0">
-116.913 0 0 116.913 310 202.087 e
+</page>
+<page title="Create the active tangent circle">
+<notes>Editable geometry generated in Ipe 7.2.30 through the Circles ipelet.</notes>
+<layer name="alpha"/>
+<view layers="alpha" active="alpha"/>
+<path layer="alpha" stroke="darkblue" pen="semithick" join="0">
+18 0 0 18 105 85 e
 </path>
-<path custom="geometry:tangent-circles;operation=three_circles;count=8;total=8;truncated=false" stroke="candidate-red" pen="result-pen" join="0">
-116.971 0 0 116.971 310 280.029 e
+<path stroke="darkblue" pen="semithick" join="0">
+27 0 0 27 224 74 e
 </path>
-<path stroke="input-blue" pen="input-pen" join="0">
-39 0 0 39 822.5 241 e
+<path stroke="darkblue" pen="semithick" join="0">
+14 0 0 14 165 182 e
 </path>
-<path stroke="input-blue" pen="input-pen" join="0">
-39 0 0 39 957.5 241 e
+<path stroke="darkgray" join="0" pen="normal">
+162.744 119.02 m
+120.509 94.1369 l
 </path>
-<path stroke="input-blue" pen="input-pen" join="0">
-39 0 0 39 890 358 e
+<path stroke="darkgray" join="0" pen="normal">
+162.744 119.02 m
+202.244 89.9897 l
 </path>
-<path custom="geometry:tangent-circles;operation=three_circles;count=8;total=8;truncated=false" stroke="ink" pen="result-pen" join="0">
-116.971 0 0 116.971 890 280.029 e
+<path stroke="darkgray" join="0" pen="normal">
+162.744 119.02 m
+164.499 168.009 l
 </path>
-<path stroke="muted" dash="dotted" pen="guide-pen" join="0">
-890 280.029 m
-788.738 221.478 l
+<path stroke="black" pen="semithick" join="0">
+49.0204 0 0 49.0204 162.744 119.02 e
 </path>
-<path stroke="muted" dash="dotted" pen="guide-pen" join="0">
-890 280.029 m
-991.262 221.478 l
+<use name="mark/disk(sx)" pos="162.744 119.02" size="small" stroke="black"/>
+<use name="mark/disk(sx)" pos="120.509 94.1369" size="normal" stroke="darkred"/>
+<use name="mark/disk(sx)" pos="202.244 89.9897" size="normal" stroke="darkred"/>
+<use name="mark/disk(sx)" pos="164.499 168.009" size="normal" stroke="darkred"/>
+</page>
+<page title="Invert Point">
+<notes>Editable geometry generated in Ipe 7.2.30 through the Circles ipelet.</notes>
+<layer name="alpha"/>
+<view layers="alpha" active="alpha"/>
+<path layer="alpha" stroke="darkblue" pen="semithick" join="0" dash="dashed">
+56 0 0 56 152 112 e
 </path>
-<path stroke="muted" dash="dotted" pen="guide-pen" join="0">
-890 280.029 m
-890 397 l
+<use name="mark/disk(sx)" pos="232 112" size="normal" stroke="darkblue"/>
+<use custom="geometry:mark-label=P';geometry:inversion-radical;operation=invert_point;line_length=192" name="mark/disk(sx)" pos="191.2 112" size="small" stroke="black"/>
+</page>
+<page title="Invert Line">
+<notes>Editable geometry generated in Ipe 7.2.30 through the Circles ipelet.</notes>
+<layer name="alpha"/>
+<view layers="alpha" active="alpha"/>
+<path layer="alpha" stroke="darkblue" pen="semithick" join="0" dash="dashed">
+52 0 0 52 158 96 e
 </path>
-<use name="mark/disk(sx)" pos="788.738 221.478" size="small" stroke="ink"/>
-<use name="mark/disk(sx)" pos="991.262 221.478" size="small" stroke="ink"/>
-<use name="mark/disk(sx)" pos="890 397" size="small" stroke="ink"/>
-<text transformations="translations" pos="55 630" stroke="ink" type="label" width="292.281" height="11.953" depth="3.35" valign="baseline">\textsf{\LARGE\bfseries Every tangent circle. One click away.}</text>
-<text transformations="translations" pos="55 598" stroke="muted" type="label" width="339.92" height="6.926" depth="1.93" valign="baseline">\textsf{Preview every exact candidate, point to one, and create native editable geometry.}</text>
-<text transformations="translations" pos="70 525" stroke="ink" type="label" width="145.831" height="8.302" depth="0" valign="baseline">\textsf{\large\bfseries 1\enspace Preview all 8 candidates}</text>
-<text transformations="translations" pos="70 497" stroke="muted" type="label" width="179.632" height="6.926" depth="1.93" valign="baseline">\textsf{Move the pointer to highlight any solution.}</text>
-<text transformations="translations" pos="650 525" stroke="ink" type="label" width="117.427" height="8.302" depth="0" valign="baseline">\textsf{\large\bfseries 2\enspace Click to create one}</text>
-<text transformations="translations" pos="650 497" stroke="muted" type="label" width="183.423" height="6.926" depth="1.93" valign="baseline">\textsf{The chosen result stays fully editable in Ipe.}</text>
-<text transformations="translations" pos="70 68" stroke="muted" type="label" width="151.477" height="6.926" depth="1.93" valign="baseline">\textsf{\bfseries Blue: inputs\qquad Red: candidates}</text>
-<text transformations="translations" pos="650 68" stroke="muted" type="label" width="169.175" height="6.926" depth="1.93" valign="baseline">\textsf{\bfseries Blue: inputs\qquad Black: chosen circle}</text>
+<path stroke="darkblue" join="0" pen="normal" dash="dashed">
+74 172 m
+246 172 l
+</path>
+<path custom="geometry:inversion-radical;operation=invert_line;line_length=190" stroke="black" join="0" pen="semithick">
+17.7895 0 0 17.7895 158 113.789 e
+</path>
+</page>
+<page title="Invert Circle">
+<notes>Editable geometry generated in Ipe 7.2.30 through the Circles ipelet.</notes>
+<layer name="alpha"/>
+<view layers="alpha" active="alpha"/>
+<path layer="alpha" stroke="darkblue" pen="semithick" join="0" dash="dashed">
+22 0 0 22 222 112 e
+</path>
+<path stroke="darkblue" pen="semithick" join="0" dash="dashed">
+48 0 0 48 132 112 e
+</path>
+<path custom="geometry:inversion-radical;operation=invert_circle;line_length=192" stroke="black" join="0" pen="semithick">
+6.65546 0 0 6.65546 159.227 112 e
+</path>
+</page>
+<page title="Radical Axis">
+<notes>Editable geometry generated in Ipe 7.2.30 through the Circles ipelet.</notes>
+<layer name="alpha"/>
+<view layers="alpha" active="alpha"/>
+<path layer="alpha" stroke="darkblue" pen="semithick" join="0" dash="dashed">
+58 0 0 58 112 112 e
+</path>
+<path stroke="darkblue" pen="semithick" join="0" dash="dashed">
+42 0 0 42 210 112 e
+</path>
+<path custom="geometry:inversion-radical;operation=radical_axis;line_length=190" stroke="black" dash="dashed" join="0" pen="normal">
+169.163 17 m
+169.163 207 l
+</path>
+</page>
+<page title="Radical Center">
+<notes>Editable geometry generated in Ipe 7.2.30 through the Circles ipelet.</notes>
+<layer name="alpha"/>
+<view layers="alpha" active="alpha"/>
+<path layer="alpha" stroke="darkblue" pen="semithick" join="0" dash="dashed">
+46 0 0 46 104 84 e
+</path>
+<path stroke="darkblue" pen="semithick" join="0" dash="dashed">
+38 0 0 38 214 88 e
+</path>
+<path stroke="darkblue" pen="semithick" join="0" dash="dashed">
+34 0 0 34 158 170 e
+</path>
+<use custom="geometry:mark-label=R;geometry:inversion-radical;operation=radical_center;line_length=190" name="mark/disk(sx)" pos="161.047 113.715" size="small" stroke="black"/>
+<path custom="geometry:inversion-radical;operation=radical_center;line_length=190" stroke="black" dash="dashed" join="0" pen="normal">
+165.503 -8.82632 m
+158.598 181.048 l
+</path>
+<path custom="geometry:inversion-radical;operation=radical_center;line_length=190" stroke="black" dash="dashed" join="0" pen="normal">
+213.968 80.4851 m
+53.059 181.521 l
+</path>
+</page>
+<page title="Orthogonal Circle">
+<notes>Editable geometry generated in Ipe 7.2.30 through the Circles ipelet.</notes>
+<layer name="alpha"/>
+<view layers="alpha" active="alpha"/>
+<path layer="alpha" stroke="darkblue" pen="semithick" join="0" dash="dashed">
+44 0 0 44 128 112 e
+</path>
+<use name="mark/disk(sx)" pos="230 112" size="normal" stroke="darkblue"/>
+<path custom="geometry:inversion-radical;operation=orthogonal_circle;line_length=192" stroke="black" join="0" pen="semithick">
+92.0217 0 0 92.0217 230 112 e
+</path>
+<use custom="geometry:mark-label=O;geometry:inversion-radical;operation=orthogonal_circle;line_length=192" name="mark/disk(sx)" pos="230 112" size="small" stroke="black"/>
+</page>
+<page title="Point Circle">
+<notes>Editable geometry generated in Ipe 7.2.30 through the Circles ipelet.</notes>
+<layer name="alpha"/>
+<view layers="alpha" active="alpha"/>
+<path layer="alpha" stroke="darkblue" pen="semithick" join="0" dash="dashed">
+46 0 0 46 132 112 e
+</path>
+<use name="mark/disk(sx)" pos="246 112" size="normal" stroke="darkblue"/>
+<path custom="geometry:tangent-lines;operation=point_circle;mode=all;auxiliaries=true;count=2" stroke="black" join="0" pen="normal">
+246 112 m
+150.561 154.089 l
+</path>
+<path custom="geometry:tangent-lines;operation=point_circle;mode=all;auxiliaries=true;count=2" stroke="black" dash="dotted" join="0" pen="normal">
+132 112 m
+150.561 154.089 l
+</path>
+<use custom="geometry:mark-label=T1;geometry:tangent-lines;operation=point_circle;mode=all;auxiliaries=true;count=2" name="mark/disk(sx)" pos="150.561 154.089" size="small" stroke="black"/>
+<path custom="geometry:tangent-lines;operation=point_circle;mode=all;auxiliaries=true;count=2" stroke="black" join="0" pen="normal">
+246 112 m
+150.561 69.9111 l
+</path>
+<path custom="geometry:tangent-lines;operation=point_circle;mode=all;auxiliaries=true;count=2" stroke="black" dash="dotted" join="0" pen="normal">
+132 112 m
+150.561 69.9111 l
+</path>
+<use custom="geometry:mark-label=T2;geometry:tangent-lines;operation=point_circle;mode=all;auxiliaries=true;count=2" name="mark/disk(sx)" pos="150.561 69.9111" size="small" stroke="black"/>
+</page>
+<page title="Circle Circle All">
+<notes>Editable geometry generated in Ipe 7.2.30 through the Circles ipelet.</notes>
+<layer name="alpha"/>
+<view layers="alpha" active="alpha"/>
+<path layer="alpha" stroke="darkblue" pen="semithick" join="0" dash="dashed">
+34 0 0 34 105 112 e
+</path>
+<path stroke="darkblue" pen="semithick" join="0" dash="dashed">
+24 0 0 24 218 112 e
+</path>
+<path custom="geometry:tangent-lines;operation=circle_circle;mode=all;auxiliaries=false;count=4" stroke="black" join="0" pen="normal">
+108.009 78.1334 m
+220.124 88.0942 l
+</path>
+<use custom="geometry:mark-label=T1A;geometry:tangent-lines;operation=circle_circle;mode=all;auxiliaries=false;count=4" name="mark/disk(sx)" pos="108.009 78.1334" size="small" stroke="black"/>
+<use custom="geometry:mark-label=T1B;geometry:tangent-lines;operation=circle_circle;mode=all;auxiliaries=false;count=4" name="mark/disk(sx)" pos="220.124 88.0942" size="small" stroke="black"/>
+<path custom="geometry:tangent-lines;operation=circle_circle;mode=all;auxiliaries=false;count=4" stroke="black" join="0" pen="normal">
+108.009 145.867 m
+220.124 135.906 l
+</path>
+<use custom="geometry:mark-label=T2A;geometry:tangent-lines;operation=circle_circle;mode=all;auxiliaries=false;count=4" name="mark/disk(sx)" pos="108.009 145.867" size="small" stroke="black"/>
+<use custom="geometry:mark-label=T2B;geometry:tangent-lines;operation=circle_circle;mode=all;auxiliaries=false;count=4" name="mark/disk(sx)" pos="220.124 135.906" size="small" stroke="black"/>
+<path custom="geometry:tangent-lines;operation=circle_circle;mode=all;auxiliaries=false;count=4" stroke="black" join="0" pen="normal">
+122.451 82.8204 m
+205.681 132.597 l
+</path>
+<use custom="geometry:mark-label=T3A;geometry:tangent-lines;operation=circle_circle;mode=all;auxiliaries=false;count=4" name="mark/disk(sx)" pos="122.451 82.8204" size="small" stroke="black"/>
+<use custom="geometry:mark-label=T3B;geometry:tangent-lines;operation=circle_circle;mode=all;auxiliaries=false;count=4" name="mark/disk(sx)" pos="205.681 132.597" size="small" stroke="black"/>
+<path custom="geometry:tangent-lines;operation=circle_circle;mode=all;auxiliaries=false;count=4" stroke="black" join="0" pen="normal">
+122.451 141.18 m
+205.681 91.4026 l
+</path>
+<use custom="geometry:mark-label=T4A;geometry:tangent-lines;operation=circle_circle;mode=all;auxiliaries=false;count=4" name="mark/disk(sx)" pos="122.451 141.18" size="small" stroke="black"/>
+<use custom="geometry:mark-label=T4B;geometry:tangent-lines;operation=circle_circle;mode=all;auxiliaries=false;count=4" name="mark/disk(sx)" pos="205.681 91.4026" size="small" stroke="black"/>
+</page>
+<page title="Circle Circle External">
+<notes>Editable geometry generated in Ipe 7.2.30 through the Circles ipelet.</notes>
+<layer name="alpha"/>
+<view layers="alpha" active="alpha"/>
+<path layer="alpha" stroke="darkblue" pen="semithick" join="0" dash="dashed">
+40 0 0 40 105 112 e
+</path>
+<path stroke="darkblue" pen="semithick" join="0" dash="dashed">
+28 0 0 28 218 112 e
+</path>
+<path custom="geometry:tangent-lines;operation=circle_circle;mode=external;auxiliaries=false;count=2" stroke="black" join="0" pen="normal">
+109.248 72.2262 m
+220.973 84.1583 l
+</path>
+<use custom="geometry:mark-label=T1A;geometry:tangent-lines;operation=circle_circle;mode=external;auxiliaries=false;count=2" name="mark/disk(sx)" pos="109.248 72.2262" size="small" stroke="black"/>
+<use custom="geometry:mark-label=T1B;geometry:tangent-lines;operation=circle_circle;mode=external;auxiliaries=false;count=2" name="mark/disk(sx)" pos="220.973 84.1583" size="small" stroke="black"/>
+<path custom="geometry:tangent-lines;operation=circle_circle;mode=external;auxiliaries=false;count=2" stroke="black" join="0" pen="normal">
+109.248 151.774 m
+220.973 139.842 l
+</path>
+<use custom="geometry:mark-label=T2A;geometry:tangent-lines;operation=circle_circle;mode=external;auxiliaries=false;count=2" name="mark/disk(sx)" pos="109.248 151.774" size="small" stroke="black"/>
+<use custom="geometry:mark-label=T2B;geometry:tangent-lines;operation=circle_circle;mode=external;auxiliaries=false;count=2" name="mark/disk(sx)" pos="220.973 139.842" size="small" stroke="black"/>
+</page>
+<page title="Circle Circle Internal">
+<notes>Editable geometry generated in Ipe 7.2.30 through the Circles ipelet.</notes>
+<layer name="alpha"/>
+<view layers="alpha" active="alpha"/>
+<path layer="alpha" stroke="darkblue" pen="semithick" join="0" dash="dashed">
+34 0 0 34 105 112 e
+</path>
+<path stroke="darkblue" pen="semithick" join="0" dash="dashed">
+24 0 0 24 218 112 e
+</path>
+<path custom="geometry:tangent-lines;operation=circle_circle;mode=internal;auxiliaries=false;count=2" stroke="black" join="0" pen="normal">
+122.451 82.8204 m
+205.681 132.597 l
+</path>
+<use custom="geometry:mark-label=T1A;geometry:tangent-lines;operation=circle_circle;mode=internal;auxiliaries=false;count=2" name="mark/disk(sx)" pos="122.451 82.8204" size="small" stroke="black"/>
+<use custom="geometry:mark-label=T1B;geometry:tangent-lines;operation=circle_circle;mode=internal;auxiliaries=false;count=2" name="mark/disk(sx)" pos="205.681 132.597" size="small" stroke="black"/>
+<path custom="geometry:tangent-lines;operation=circle_circle;mode=internal;auxiliaries=false;count=2" stroke="black" join="0" pen="normal">
+122.451 141.18 m
+205.681 91.4026 l
+</path>
+<use custom="geometry:mark-label=T2A;geometry:tangent-lines;operation=circle_circle;mode=internal;auxiliaries=false;count=2" name="mark/disk(sx)" pos="122.451 141.18" size="small" stroke="black"/>
+<use custom="geometry:mark-label=T2B;geometry:tangent-lines;operation=circle_circle;mode=internal;auxiliaries=false;count=2" name="mark/disk(sx)" pos="205.681 91.4026" size="small" stroke="black"/>
+</page>
+<page title="Circle Line Parallel">
+<notes>Editable geometry generated in Ipe 7.2.30 through the Circles ipelet.</notes>
+<layer name="alpha"/>
+<view layers="alpha" active="alpha"/>
+<path layer="alpha" stroke="darkblue" pen="semithick" join="0" dash="dashed">
+42 0 0 42 160 112 e
+</path>
+<path stroke="darkblue" join="0" pen="normal" dash="dashed">
+72 64 m
+250 88 l
+</path>
+<path custom="geometry:tangent-lines;operation=circle_line;mode=parallel;auxiliaries=false;count=2" stroke="black" join="0" pen="normal">
+67.177 141.865 m
+241.599 165.382 l
+</path>
+<use custom="geometry:mark-label=T1;geometry:tangent-lines;operation=circle_line;mode=parallel;auxiliaries=false;count=2" name="mark/disk(sx)" pos="154.388 153.623" size="small" stroke="black"/>
+<path custom="geometry:tangent-lines;operation=circle_line;mode=parallel;auxiliaries=false;count=2" stroke="black" join="0" pen="normal">
+78.4013 58.6179 m
+252.823 82.1354 l
+</path>
+<use custom="geometry:mark-label=T2;geometry:tangent-lines;operation=circle_line;mode=parallel;auxiliaries=false;count=2" name="mark/disk(sx)" pos="165.612 70.3766" size="small" stroke="black"/>
+</page>
+<page title="Circle Line Perpendicular">
+<notes>Editable geometry generated in Ipe 7.2.30 through the Circles ipelet.</notes>
+<layer name="alpha"/>
+<view layers="alpha" active="alpha"/>
+<path layer="alpha" stroke="darkblue" pen="semithick" join="0" dash="dashed">
+42 0 0 42 160 112 e
+</path>
+<path stroke="darkblue" join="0" pen="normal" dash="dashed">
+72 64 m
+250 88 l
+</path>
+<path custom="geometry:tangent-lines;operation=circle_line;mode=perpendicular;auxiliaries=false;count=2" stroke="black" join="0" pen="normal">
+213.382 30.4013 m
+189.865 204.823 l
+</path>
+<use custom="geometry:mark-label=T1;geometry:tangent-lines;operation=circle_line;mode=perpendicular;auxiliaries=false;count=2" name="mark/disk(sx)" pos="201.623 117.612" size="small" stroke="black"/>
+<path custom="geometry:tangent-lines;operation=circle_line;mode=perpendicular;auxiliaries=false;count=2" stroke="black" join="0" pen="normal">
+130.135 19.177 m
+106.618 193.599 l
+</path>
+<use custom="geometry:mark-label=T2;geometry:tangent-lines;operation=circle_line;mode=perpendicular;auxiliaries=false;count=2" name="mark/disk(sx)" pos="118.377 106.388" size="small" stroke="black"/>
+</page>
+<page title="Two Circles Point">
+<notes>Editable geometry generated in Ipe 7.2.30 through the Circles ipelet.</notes>
+<layer name="alpha"/>
+<view layers="alpha" active="alpha"/>
+<path layer="alpha" stroke="darkblue" pen="semithick" join="0" dash="dashed">
+18 0 0 18 104 84 e
+</path>
+<path stroke="darkblue" pen="semithick" join="0" dash="dashed">
+25 0 0 25 216 84 e
+</path>
+<use name="mark/disk(sx)" pos="160 184" size="normal" stroke="darkblue"/>
+<path custom="geometry:tangent-circles;operation=two_circles_point;count=1;total=1;truncated=false" stroke="black" join="0" pen="semithick">
+52.2726 0 0 52.2726 155.389 131.931 e
+</path>
+<path custom="geometry:tangent-circles;operation=two_circles_point;count=1;total=1;truncated=false" stroke="black" dash="dotted" join="0" pen="normal">
+155.389 131.931 m
+117.163 96.2773 l
+</path>
+<path custom="geometry:tangent-circles;operation=two_circles_point;count=1;total=1;truncated=false" stroke="black" dash="dotted" join="0" pen="normal">
+155.389 131.931 m
+196.391 99.5071 l
+</path>
+<path custom="geometry:tangent-circles;operation=two_circles_point;count=1;total=1;truncated=false" stroke="black" dash="dotted" join="0" pen="normal">
+155.389 131.931 m
+160 184 l
+</path>
+<use custom="geometry:tangent-circles;operation=two_circles_point;count=1;total=1;truncated=false" name="mark/disk(sx)" pos="117.163 96.2773" size="small" stroke="black"/>
+<use custom="geometry:tangent-circles;operation=two_circles_point;count=1;total=1;truncated=false" name="mark/disk(sx)" pos="196.391 99.5071" size="small" stroke="black"/>
+<use custom="geometry:tangent-circles;operation=two_circles_point;count=1;total=1;truncated=false" name="mark/disk(sx)" pos="160 184" size="small" stroke="black"/>
+</page>
+<page title="Two Circles Line">
+<notes>Editable geometry generated in Ipe 7.2.30 through the Circles ipelet.</notes>
+<layer name="alpha"/>
+<view layers="alpha" active="alpha"/>
+<path layer="alpha" stroke="darkblue" pen="semithick" join="0" dash="dashed">
+18 0 0 18 108 136 e
+</path>
+<path stroke="darkblue" pen="semithick" join="0" dash="dashed">
+26 0 0 26 212 136 e
+</path>
+<path stroke="darkblue" join="0" pen="normal" dash="dashed">
+70 54 m
+250 54 l
+</path>
+<path custom="geometry:tangent-circles;operation=two_circles_line;count=1;total=1;truncated=false" stroke="black" join="0" pen="semithick">
+43.0434 0 0 43.0434 154.997 97.0434 e
+</path>
+<path custom="geometry:tangent-circles;operation=two_circles_line;count=1;total=1;truncated=false" stroke="black" dash="dotted" join="0" pen="normal">
+154.997 97.0434 m
+121.858 124.513 l
+</path>
+<path custom="geometry:tangent-circles;operation=two_circles_line;count=1;total=1;truncated=false" stroke="black" dash="dotted" join="0" pen="normal">
+154.997 97.0434 m
+190.534 121.33 l
+</path>
+<path custom="geometry:tangent-circles;operation=two_circles_line;count=1;total=1;truncated=false" stroke="black" dash="dotted" join="0" pen="normal">
+154.997 97.0434 m
+154.997 54 l
+</path>
+<use custom="geometry:tangent-circles;operation=two_circles_line;count=1;total=1;truncated=false" name="mark/disk(sx)" pos="121.858 124.513" size="small" stroke="black"/>
+<use custom="geometry:tangent-circles;operation=two_circles_line;count=1;total=1;truncated=false" name="mark/disk(sx)" pos="190.534 121.33" size="small" stroke="black"/>
+<use custom="geometry:tangent-circles;operation=two_circles_line;count=1;total=1;truncated=false" name="mark/disk(sx)" pos="154.997 54" size="small" stroke="black"/>
+</page>
+<page title="Two Points Circle">
+<notes>Editable geometry generated in Ipe 7.2.30 through the Circles ipelet.</notes>
+<layer name="alpha"/>
+<view layers="alpha" active="alpha"/>
+<path layer="alpha" stroke="darkblue" pen="semithick" join="0" dash="dashed">
+22 0 0 22 160 68 e
+</path>
+<use name="mark/disk(sx)" pos="104 168" size="normal" stroke="darkblue"/>
+<use name="mark/disk(sx)" pos="216 168" size="normal" stroke="darkblue"/>
+<path custom="geometry:tangent-circles;operation=two_points_circle;count=1;total=1;truncated=false" stroke="black" join="0" pen="semithick">
+59.1026 0 0 59.1026 160 149.103 e
+</path>
+<path custom="geometry:tangent-circles;operation=two_points_circle;count=1;total=1;truncated=false" stroke="black" dash="dotted" join="0" pen="normal">
+160 149.103 m
+104 168 l
+</path>
+<path custom="geometry:tangent-circles;operation=two_points_circle;count=1;total=1;truncated=false" stroke="black" dash="dotted" join="0" pen="normal">
+160 149.103 m
+216 168 l
+</path>
+<path custom="geometry:tangent-circles;operation=two_points_circle;count=1;total=1;truncated=false" stroke="black" dash="dotted" join="0" pen="normal">
+160 149.103 m
+160 90 l
+</path>
+<use custom="geometry:tangent-circles;operation=two_points_circle;count=1;total=1;truncated=false" name="mark/disk(sx)" pos="104 168" size="small" stroke="black"/>
+<use custom="geometry:tangent-circles;operation=two_points_circle;count=1;total=1;truncated=false" name="mark/disk(sx)" pos="216 168" size="small" stroke="black"/>
+<use custom="geometry:tangent-circles;operation=two_points_circle;count=1;total=1;truncated=false" name="mark/disk(sx)" pos="160 90" size="small" stroke="black"/>
+</page>
+<page title="Point Line Circle">
+<notes>Editable geometry generated in Ipe 7.2.30 through the Circles ipelet.</notes>
+<layer name="alpha"/>
+<view layers="alpha" active="alpha"/>
+<path layer="alpha" stroke="darkblue" pen="semithick" join="0" dash="dashed">
+20 0 0 20 104 128 e
+</path>
+<path stroke="darkblue" join="0" pen="normal" dash="dashed">
+62 54 m
+254 54 l
+</path>
+<use name="mark/disk(sx)" pos="218 176" size="normal" stroke="darkblue"/>
+<path custom="geometry:tangent-circles;operation=point_line_circle;count=1;total=2;truncated=true" stroke="black" join="0" pen="semithick">
+64.6548 0 0 64.6548 188.137 118.655 e
+</path>
+<path custom="geometry:tangent-circles;operation=point_line_circle;count=1;total=2;truncated=true" stroke="black" dash="dotted" join="0" pen="normal">
+188.137 118.655 m
+218 176 l
+</path>
+<path custom="geometry:tangent-circles;operation=point_line_circle;count=1;total=2;truncated=true" stroke="black" dash="dotted" join="0" pen="normal">
+188.137 118.655 m
+188.137 54 l
+</path>
+<path custom="geometry:tangent-circles;operation=point_line_circle;count=1;total=2;truncated=true" stroke="black" dash="dotted" join="0" pen="normal">
+188.137 118.655 m
+123.878 125.792 l
+</path>
+<use custom="geometry:tangent-circles;operation=point_line_circle;count=1;total=2;truncated=true" name="mark/disk(sx)" pos="218 176" size="small" stroke="black"/>
+<use custom="geometry:tangent-circles;operation=point_line_circle;count=1;total=2;truncated=true" name="mark/disk(sx)" pos="188.137 54" size="small" stroke="black"/>
+<use custom="geometry:tangent-circles;operation=point_line_circle;count=1;total=2;truncated=true" name="mark/disk(sx)" pos="123.878 125.792" size="small" stroke="black"/>
+</page>
+<page title="Two Lines Circle">
+<notes>Editable geometry generated in Ipe 7.2.30 through the Circles ipelet.</notes>
+<layer name="alpha"/>
+<view layers="alpha" active="alpha"/>
+<path layer="alpha" stroke="darkblue" pen="semithick" join="0" dash="dashed">
+22 0 0 22 194 148 e
+</path>
+<path stroke="darkblue" join="0" pen="normal" dash="dashed">
+72 54 m
+72 196 l
+</path>
+<path stroke="darkblue" join="0" pen="normal" dash="dashed">
+72 54 m
+256 54 l
+</path>
+<path custom="geometry:tangent-circles;operation=two_lines_circle;count=1;total=2;truncated=true" stroke="black" join="0" pen="semithick">
+55.2214 0 0 55.2214 127.221 109.221 e
+</path>
+<path custom="geometry:tangent-circles;operation=two_lines_circle;count=1;total=2;truncated=true" stroke="black" dash="dotted" join="0" pen="normal">
+127.221 109.221 m
+72 109.221 l
+</path>
+<path custom="geometry:tangent-circles;operation=two_lines_circle;count=1;total=2;truncated=true" stroke="black" dash="dotted" join="0" pen="normal">
+127.221 109.221 m
+127.221 54 l
+</path>
+<path custom="geometry:tangent-circles;operation=two_lines_circle;count=1;total=2;truncated=true" stroke="black" dash="dotted" join="0" pen="normal">
+127.221 109.221 m
+174.975 136.952 l
+</path>
+<use custom="geometry:tangent-circles;operation=two_lines_circle;count=1;total=2;truncated=true" name="mark/disk(sx)" pos="72 109.221" size="small" stroke="black"/>
+<use custom="geometry:tangent-circles;operation=two_lines_circle;count=1;total=2;truncated=true" name="mark/disk(sx)" pos="127.221 54" size="small" stroke="black"/>
+<use custom="geometry:tangent-circles;operation=two_lines_circle;count=1;total=2;truncated=true" name="mark/disk(sx)" pos="174.975 136.952" size="small" stroke="black"/>
+</page>
+<page title="Two Points Line">
+<notes>Editable geometry generated in Ipe 7.2.30 through the Circles ipelet.</notes>
+<layer name="alpha"/>
+<view layers="alpha" active="alpha"/>
+<path layer="alpha" stroke="darkblue" join="0" pen="normal" dash="dashed">
+62 54 m
+258 54 l
+</path>
+<use name="mark/disk(sx)" pos="108 164" size="normal" stroke="darkblue"/>
+<use name="mark/disk(sx)" pos="212 164" size="normal" stroke="darkblue"/>
+<path custom="geometry:tangent-circles;operation=two_points_line;count=1;total=1;truncated=false" stroke="black" join="0" pen="semithick">
+67.2909 0 0 67.2909 160 121.291 e
+</path>
+<path custom="geometry:tangent-circles;operation=two_points_line;count=1;total=1;truncated=false" stroke="black" dash="dotted" join="0" pen="normal">
+160 121.291 m
+108 164 l
+</path>
+<path custom="geometry:tangent-circles;operation=two_points_line;count=1;total=1;truncated=false" stroke="black" dash="dotted" join="0" pen="normal">
+160 121.291 m
+212 164 l
+</path>
+<path custom="geometry:tangent-circles;operation=two_points_line;count=1;total=1;truncated=false" stroke="black" dash="dotted" join="0" pen="normal">
+160 121.291 m
+160 54 l
+</path>
+<use custom="geometry:tangent-circles;operation=two_points_line;count=1;total=1;truncated=false" name="mark/disk(sx)" pos="108 164" size="small" stroke="black"/>
+<use custom="geometry:tangent-circles;operation=two_points_line;count=1;total=1;truncated=false" name="mark/disk(sx)" pos="212 164" size="small" stroke="black"/>
+<use custom="geometry:tangent-circles;operation=two_points_line;count=1;total=1;truncated=false" name="mark/disk(sx)" pos="160 54" size="small" stroke="black"/>
+</page>
+<page title="Two Lines Point">
+<notes>Editable geometry generated in Ipe 7.2.30 through the Circles ipelet.</notes>
+<layer name="alpha"/>
+<view layers="alpha" active="alpha"/>
+<path layer="alpha" stroke="darkblue" join="0" pen="normal" dash="dashed">
+72 54 m
+72 196 l
+</path>
+<path stroke="darkblue" join="0" pen="normal" dash="dashed">
+72 54 m
+256 54 l
+</path>
+<use name="mark/disk(sx)" pos="208 174" size="normal" stroke="darkblue"/>
+<path custom="geometry:tangent-circles;operation=two_lines_point;count=1;total=2;truncated=true" stroke="black" join="0" pen="semithick">
+75.3346 0 0 75.3346 147.335 129.335 e
+</path>
+<path custom="geometry:tangent-circles;operation=two_lines_point;count=1;total=2;truncated=true" stroke="black" dash="dotted" join="0" pen="normal">
+147.335 129.335 m
+72 129.335 l
+</path>
+<path custom="geometry:tangent-circles;operation=two_lines_point;count=1;total=2;truncated=true" stroke="black" dash="dotted" join="0" pen="normal">
+147.335 129.335 m
+147.335 54 l
+</path>
+<path custom="geometry:tangent-circles;operation=two_lines_point;count=1;total=2;truncated=true" stroke="black" dash="dotted" join="0" pen="normal">
+147.335 129.335 m
+208 174 l
+</path>
+<use custom="geometry:tangent-circles;operation=two_lines_point;count=1;total=2;truncated=true" name="mark/disk(sx)" pos="72 129.335" size="small" stroke="black"/>
+<use custom="geometry:tangent-circles;operation=two_lines_point;count=1;total=2;truncated=true" name="mark/disk(sx)" pos="147.335 54" size="small" stroke="black"/>
+<use custom="geometry:tangent-circles;operation=two_lines_point;count=1;total=2;truncated=true" name="mark/disk(sx)" pos="208 174" size="small" stroke="black"/>
+</page>
+<page title="Three Lines">
+<notes>Editable geometry generated in Ipe 7.2.30 through the Circles ipelet.</notes>
+<layer name="alpha"/>
+<view layers="alpha" active="alpha"/>
+<path layer="alpha" stroke="darkblue" join="0" pen="normal" dash="dashed">
+70 54 m
+250 54 l
+</path>
+<path stroke="darkblue" join="0" pen="normal" dash="dashed">
+70 54 m
+132 190 l
+</path>
+<path stroke="darkblue" join="0" pen="normal" dash="dashed">
+250 54 m
+132 190 l
+</path>
+<path custom="geometry:tangent-circles;operation=three_lines;count=1;total=4;truncated=true" stroke="black" join="0" pen="semithick">
+116.245 0 0 116.245 -4.76063 170.245 e
+</path>
+<path custom="geometry:tangent-circles;operation=three_lines;count=1;total=4;truncated=true" stroke="black" dash="dotted" join="0" pen="normal">
+-4.76063 170.245 m
+-4.76063 54 l
+</path>
+<path custom="geometry:tangent-circles;operation=three_lines;count=1;total=4;truncated=true" stroke="black" dash="dotted" join="0" pen="normal">
+-4.76063 170.245 m
+101.012 122.025 l
+</path>
+<path custom="geometry:tangent-circles;operation=three_lines;count=1;total=4;truncated=true" stroke="black" dash="dotted" join="0" pen="normal">
+-4.76063 170.245 m
+83.0418 246.426 l
+</path>
+<use custom="geometry:tangent-circles;operation=three_lines;count=1;total=4;truncated=true" name="mark/disk(sx)" pos="-4.76063 54" size="small" stroke="black"/>
+<use custom="geometry:tangent-circles;operation=three_lines;count=1;total=4;truncated=true" name="mark/disk(sx)" pos="101.012 122.025" size="small" stroke="black"/>
+<use custom="geometry:tangent-circles;operation=three_lines;count=1;total=4;truncated=true" name="mark/disk(sx)" pos="83.0418 246.426" size="small" stroke="black"/>
+</page>
+<page title="Mark the center of a transformed ellipse">
+<notes>Editable geometry generated in Ipe 7.2.30 through the Circles ipelet.</notes>
+<layer name="alpha"/>
+<view layers="alpha" active="alpha"/>
+<path layer="alpha" matrix="0.913545 0.406737 -0.406737 0.913545 62.6411 -54.7033" stroke="darkblue" pen="semithick" join="0">
+72 0 0 38 160 120 e
+</path>
+<use custom="geometry:circle-center" name="mark/disk(sx)" pos="160 120" size="small" stroke="black"/>
 </page>
 </ipe>

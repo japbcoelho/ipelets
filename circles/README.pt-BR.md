@@ -2,19 +2,43 @@
 
 [Read in English](README.md)
 
-![Visão geral das construções do Circles](docs/images/circles-overview.svg)
-
 Circles é um Ipelet Lua autônomo para construções geométricas com circunferências. Ele reúne janelas de configuração, pré-visualização ao vivo, algoritmos analíticos estáveis, resultados compatíveis com desfazer e objetos nativos editáveis do Ipe em um único arquivo.
 
 ## Fluxo principal: escolha uma circunferência tangente
 
-Selecione três circunferências e escolha `All` em `Circle tangency`. O Circles calcula todas as soluções exatas e mostra as oito candidatas diretamente sobre a área de desenho. Ao mover o ponteiro, a candidata mais próxima recebe um contorno duplo; a barra de estado informa a candidata atual e os comandos disponíveis pelo teclado e pelo mouse.
+Selecione três circunferências, abra `Construct: tangent circle`, escolha o conjunto de restrições com três circunferências e defina `Circle tangency` como `All`. As circunferências podem ter raios diferentes e não precisam estar distribuídas simetricamente. O Circles calcula as oito soluções exatas e as exibe diretamente na área de desenho.
 
-![Oito circunferências tangentes candidatas na pré-visualização ao vivo do Ipe](docs/images/tangent-circles-live-preview.png)
+Os contornos vermelhos do primeiro painel representam as oito soluções válidas. Ao mover o ponteiro, a candidata ativa muda e recebe um contorno duplo. Clique nela para criar somente a circunferência escolhida; as marcas de tangência e os raios auxiliares opcionais permanecem como objetos nativos e editáveis do Ipe.
 
-Clique na candidata destacada para criar somente aquela circunferência. As marcas de tangência e os raios auxiliares opcionais são objetos nativos do Ipe, portanto o resultado completo continua editável e pode ser desfeito normalmente.
+![As oito circunferências tangentes candidatas e o resultado editável selecionado](docs/images/01_all_tangent_circle_candidates.png)
 
-![Circunferência tangente escolhida e criada como geometria editável no Ipe](docs/images/tangent-circle-result.png)
+## Guia visual
+
+A galeria omite deliberadamente as construções básicas de circunferências e arcos que já existem no Ipe. Ela se concentra nas operações que acrescentam um fluxo próprio ou revelam várias soluções geométricas.
+
+### Inversões e construções radicais
+
+Os seis painéis mostram inversão de ponto, reta e circunferência; o eixo radical de duas circunferências; o centro radical de três circunferências; e uma circunferência ortogonal a uma referência. Os objetos tracejados em azul-escuro são as entradas, enquanto os objetos pretos são os resultados criados pelo ipelet.
+
+![Seis inversões e construções radicais](docs/images/02_inversion_and_radicals.png)
+
+### Retas tangentes
+
+É possível construir tangentes de um ponto para uma circunferência, entre duas circunferências ou paralelas e perpendiculares a uma reta selecionada. O fluxo de tangentes comuns pode retornar as quatro tangentes ou apenas o par externo ou interno. Os pontos pretos identificam os contatos.
+
+![Operações de retas tangentes e seus pontos de contato](docs/images/03_tangent_lines.png)
+
+### Conjuntos de restrições para circunferências tangentes
+
+Cada operação combina três restrições escolhidas entre circunferências, pontos e retas. A janela pode expor todas as candidatas válidas; a galeria mostra um resultado selecionado para cada conjunto de restrições, enquanto o fluxo principal acima expande o caso de três circunferências para as oito candidatas.
+
+![Oito conjuntos de restrições para circunferências tangentes](docs/images/04_tangent_circle_constraints.png)
+
+### Centro de uma elipse transformada
+
+Em uma elipse submetida a uma transformação afim, o comando insere o centro geométrico como uma marca editável. Os exemplos de centro de circunferência e arco circular foram omitidos porque o próprio Ipe já fornece esses centros diretamente.
+
+![Centro marcado em uma elipse transformada](docs/images/05_mark_ellipse_center.png)
 
 ## Destaques
 
@@ -85,10 +109,8 @@ A pré-visualização ao vivo fica ativada por padrão e não modifica o documen
 
 ## Exemplos
 
-- [`circles-overview.ipe`](examples/circles-overview.ipe) é a fonte limpa e editável da imagem principal em duas etapas. Ela contém a prévia com oito candidatas e o resultado escolhido com os raios de tangência.
-- As duas capturas da seção de fluxo principal vieram de uma sessão real do Ipe: o seletor interativo e o objeto final após o clique.
-
-O exemplo e as capturas versionados foram gerados por uma sessão real do Ipe 7.2.30.
+- [`circles-overview.ipe`](examples/circles-overview.ipe) é a fonte editável de 23 páginas das cinco pranchas. Ela contém a pré-visualização com oito candidatas, o resultado escolhido com raios de tangência, todos os painéis de inversões, construções radicais e retas tangentes, os oito conjuntos restantes de restrições para circunferências tangentes e o exemplo do centro da elipse transformada.
+- Todos os diagramas foram gerados e renderizados em uma sessão real do Ipe 7.2.30. As pranchas utilizam essas renderizações do Ipe, sem ilustrações vetoriais substitutas.
 
 ## Atalho
 

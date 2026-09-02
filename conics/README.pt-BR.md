@@ -2,27 +2,17 @@
 
 [Read in English](README.md)
 
-![Visão geral de construções editáveis e guias de propriedades do Conics](docs/images/conics-overview.svg)
-
 Conics é um Ipelet Lua autônomo para construir, ajustar, classificar, intersectar, recortar, inspecionar e anotar cônicas. Ele contempla elipses, circunferências, parábolas, hipérboles e lugares geométricos degenerados explícitos. Preserva a geometria exata do Ipe quando possível, utiliza splines adaptativas compactas nos ramos abertos de hipérboles e mantém todo resultado visível editável e compatível com desfazer.
 
 ## Fluxo principal: cinco pontos viram uma cônica estruturada
 
 Selecione cinco marcas e escolha `Conic through five points`. O Conics resolve diretamente o sistema homogêneo dos cinco pontos, rejeita dados duplicados, mal condicionados ou degenerados, classifica o resultado e escolhe automaticamente a melhor representação no Ipe: elipse nativa, spline quadrática exata de parábola ou ramos contínuos e adaptativos de hipérbole em splines cúbicas.
 
-![Pré-visualização ao vivo de uma cônica geral por cinco pontos selecionados](docs/images/conics-five-point-live-preview.png)
-
 Selecione o resultado e abra `Property guides` para criar sua geometria significativa: centro ou vértice, eixos, vértices, focos, diretrizes e assíntotas, usando marcas, retas e rótulos opcionais nativos.
-
-![Guias editáveis extraídos das propriedades de uma cônica](docs/images/conics-property-guides.png)
 
 O fluxo de diretriz e focos pode criar várias parábolas exatas em uma única operação, preservando uma única etapa limpa de desfazer.
 
-![Várias parábolas exatas geradas por uma diretriz e diversos focos](docs/images/conics-parabolas.png)
-
 A versão 1.1 também trabalha com o lado dual da geometria das cônicas: cinco retas tangentes determinam uma cônica, condições mistas de pontos e tangentes podem ser combinadas, e um ponto exterior produz as duas tangentes e sua corda de contato. Duas cônicas selecionadas podem ser intersectadas diretamente, enquanto uma curva existente pode ser recortada em um arco conexo ou ajustada e substituída em uma única transação de desfazer.
-
-![Envoltória de cinco retas, tangentes por ponto exterior com corda de contato e quatro interseções entre duas cônicas](docs/images/conics-advanced-workflows.png)
 
 ## Destaques
 
@@ -153,7 +143,7 @@ Mover, girar, redimensionar ou cisalhar uma cônica é suportado: a inspeção t
 
 - [`conics-overview.ipe`](examples/conics-overview.ipe) é a fonte editável da apresentação do fluxo de cinco pontos, da extração básica de propriedades, da construção por foco e diretriz, dos ramos de hipérbole e das múltiplas parábolas.
 - [`conics-feature-gallery.ipe`](examples/conics-feature-gallery.ipe) é uma galeria editável de 32 páginas gerada pela auditoria viva de aceitação. Ela cobre todas as famílias de construção, os fluxos avançados de elementos, lugares degenerados, previews, ajuste, inspeção e revalidação de metadados.
-- Todo diagrama matemático da mídia versionada vem de uma sessão real do Ipe. Os layouts de apresentação usam somente essas renderizações do Ipe, e os dois documentos de exemplo carregam internamente todos os estilos necessários.
+- Os dois documentos de exemplo carregam internamente todos os estilos necessários e continuam sendo as demonstrações editáveis de referência para esses fluxos.
 
 ## API pública
 

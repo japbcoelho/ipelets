@@ -53,12 +53,6 @@ class ConicsReleaseContractTest(unittest.TestCase):
         for relative in (
             "examples/conics-overview.ipe",
             "examples/conics-feature-gallery.ipe",
-            "docs/images/conics-overview.svg",
-            "docs/images/conics-overview.png",
-            "docs/images/conics-advanced-workflows.png",
-            "docs/images/conics-five-point-live-preview.png",
-            "docs/images/conics-property-guides.png",
-            "docs/images/conics-parabolas.png",
         ):
             with self.subTest(relative=relative):
                 path = ROOT / relative
