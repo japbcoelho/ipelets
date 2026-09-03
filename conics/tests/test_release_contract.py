@@ -14,7 +14,7 @@ class ConicsReleaseContractTest(unittest.TestCase):
         cls.source = SOURCE.read_text(encoding="utf-8")
 
     def test_release_metadata_is_present_and_synchronized(self) -> None:
-        self.assertEqual(VERSION, "1.1.0")
+        self.assertEqual(VERSION, "1.1.1")
         self.assertIn("-- Conics", self.source)
         self.assertIn("Copyright (C) 2026 japbcoelho", self.source)
         self.assertIn("SPDX-License-Identifier: GPL-3.0-or-later", self.source)
@@ -58,6 +58,14 @@ class ConicsReleaseContractTest(unittest.TestCase):
                 path = ROOT / relative
                 self.assertTrue(path.is_file(), relative)
                 self.assertGreater(path.stat().st_size, 0, relative)
+
+    def test_release_links_are_namespaced_and_current(self) -> None:
+        release = f"releases/tag/conics-v{VERSION}"
+        for relative in ("README.md", "README.pt-BR.md"):
+            self.assertIn(release, (ROOT / relative).read_text(encoding="utf-8"))
+        repository_readme = (ROOT.parent / "README.md").read_text(encoding="utf-8")
+        self.assertIn(f"[Conics {VERSION}]", repository_readme)
+        self.assertIn(release, repository_readme)
 
 
 if __name__ == "__main__":

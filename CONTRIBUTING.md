@@ -49,8 +49,13 @@ When a change affects generated geometry or dialogs:
 
 - test it in a real Ipe installation;
 - update the editable `.ipe` example when the visible result changes;
-- regenerate the SVG and PNG documentation images;
+- render PNG documentation images from the editable `.ipe` source;
+- do not substitute synthetic or separately redrawn SVG previews for real Ipe output;
 - inspect the exported images rather than relying only on file creation.
+
+## Releases
+
+Follow [RELEASING.md](RELEASING.md). Release tags must be namespaced as `<ipelet>-v<version>`, and published assets must be rebuilt from the tagged commit rather than from a dirty working tree.
 
 ## Pull requests
 

@@ -26,8 +26,8 @@ A curated collection of independent extensions for the [Ipe drawing editor](http
 
 | Ipelet | Version | Description |
 | --- | --- | --- |
-| [Circles](circles/) | 1.0.0 | Circle construction, tangencies, inversion, radical geometry, center marking, and live previews. |
-| [Conics](conics/) | 1.1.0 | Exact and fitted conics, dual and mixed constructions, intersections, arcs, analytic features, inspection, and metadata repair. |
+| [Circles](circles/) | 1.0.1 | Circle construction, tangencies, inversion, radical geometry, center marking, and live previews. |
+| [Conics](conics/) | 1.1.1 | Exact and fitted conics, dual and mixed constructions, intersections, arcs, analytic features, inspection, and metadata repair. |
 | [Triangles](triangles/) | 1.0.0 | Twenty-four triangle centers, nine derived constructions, explicit reference points, live previews, and versioned metadata. |
 | [Vectors](vectors/) | 1.0.0 | Axis and oblique decomposition, connected resultants, ordered subtraction, strict topology, and atomic editable output. |
 
@@ -59,7 +59,7 @@ Prebuilt archives for each ipelet are available on the [GitHub releases page](ht
 └── LICENSE           Repository license
 ```
 
-The installed runtime contains only the corresponding `.lua` file. Release archives also include the documentation, editable examples, license, and publication images; tests and development helpers remain outside the installed ipelet.
+The installed runtime contains only the corresponding `.lua` file. Release archives also include the documentation, editable examples, license, and publication images when available; tests and development helpers remain outside the installed ipelet.
 
 ## Validation
 
@@ -73,13 +73,22 @@ The same checks run in GitHub Actions. They validate Lua syntax, execute the ind
 
 ## Releases
 
+| Ipelet | Current release |
+| --- | --- |
+| Circles | [Circles 1.0.1](https://github.com/japbcoelho/ipelets/releases/tag/circles-v1.0.1) |
+| Conics | [Conics 1.1.1](https://github.com/japbcoelho/ipelets/releases/tag/conics-v1.1.1) |
+| Triangles | [Triangles 1.0.0](https://github.com/japbcoelho/ipelets/releases/tag/triangles-v1.0.0) |
+| Vectors | [Vectors 1.0.0](https://github.com/japbcoelho/ipelets/releases/tag/vectors-v1.0.0) |
+
+Every release provides a versioned ZIP archive and a matching SHA-256 checksum.
+
 Create a release archive with:
 
 ```bash
 ./scripts/package.sh circles
 ```
 
-The generated archive and its SHA-256 checksum are written to `dist/` and are intentionally not tracked by Git. The archive is self-contained: every relative link in its README files resolves inside the package.
+The generated archive and its SHA-256 checksum are written to `dist/` and are intentionally not tracked by Git. The archive is self-contained: every relative link in its README files resolves inside the package. The complete publication procedure is documented in [RELEASING.md](RELEASING.md).
 
 ## Contributing
 

@@ -86,6 +86,8 @@ Assim, uma mesma forma triangular mantém o comportamento em escalas finitas mui
 
 ## Instalação
 
+Baixe o pacote autocontido na [versão 1.0.0 de Triangles](https://github.com/japbcoelho/ipelets/releases/tag/triangles-v1.0.0) ou instale-o diretamente pelo repositório.
+
 Na raiz do repositório, no Linux:
 
 ```bash

@@ -4,6 +4,18 @@ All notable changes to Circles are documented here. The format follows [Keep a C
 
 ## [Unreleased]
 
+## [1.0.1] - 2026-09-03
+
+### Changed
+
+- Replaced the original presentation media with five PNG boards rendered from the real editable Ipe example.
+- Removed the synthetic SVG and superseded preview images from the release package.
+- Adopted the namespaced `circles-v1.0.1` release tag for this multi-ipelet repository.
+
+### Compatibility
+
+- Geometry, menu tools, metadata, and the public Lua API are unchanged from 1.0.0.
+
 ## [1.0.0] - 2026-08-29
 
 ### Added
@@ -24,12 +36,12 @@ All notable changes to Circles are documented here. The format follows [Keep a C
 - Prepared a clean single-file distribution independent of Geometry and external bridge code.
 - Organized the visible menu into five concise workflows.
 - Added scale-aware numerical tolerances and stable tangent-circle candidate filtering.
-- Rebuilt the publication visuals around the interactive eight-candidate tangent-circle workflow and removed the personal styles from the editable example.
 
 ### Verified
 
 - Tested with Ipe 7.2.30 and Lua 5.4 on Linux.
 - Added independent geometry and regression suites.
 
-[Unreleased]: https://github.com/japbcoelho/ipelets/compare/v1.0.0...HEAD
+[Unreleased]: https://github.com/japbcoelho/ipelets/compare/circles-v1.0.1...HEAD
+[1.0.1]: https://github.com/japbcoelho/ipelets/releases/tag/circles-v1.0.1
 [1.0.0]: https://github.com/japbcoelho/ipelets/releases/tag/v1.0.0

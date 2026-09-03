@@ -55,7 +55,7 @@ The ipelet uses documented Ipe Lua objects and does not require a build step.
 
 ## Installation
 
-Download the self-contained package from the [Conics 1.1.0 release](https://github.com/japbcoelho/ipelets/releases/tag/conics-v1.1.0), or use one of the methods below.
+Download the self-contained package from the [Conics 1.1.1 release](https://github.com/japbcoelho/ipelets/releases/tag/conics-v1.1.1), or use one of the methods below.
 
 ### Repository helper on Linux
 

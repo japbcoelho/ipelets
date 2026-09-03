@@ -71,7 +71,7 @@ The ipelet uses documented Ipe Lua objects and does not require a separate build
 
 ## Installation
 
-Download the self-contained package from the [Circles 1.0.0 release](https://github.com/japbcoelho/ipelets/releases/tag/v1.0.0), or use one of the methods below.
+Download the self-contained package from the [Circles 1.0.1 release](https://github.com/japbcoelho/ipelets/releases/tag/circles-v1.0.1), or use one of the methods below.
 
 ### Repository helper on Linux
 

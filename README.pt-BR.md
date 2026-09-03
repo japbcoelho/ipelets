@@ -26,8 +26,8 @@ Uma coleção organizada de extensões independentes para o [editor de desenhos 
 
 | Ipelet | Versão | Descrição |
 | --- | --- | --- |
-| [Circles](circles/README.pt-BR.md) | 1.0.0 | Construções de circunferências, tangências, inversão, geometria radical, marcação de centros e pré-visualização ao vivo. |
-| [Conics](conics/README.pt-BR.md) | 1.1.0 | Cônicas exatas e ajustadas, construções duais e mistas, interseções, arcos, elementos analíticos, inspeção e reparo de metadados. |
+| [Circles](circles/README.pt-BR.md) | 1.0.1 | Construções de circunferências, tangências, inversão, geometria radical, marcação de centros e pré-visualização ao vivo. |
+| [Conics](conics/README.pt-BR.md) | 1.1.1 | Cônicas exatas e ajustadas, construções duais e mistas, interseções, arcos, elementos analíticos, inspeção e reparo de metadados. |
 | [Triangles](triangles/README.pt-BR.md) | 1.0.0 | Vinte e quatro centros, nove construções derivadas, pontos de referência explícitos, pré-visualização ao vivo e metadados versionados. |
 | [Vectors](vectors/README.pt-BR.md) | 1.0.0 | Decomposição em eixos e direções oblíquas, resultantes conectadas, subtração ordenada, topologia estrita e saída editável atômica. |
 
@@ -59,7 +59,7 @@ Os pacotes prontos de cada Ipelet estão disponíveis na [página de versões do
 └── LICENSE           Licença do repositório
 ```
 
-A instalação contém somente o arquivo `.lua` correspondente. Os pacotes de lançamento também incluem a documentação, os exemplos editáveis, a licença e as imagens de apresentação; os testes e utilitários de desenvolvimento ficam separados do Ipelet executado pelo Ipe.
+A instalação contém somente o arquivo `.lua` correspondente. Os pacotes de lançamento também incluem a documentação, os exemplos editáveis, a licença e as imagens de apresentação, quando disponíveis; os testes e utilitários de desenvolvimento ficam separados do Ipelet executado pelo Ipe.
 
 ## Validação
 
@@ -73,13 +73,22 @@ As mesmas verificações são executadas pelo GitHub Actions. Elas validam a sin
 
 ## Versões para lançamento
 
+| Ipelet | Versão atual |
+| --- | --- |
+| Circles | [Circles 1.0.1](https://github.com/japbcoelho/ipelets/releases/tag/circles-v1.0.1) |
+| Conics | [Conics 1.1.1](https://github.com/japbcoelho/ipelets/releases/tag/conics-v1.1.1) |
+| Triangles | [Triangles 1.0.0](https://github.com/japbcoelho/ipelets/releases/tag/triangles-v1.0.0) |
+| Vectors | [Vectors 1.0.0](https://github.com/japbcoelho/ipelets/releases/tag/vectors-v1.0.0) |
+
+Cada versão fornece um arquivo ZIP versionado e sua soma de verificação SHA-256 correspondente.
+
 Crie um arquivo para lançamento com:
 
 ```bash
 ./scripts/package.sh circles
 ```
 
-O arquivo gerado e sua soma de verificação SHA-256 são colocados em `dist/` e, intencionalmente, não são versionados pelo Git. O pacote é autocontido: todos os links relativos dos arquivos README funcionam dentro dele.
+O arquivo gerado e sua soma de verificação SHA-256 são colocados em `dist/` e, intencionalmente, não são versionados pelo Git. O pacote é autocontido: todos os links relativos dos arquivos README funcionam dentro dele. O procedimento completo de publicação está documentado em [RELEASING.md](RELEASING.md).
 
 ## Como contribuir
 

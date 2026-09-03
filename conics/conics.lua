@@ -11,7 +11,7 @@
 label = "Conics"
 
 about = [[
-Conics 1.1.0
+Conics 1.1.1
 
 Standalone construction, inspection, and feature tools for ellipses,
 parabolas, hyperbolas, circles, and general or degenerate conics.
@@ -42,7 +42,7 @@ local unpack = table.unpack
 
 local V = ipe.Vector
 local API_VERSION = 1
-local VERSION = "1.1.0"
+local VERSION = "1.1.1"
 local MACHINE_EPSILON = 2.220446049250313e-16
 local MIN_NORMAL = 2.2250738585072014e-308
 local LOG_TWO = 0.6931471805599453

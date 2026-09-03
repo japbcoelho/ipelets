@@ -123,6 +123,14 @@ class VectorsReleaseContractTest(unittest.TestCase):
         ):
             self.assertIn("- Vectors", (repository / relative).read_text(encoding="utf-8"))
 
+    def test_release_links_are_namespaced_and_current(self) -> None:
+        release = f"releases/tag/vectors-v{VERSION}"
+        for relative in ("README.md", "README.pt-BR.md"):
+            self.assertIn(release, (ROOT / relative).read_text(encoding="utf-8"))
+        repository_readme = (ROOT.parent / "README.md").read_text(encoding="utf-8")
+        self.assertIn(f"[Vectors {VERSION}]", repository_readme)
+        self.assertIn(release, repository_readme)
+
 
 if __name__ == "__main__":
     unittest.main()

@@ -4,6 +4,18 @@ All notable changes to Conics are documented here. The format follows [Keep a Ch
 
 ## [Unreleased]
 
+## [1.1.1] - 2026-09-03
+
+### Changed
+
+- Removed the superseded synthetic PNG and SVG presentation media from the release package.
+- Kept the editable Ipe overview and 32-page acceptance gallery as the authoritative visual examples.
+- Corrected release documentation and adopted a new immutable patch-release tag.
+
+### Compatibility
+
+- Geometry, menu tools, metadata, and Lua API version 1 are unchanged from 1.1.0.
+
 ## [1.1.0] - 2026-08-29
 
 ### Added
@@ -69,5 +81,6 @@ All notable changes to Conics are documented here. The format follows [Keep a Ch
 
 - Added standalone behavioral, numerical, package, and release-contract suites for Lua 5.4.
 
-[Unreleased]: https://github.com/japbcoelho/ipelets/compare/conics-v1.1.0...HEAD
+[Unreleased]: https://github.com/japbcoelho/ipelets/compare/conics-v1.1.1...HEAD
+[1.1.1]: https://github.com/japbcoelho/ipelets/releases/tag/conics-v1.1.1
 [1.1.0]: https://github.com/japbcoelho/ipelets/releases/tag/conics-v1.1.0

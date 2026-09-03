@@ -26,3 +26,5 @@ All notable changes to Triangles are documented in this file.
 - Implicit use of the centroid for point-dependent constructions.
 - Duplicate preview geometry, fixed black output styling, and multiple primary selections.
 - The public inspector menu entry, generic auxiliary lines, and duplicate incircle/excircle controls in the center dialog.
+
+[1.0.0]: https://github.com/japbcoelho/ipelets/releases/tag/triangles-v1.0.0

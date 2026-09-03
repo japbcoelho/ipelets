@@ -29,3 +29,5 @@ All notable changes to Vectors are documented in this file.
 - Preview implementation details no longer leak into the shared Ipelet Lua namespace.
 - Public menu labels no longer repeat the redundant `Vector:` prefix.
 - Documentation now describes geometric source inference, pair-contact rules, and primary-selection ordering precisely.
+
+[1.0.0]: https://github.com/japbcoelho/ipelets/releases/tag/vectors-v1.0.0

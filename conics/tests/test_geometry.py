@@ -36,7 +36,7 @@ assert(_G.GEOMETRY == nil)
 assert(_G.GEOMETRY_DIALOGS == nil)
 assert(_G.IPE_MCP_BRIDGE_STATE == nil)
 assert(api.api_version == 1)
-assert(api.version == "1.1.0")
+assert(api.version == "1.1.1")
 assert(api.is_compatible(1) == true)
 assert(api.is_compatible(2) == false)
 for _, name in ipairs(api.required_functions) do

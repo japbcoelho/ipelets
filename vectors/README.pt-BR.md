@@ -69,6 +69,8 @@ Cada objeto gerado recebe metadados personalizados escapados com seu papel e os 
 
 ## Instalação
 
+Baixe o pacote autocontido na [versão 1.0.0 de Vectors](https://github.com/japbcoelho/ipelets/releases/tag/vectors-v1.0.0) ou instale-o diretamente pelo repositório.
+
 Na raiz do repositório, no Linux:
 
 ```bash

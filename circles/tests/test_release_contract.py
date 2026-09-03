@@ -5,6 +5,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT / "circles.lua"
+VERSION = (ROOT / "VERSION").read_text(encoding="utf-8").strip()
 
 
 class CirclesReleaseContractTest(unittest.TestCase):
@@ -13,7 +14,9 @@ class CirclesReleaseContractTest(unittest.TestCase):
         cls.source = SOURCE.read_text(encoding="utf-8")
 
     def test_release_metadata_is_present(self) -> None:
-        self.assertIn("-- Circles 1.0.0", self.source)
+        self.assertEqual(VERSION, "1.0.1")
+        self.assertIn(f"-- Circles {VERSION}", self.source)
+        self.assertIn(f"Circles {VERSION}", self.source)
         self.assertIn("Copyright (C) 2026 japbcoelho", self.source)
         self.assertIn("SPDX-License-Identifier: GPL-3.0-or-later", self.source)
         self.assertIn('label = "Circles"', self.source)
@@ -48,6 +51,14 @@ class CirclesReleaseContractTest(unittest.TestCase):
                 path = ROOT / relative
                 self.assertTrue(path.is_file(), relative)
                 self.assertGreater(path.stat().st_size, 0, relative)
+
+    def test_release_links_are_namespaced_and_current(self) -> None:
+        release = f"releases/tag/circles-v{VERSION}"
+        for relative in ("README.md", "README.pt-BR.md"):
+            self.assertIn(release, (ROOT / relative).read_text(encoding="utf-8"))
+        repository_readme = (ROOT.parent / "README.md").read_text(encoding="utf-8")
+        self.assertIn(f"[Circles {VERSION}]", repository_readme)
+        self.assertIn(release, repository_readme)
 
 
 if __name__ == "__main__":

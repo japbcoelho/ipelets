@@ -55,7 +55,7 @@ O Ipelet utiliza objetos documentados da API Lua do Ipe e não exige compilaçã
 
 ## Instalação
 
-Baixe o pacote autocontido na [versão 1.1.0 de Conics](https://github.com/japbcoelho/ipelets/releases/tag/conics-v1.1.0) ou utilize um dos métodos abaixo.
+Baixe o pacote autocontido na [versão 1.1.1 de Conics](https://github.com/japbcoelho/ipelets/releases/tag/conics-v1.1.1) ou utilize um dos métodos abaixo.
 
 ### Utilitário do repositório no Linux
 

@@ -69,6 +69,8 @@ Every generated object receives escaped custom metadata with its role and source
 
 ## Installation
 
+Download the self-contained package from the [Vectors 1.0.0 release](https://github.com/japbcoelho/ipelets/releases/tag/vectors-v1.0.0), or install it from the repository.
+
 From the repository root on Linux:
 
 ```bash

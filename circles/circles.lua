@@ -1,5 +1,5 @@
 ----------------------------------------------------------------------
--- Circles 1.0.0
+-- Circles 1.0.1
 -- Copyright (C) 2026 japbcoelho
 -- SPDX-License-Identifier: GPL-3.0-or-later
 ----------------------------------------------------------------------
@@ -7,7 +7,7 @@
 label = "Circles"
 
 about = [[
-Circles 1.0.0
+Circles 1.0.1
 
 Circle, tangency, inversion, and radical constructions with live preview.
 This standalone ipelet requires no other user ipelets.

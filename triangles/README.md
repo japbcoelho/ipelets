@@ -86,6 +86,8 @@ This makes one triangle shape behave consistently across very small and very lar
 
 ## Installation
 
+Download the self-contained package from the [Triangles 1.0.0 release](https://github.com/japbcoelho/ipelets/releases/tag/triangles-v1.0.0), or install it from the repository.
+
 From the repository root on Linux:
 
 ```bash
