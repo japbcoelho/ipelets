@@ -4,11 +4,21 @@
 
 Uma coleção organizada de extensões independentes para o [editor de desenhos Ipe](https://ipe.otfried.org/). Cada Ipelet possui sua própria pasta, com instruções de instalação, exemplos, testes e notas de versão.
 
+## Ipelets em destaque
+
+### [Circles](circles/README.pt-BR.md)
+
 [![Circles: visualize todas as circunferências tangentes candidatas e clique para criar uma](circles/docs/images/01_all_tangent_circle_candidates.png)](circles/README.pt-BR.md)
 
-[**Conics: construa, classifique, inspecione e anote cônicas editáveis**](conics/README.pt-BR.md)
+### [Conics](conics/README.pt-BR.md)
+
+[Construa, classifique, inspecione e anote cônicas editáveis.](conics/README.pt-BR.md)
+
+### [Triangles](triangles/README.pt-BR.md)
 
 [![Triangles: construa centros e geometria derivada de triângulos](triangles/docs/images/01_fundamental_centers_euler_line.png)](triangles/README.pt-BR.md)
+
+### [Vectors](vectors/README.pt-BR.md)
 
 [![Vectors: decomponha vetores e construa aritmética vetorial exata](vectors/docs/images/01_vectors_overview.png)](vectors/README.pt-BR.md)
 

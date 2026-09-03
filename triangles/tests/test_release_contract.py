@@ -114,10 +114,17 @@ class TrianglesReleaseContractTest(unittest.TestCase):
 
     def test_root_documentation_and_issue_forms_include_triangles(self) -> None:
         repository = ROOT.parent
-        self.assertIn("[Triangles](triangles/)", (repository / "README.md").read_text(encoding="utf-8"))
+        readme = (repository / "README.md").read_text(encoding="utf-8")
+        readme_pt = (repository / "README.pt-BR.md").read_text(encoding="utf-8")
         self.assertIn(
-            "[Triangles](triangles/README.pt-BR.md)",
-            (repository / "README.pt-BR.md").read_text(encoding="utf-8"),
+            "### [Triangles](triangles/)\n\n"
+            "[![Triangles: construct centers and derived triangle geometry]",
+            readme,
+        )
+        self.assertIn(
+            "### [Triangles](triangles/README.pt-BR.md)\n\n"
+            "[![Triangles: construa centros e geometria derivada de triângulos]",
+            readme_pt,
         )
         for relative in (
             ".github/ISSUE_TEMPLATE/bug_report.yml",

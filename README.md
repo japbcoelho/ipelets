@@ -4,11 +4,21 @@
 
 A curated collection of independent extensions for the [Ipe drawing editor](https://ipe.otfried.org/). Each ipelet lives in its own directory with installation instructions, examples, tests, and release notes.
 
+## Featured ipelets
+
+### [Circles](circles/)
+
 [![Circles: preview every tangent-circle candidate and click to create one](circles/docs/images/01_all_tangent_circle_candidates.png)](circles/)
 
-[**Conics: construct, classify, inspect, and annotate editable conics**](conics/)
+### [Conics](conics/)
+
+[Construct, classify, inspect, and annotate editable conics.](conics/)
+
+### [Triangles](triangles/)
 
 [![Triangles: construct centers and derived triangle geometry](triangles/docs/images/01_fundamental_centers_euler_line.png)](triangles/)
+
+### [Vectors](vectors/)
 
 [![Vectors: decompose vectors and construct exact vector arithmetic](vectors/docs/images/01_vectors_overview.png)](vectors/)
 
