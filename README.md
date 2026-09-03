@@ -8,6 +8,8 @@ A curated collection of independent extensions for the [Ipe drawing editor](http
 
 [**Conics: construct, classify, inspect, and annotate editable conics**](conics/)
 
+[![Triangles: construct centers and derived triangle geometry](triangles/docs/images/01_fundamental_centers_euler_line.png)](triangles/)
+
 [![Vectors: decompose vectors and construct exact vector arithmetic](vectors/docs/images/01_vectors_overview.png)](vectors/)
 
 ## Available ipelets
@@ -16,6 +18,7 @@ A curated collection of independent extensions for the [Ipe drawing editor](http
 | --- | --- | --- |
 | [Circles](circles/) | 1.0.0 | Circle construction, tangencies, inversion, radical geometry, center marking, and live previews. |
 | [Conics](conics/) | 1.1.0 | Exact and fitted conics, dual and mixed constructions, intersections, arcs, analytic features, inspection, and metadata repair. |
+| [Triangles](triangles/) | 1.0.0 | Twenty-four triangle centers, nine derived constructions, explicit reference points, live previews, and versioned metadata. |
 | [Vectors](vectors/) | 1.0.0 | Axis and oblique decomposition, connected resultants, ordered subtraction, strict topology, and atomic editable output. |
 
 ## Quick installation
@@ -26,7 +29,7 @@ On Linux, install an ipelet with the repository helper:
 ./scripts/install.sh circles
 ```
 
-Replace `circles` with `conics` or `vectors` to install another ipelet.
+Replace `circles` with `conics`, `triangles`, or `vectors` to install another ipelet.
 
 The helper detects the Ipe Flatpak installation and otherwise uses the standard `~/.ipe/ipelets` directory. Restart Ipe after installation.
 
@@ -39,6 +42,7 @@ Prebuilt archives for each ipelet are available on the [GitHub releases page](ht
 .
 ├── circles/          Circles source, documentation, examples, and tests
 ├── conics/           Conics source, documentation, examples, and tests
+├── triangles/        Triangles source, documentation, examples, and tests
 ├── vectors/          Vectors source, documentation, examples, and tests
 ├── scripts/          Installation, validation, and packaging helpers
 ├── .github/          Continuous integration and contribution templates

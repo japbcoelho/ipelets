@@ -1,0 +1,825 @@
+<?xml version="1.0"?>
+<!DOCTYPE ipe SYSTEM "ipe.dtd">
+<ipe version="70218">
+<ipestyle name="basic-with-tikz-styles">
+<symbol name="arrow/normal(spx)">
+<path stroke="sym-stroke" fill="sym-stroke" pen="sym-pen">
+0 0 m
+-1 0.333 l
+-1 -0.333 l
+h
+</path>
+</symbol>
+<symbol name="mark/circle(sx)" transformations="translations">
+<path fill="sym-stroke">
+0.6 0 0 0.6 0 0 e
+0.4 0 0 0.4 0 0 e
+</path>
+</symbol>
+<symbol name="mark/disk(sx)" transformations="translations">
+<path fill="sym-stroke">
+0.6 0 0 0.6 0 0 e
+</path>
+</symbol>
+<symbol name="mark/fdisk(sfx)" transformations="translations">
+<group>
+<path fill="sym-fill">
+0.5 0 0 0.5 0 0 e
+</path>
+<path fill="sym-stroke" fillrule="eofill">
+0.6 0 0 0.6 0 0 e
+0.4 0 0 0.4 0 0 e
+</path>
+</group>
+</symbol>
+<symbol name="mark/box(sx)" transformations="translations">
+<path fill="sym-stroke" fillrule="eofill">
+-0.6 -0.6 m
+0.6 -0.6 l
+0.6 0.6 l
+-0.6 0.6 l
+h
+-0.4 -0.4 m
+0.4 -0.4 l
+0.4 0.4 l
+-0.4 0.4 l
+h
+</path>
+</symbol>
+<symbol name="mark/square(sx)" transformations="translations">
+<path fill="sym-stroke">
+-0.6 -0.6 m
+0.6 -0.6 l
+0.6 0.6 l
+-0.6 0.6 l
+h
+</path>
+</symbol>
+<symbol name="mark/fsquare(sfx)" transformations="translations">
+<group>
+<path fill="sym-fill">
+-0.5 -0.5 m
+0.5 -0.5 l
+0.5 0.5 l
+-0.5 0.5 l
+h
+</path>
+<path fill="sym-stroke" fillrule="eofill">
+-0.6 -0.6 m
+0.6 -0.6 l
+0.6 0.6 l
+-0.6 0.6 l
+h
+-0.4 -0.4 m
+0.4 -0.4 l
+0.4 0.4 l
+-0.4 0.4 l
+h
+</path>
+</group>
+</symbol>
+<symbol name="mark/cross(sx)" transformations="translations">
+<group>
+<path fill="sym-stroke">
+-0.43 -0.57 m
+0.57 0.43 l
+0.43 0.57 l
+-0.57 -0.43 l
+h
+</path>
+<path fill="sym-stroke">
+-0.43 0.57 m
+0.57 -0.43 l
+0.43 -0.57 l
+-0.57 0.43 l
+h
+</path>
+</group>
+</symbol>
+<symbol name="arrow/To(spx)">
+<group matrix="0.25 0 0 0.25 0 0">
+<path stroke="sym-stroke" pen="sym-pen" cap="1" join="1">
+-2.07224 2.39104 m
+-1.69365 0.95639
+-0.84999 0.27895
+0 0 c
+-0.84999 -0.27895
+-1.69365 -0.95639
+-2.07224 -2.39104 c
+</path>
+</group>
+</symbol>
+<symbol name="arrow/To To(spx)">
+<group matrix="0.25 0 0 0.25 0 0">
+<path stroke="sym-stroke" pen="sym-pen" cap="1" join="1">
+-2.07224 2.39104 m
+-1.69365 0.95639
+-0.84999 0.27895
+0 0 c
+-0.84999 -0.27895
+-1.69365 -0.95639
+-2.07224 -2.39104 c
+</path>
+<path matrix="1 0 0 1 -2.47075 0" stroke="sym-stroke" pen="sym-pen" cap="1" join="1">
+-2.07224 2.39104 m
+-1.69365 0.95639
+-0.84999 0.27895
+0 0 c
+-0.84999 -0.27895
+-1.69365 -0.95639
+-2.07224 -2.39104 c
+</path>
+</group>
+</symbol>
+<symbol name="arrow/Latex(spx)">
+<group matrix="0.25 0 0 0.25 0 0">
+<path matrix="1 0 0 1 -3.7613 0" stroke="sym-stroke" fill="sym-stroke" pen="sym-pen" cap="0" join="0">
+3.7613 0 m
+3.2994 0.11273
+1.26901 0.75153
+0 1.44672 c
+0 -1.44672 l
+1.26901 -0.75153
+3.2994 -0.11273
+3.7613 0 c
+h
+</path>
+</group>
+</symbol>
+<symbol name="arrow/Latex[open](spx)">
+<group matrix="0.25 0 0 0.25 0 0">
+<path matrix="1 0 0 1 -3.7613 0" stroke="sym-stroke" fill="white" pen="sym-pen" cap="0" join="0">
+3.7613 0 m
+3.2994 0.11273
+1.26901 0.75153
+0 1.44672 c
+0 -1.44672 l
+1.26901 -0.75153
+3.2994 -0.11273
+3.7613 0 c
+h
+</path>
+</group>
+</symbol>
+<symbol name="arrow/Stealth(spx)">
+<group matrix="0.25 0 0 0.25 0 0">
+<path matrix="1 0 0 1 -4.21463 0" stroke="sym-stroke" fill="sym-stroke" pen="sym-pen" cap="0" join="0">
+4.21463 0 m
+0.64343 1.34572 l
+1.8178 0 l
+0.64343 -1.34572 l
+h
+</path>
+</group>
+</symbol>
+<symbol name="arrow/Stealth[open](spx)">
+<group matrix="0.25 0 0 0.25 0 0">
+<path matrix="1 0 0 1 -4.21463 0" stroke="sym-stroke" fill="white" pen="sym-pen" cap="0" join="0">
+4.21463 0 m
+0.64343 1.34572 l
+1.8178 0 l
+0.64343 -1.34572 l
+h
+</path>
+</group>
+</symbol>
+<symbol name="arrow/Triangle(spx)">
+<group matrix="0.25 0 0 0.25 0 0">
+<path matrix="1 0 0 1 -3.17348 0" stroke="sym-stroke" fill="sym-stroke" pen="sym-pen" cap="0" join="0">
+3.17348 0 m
+0.19925 1.76338 l
+0.19925 0 l
+0.19925 -1.76338 l
+h
+</path>
+</group>
+</symbol>
+<symbol name="arrow/Triangle[open](spx)">
+<group matrix="0.25 0 0 0.25 0 0">
+<path matrix="1 0 0 1 -3.17348 0" stroke="sym-stroke" fill="white" pen="sym-pen" cap="0" join="0">
+3.17348 0 m
+0.19925 1.76338 l
+0.19925 0 l
+0.19925 -1.76338 l
+h
+</path>
+</group>
+</symbol>
+<symbol name="arrow/Kite(spx)">
+<group matrix="0.25 0 0 0.25 0 0">
+<path matrix="1 0 0 1 -5.10841 0" stroke="sym-stroke" fill="sym-stroke" pen="sym-pen" cap="0" join="0">
+5.10841 0 m
+1.48842 1.20667 l
+0.28177 0 l
+1.48842 -1.20667 l
+h
+</path>
+</group>
+</symbol>
+<symbol name="arrow/Kite[open](spx)">
+<group matrix="0.25 0 0 0.25 0 0">
+<path matrix="1 0 0 1 -5.10841 0" stroke="sym-stroke" fill="white" pen="sym-pen" cap="0" join="0">
+5.10841 0 m
+1.48842 1.20667 l
+0.28177 0 l
+1.48842 -1.20667 l
+h
+</path>
+</group>
+</symbol>
+<symbol name="arrow/Hooks(spx)">
+<group matrix="0.25 0 0 0.25 0 0">
+<path stroke="sym-stroke" pen="sym-pen" cap="0" join="0">
+0 2.09215 m
+0.57773 2.09215
+1.04607 1.62381
+1.04607 1.04607 c
+1.04607 0.46834
+0.57773 0
+0 0 c
+0.57773 0
+1.04607 -0.46834
+1.04607 -1.04607 c
+1.04607 -1.62381
+0.57773 -2.09215
+0 -2.09215 c
+</path>
+</group>
+</symbol>
+<symbol name="arrow/Hooks[harpoon](spx)">
+<group matrix="0.25 0 0 0.25 0 0">
+<path stroke="sym-stroke" pen="sym-pen" cap="0" join="0">
+0 2.09215 m
+0.57773 2.09215
+1.04607 1.62381
+1.04607 1.04607 c
+1.04607 0.46834
+0.57773 0
+0 0 c
+</path>
+</group>
+</symbol>
+<symbol name="arrow/Hooks[harpoon,swap](spx)">
+<group matrix="0.25 0 0 0.25 0 0">
+<path stroke="sym-stroke" pen="sym-pen" cap="0" join="0">
+0 0 m
+0.57773 0
+1.04607 -0.46834
+1.04607 -1.04607 c
+1.04607 -1.62381
+0.57773 -2.09215
+0 -2.09215 c
+</path>
+</group>
+</symbol>
+<symbol name="arrow/Bar(spx)">
+<group matrix="0.25 0 0 0.25 0 0">
+<path stroke="sym-stroke" pen="sym-pen" cap="0" join="0">
+0 2.29141 m
+0 -2.29141 l
+</path>
+</group>
+</symbol>
+<symbol name="arrow/To Bar(spx)">
+<group matrix="0.25 0 0 0.25 0 0">
+<path matrix="1 0 0 1 -0.3985 0" stroke="sym-stroke" pen="sym-pen" cap="1" join="1">
+-2.07224 2.39104 m
+-1.69365 0.95639
+-0.84999 0.27895
+0 0 c
+-0.84999 -0.27895
+-1.69365 -0.95639
+-2.07224 -2.39104 c
+</path>
+<path stroke="sym-stroke" pen="sym-pen" cap="0" join="0">
+0 2.29141 m
+0 -2.29141 l
+</path>
+</group>
+</symbol>
+<anglesize name="22.5 deg" value="22.5"/>
+<anglesize name="30 deg" value="30"/>
+<anglesize name="45 deg" value="45"/>
+<anglesize name="60 deg" value="60"/>
+<anglesize name="90 deg" value="90"/>
+<arrowsize name="huge" value="14"/>
+<arrowsize name="large" value="10"/>
+<arrowsize name="normal" value="7"/>
+<arrowsize name="small" value="5"/>
+<arrowsize name="tiny" value="3"/>
+<color name="blue" value="0 0 1"/>
+<color name="brown" value="0.647 0.165 0.165"/>
+<color name="darkblue" value="0 0 0.545"/>
+<color name="darkcyan" value="0 0.545 0.545"/>
+<color name="darkgray" value="0.663"/>
+<color name="darkgreen" value="0 0.392 0"/>
+<color name="darkmagenta" value="0.545 0 0.545"/>
+<color name="darkorange" value="1 0.549 0"/>
+<color name="darkred" value="0.545 0 0"/>
+<color name="gold" value="1 0.843 0"/>
+<color name="gray" value="0.745"/>
+<color name="green" value="0 1 0"/>
+<color name="lightblue" value="0.678 0.847 0.902"/>
+<color name="lightcyan" value="0.878 1 1"/>
+<color name="lightgray" value="0.827"/>
+<color name="lightgreen" value="0.565 0.933 0.565"/>
+<color name="lightyellow" value="1 1 0.878"/>
+<color name="navy" value="0 0 0.502"/>
+<color name="orange" value="1 0.647 0"/>
+<color name="pink" value="1 0.753 0.796"/>
+<color name="purple" value="0.627 0.125 0.941"/>
+<color name="red" value="1 0 0"/>
+<color name="seagreen" value="0.18 0.545 0.341"/>
+<color name="turquoise" value="0.251 0.878 0.816"/>
+<color name="violet" value="0.933 0.51 0.933"/>
+<color name="yellow" value="1 1 0"/>
+<dashstyle name="dash dot dot" value="[3 2 1 2 1 2] 0"/>
+<dashstyle name="dash dot" value="[3 2 1 2] 0"/>
+<dashstyle name="dashed" value="[3] 0"/>
+<dashstyle name="densely dash dot dot" value="[3 1 1 1 1 1] 0"/>
+<dashstyle name="densely dash dot" value="[3 1 1 1] 0"/>
+<dashstyle name="densely dashed" value="[3 2] 0"/>
+<dashstyle name="densely dotted" value="[1 1] 0"/>
+<dashstyle name="dotted" value="[1 3] 0"/>
+<dashstyle name="loosely dash dot dot" value="[3 4 1 4 1 4] 0"/>
+<dashstyle name="loosely dash dot" value="[3 4 1 4] 0"/>
+<dashstyle name="loosely dashed" value="[3 6] 0"/>
+<dashstyle name="loosely dotted" value="[1 4] 0"/>
+<dashstyle name="solid" value="[] 0"/>
+<gridsize name="10 pts (~3.5 mm)" value="10"/>
+<gridsize name="14 pts (~5 mm)" value="14"/>
+<gridsize name="16 pts (~6 mm)" value="16"/>
+<gridsize name="20 pts (~7 mm)" value="20"/>
+<gridsize name="28 pts (~10 mm)" value="28"/>
+<gridsize name="32 pts (~12 mm)" value="32"/>
+<gridsize name="4 pts" value="4"/>
+<gridsize name="56 pts (~20 mm)" value="56"/>
+<gridsize name="8 pts (~3 mm)" value="8"/>
+<opacity name="nearly opaque (75%)" value="0.75"/>
+<opacity name="nearly transparent (25%)" value="0.25"/>
+<opacity name="semitransparent (50%)" value="0.5"/>
+<opacity name="transparent (0%)" value="0"/>
+<opacity name="ultra nearly opaque (95%)" value="0.95"/>
+<opacity name="ultra nearly transparent (5%)" value="0.05"/>
+<opacity name="very nearly opaque (90%)" value="0.9"/>
+<opacity name="very nearly transparent (10%)" value="0.1"/>
+<pen name="normal" value="0.4"/>
+<pen name="semithick" value="0.6"/>
+<pen name="thick" value="0.8"/>
+<pen name="thin" value="0.4"/>
+<pen name="ultra thick" value="1.6"/>
+<pen name="ultra thin" value="0.1"/>
+<pen name="very thick" value="1.2"/>
+<pen name="very thin" value="0.2"/>
+<symbolsize name="large" value="5"/>
+<symbolsize name="small" value="2"/>
+<symbolsize name="tiny" value="1.1"/>
+<textsize name="Huge" value="\Huge"/>
+<textsize name="LARGE" value="\LARGE"/>
+<textsize name="Large" value="\Large"/>
+<textsize name="footnote" value="\footnotesize"/>
+<textsize name="huge" value="\huge"/>
+<textsize name="large" value="\large"/>
+<textsize name="script" value="\scriptsize"/>
+<textsize name="small" value="\small"/>
+<textsize name="tiny" value="\tiny"/>
+<textstyle name="center" begin="\begin{center}" end="\end{center}"/>
+<textstyle name="item" begin="\begin{itemize}\item{}" end="\end{itemize}"/>
+<textstyle name="itemize" begin="\begin{itemize}" end="\end{itemize}"/>
+<preamble>
+% ----- Meu Preâmbulo Padrão -----
+\usepackage{amsmath}
+\usepackage{xcolor}
+\newcommand{\wbg}[1]{{
+  \setlength{\fboxsep}{0pt}
+  \colorbox{white}{\ensuremath{#1}}
+}}
+\usepackage{siunitx}
+\usepackage{contour}
+\contournumber{120}
+\usepackage{amssymb}
+\usepackage{bm}
+\usepackage{physics}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\pgfplotsset{compat=newest}
+\usetikzlibrary{
+    patterns,
+    arrows,
+    backgrounds,
+    calc,
+    intersections,
+    plotmarks,
+    quotes,
+    shapes.misc,
+    shapes.symbols,
+    shapes.callouts,
+    through,
+    positioning,
+    shapes,
+    decorations.pathreplacing,
+    calligraphy,
+    arrows.meta,
+    bending,
+    decorations.markings,
+    decorations.pathmorphing,
+    decorations.pathreplacing,
+    decorations.shapes,
+    decorations.text,
+    math,
+    fpu,
+    spy,
+    shadows,
+    patterns.meta,
+    angles
+}
+% ----- Fim do Preâmbulo -----
+</preamble>
+<pathstyle join="0"/>
+<tiling name="falling" angle="-60" step="4" width="1"/>
+<tiling name="rising" angle="30" step="4" width="1"/>
+<tiling name="horizontal lines" angle="0" step="2.9888" width="0.3985"/>
+<tiling name="vertical lines" angle="90" step="2.9888" width="0.3985"/>
+<tiling name="north east lines" angle="45" step="2.1134" width="0.3985"/>
+<tiling name="north west lines" angle="135" step="2.1134" width="0.3985"/>
+</ipestyle>
+<ipestyle name="triangles-gallery-layout">
+<layout paper="900 600" origin="0 0" frame="900 600" crop="no"/>
+</ipestyle>
+<page>
+<layer name="alpha"/>
+<view layers="alpha" active="alpha"/>
+<text layer="alpha" transformations="translations" pos="450 558" stroke="black" type="label" width="245.589" height="11.955" depth="0" halign="center" valign="center" size="LARGE">Fundamental centers and Euler line</text>
+<text transformations="translations" pos="450 520" stroke="darkgray" type="label" width="274.83" height="8.307" depth="2.32" halign="center" valign="center" size="large">Select the triangle once; no vertex marks are required</text>
+<path stroke="black" pen="semithick" join="0">
+343.333 405.867 m
+195.133 132.867 l
+686.533 156.267 l
+343.333 405.867 l
+h
+</path>
+<text transformations="translations" pos="343.333 425.867" stroke="black" type="label" width="12.636" height="11.764" depth="0" halign="center" valign="center" size="LARGE">$A$</text>
+<text transformations="translations" pos="177.133 117.867" stroke="black" type="label" width="13.675" height="11.764" depth="0" halign="center" valign="center" size="LARGE">$B$</text>
+<text transformations="translations" pos="704.533 141.267" stroke="black" type="label" width="13.296" height="11.764" depth="0" halign="center" valign="center" size="LARGE">$C$</text>
+<group custom="triangles:v1;role=group;id=t00000001;construction=triangle_centers;kind=centers;source=343.33333333333331,405.86666666666667|195.13333333333333,132.86666666666667|686.5333333333333,156.26666666666665;source_fingerprint=1be5047f;geometry_fingerprint=69957b23;count=11;trusted=true">
+<use custom="triangles:v1;role=center;id=t00000001;construction=center;kind=centroid;source=343.33333333333331,405.86666666666667|195.13333333333333,132.86666666666667|686.5333333333333,156.26666666666665;source_fingerprint=1be5047f;geometry_fingerprint=4601ef7b;trusted=true" name="mark/disk(sx)" pos="408.333 231.667" size="large" stroke="blue"/>
+<text transformations="translations" custom="triangles:v1;role=label;id=t00000001;construction=center;kind=centroid;source=343.33333333333331,405.86666666666667|195.13333333333333,132.86666666666667|686.5333333333333,156.26666666666665;source_fingerprint=1be5047f;geometry_fingerprint=9866a61b;trusted=true" pos="432.329 255.663" stroke="blue" type="label" width="13.296" height="11.764" depth="0" halign="center" valign="center" size="LARGE">$G$</text>
+<use custom="triangles:v1;role=center;id=t00000001;construction=center;kind=incenter;source=343.33333333333331,405.86666666666667|195.13333333333333,132.86666666666667|686.5333333333333,156.26666666666665;source_fingerprint=1be5047f;geometry_fingerprint=8f4ce468;trusted=true" name="mark/disk(sx)" pos="378.965 248.252" size="large" stroke="blue"/>
+<text transformations="translations" custom="triangles:v1;role=label;id=t00000001;construction=center;kind=incenter;source=343.33333333333331,405.86666666666667|195.13333333333333,132.86666666666667|686.5333333333333,156.26666666666665;source_fingerprint=1be5047f;geometry_fingerprint=236a6e9d;trusted=true" pos="347.612 261.239" stroke="blue" type="label" width="8.788" height="11.764" depth="0" halign="center" valign="center" size="LARGE">$I$</text>
+<use custom="triangles:v1;role=center;id=t00000001;construction=center;kind=circumcenter;source=343.33333333333331,405.86666666666667|195.13333333333333,132.86666666666667|686.5333333333333,156.26666666666665;source_fingerprint=1be5047f;geometry_fingerprint=f165bef1;trusted=true" name="mark/disk(sx)" pos="439.286 177.052" size="large" stroke="blue"/>
+<text transformations="translations" custom="triangles:v1;role=label;id=t00000001;construction=center;kind=circumcenter;source=343.33333333333331,405.86666666666667|195.13333333333333,132.86666666666667|686.5333333333333,156.26666666666665;source_fingerprint=1be5047f;geometry_fingerprint=d349f9e5;trusted=true" pos="473.222 177.052" stroke="blue" type="label" width="13.351" height="11.764" depth="0" halign="center" valign="center" size="LARGE">$O$</text>
+<use custom="triangles:v1;role=center;id=t00000001;construction=center;kind=orthocenter;source=343.33333333333331,405.86666666666667|195.13333333333333,132.86666666666667|686.5333333333333,156.26666666666665;source_fingerprint=1be5047f;geometry_fingerprint=4643e629;trusted=true" name="mark/disk(sx)" pos="346.427 340.896" size="large" stroke="blue"/>
+<text transformations="translations" custom="triangles:v1;role=label;id=t00000001;construction=center;kind=orthocenter;source=343.33333333333331,405.86666666666667|195.13333333333333,132.86666666666667|686.5333333333333,156.26666666666665;source_fingerprint=1be5047f;geometry_fingerprint=af75ece6;trusted=true" pos="333.441 309.543" stroke="blue" type="label" width="15.297" height="11.764" depth="0" halign="center" valign="center" size="LARGE">$H$</text>
+<use custom="triangles:v1;role=center;id=t00000001;construction=center;kind=nine_point_center;source=343.33333333333331,405.86666666666667|195.13333333333333,132.86666666666667|686.5333333333333,156.26666666666665;source_fingerprint=1be5047f;geometry_fingerprint=610337aa;trusted=true" name="mark/disk(sx)" pos="392.857 258.974" size="large" stroke="blue"/>
+<text transformations="translations" custom="triangles:v1;role=label;id=t00000001;construction=center;kind=nine_point_center;source=343.33333333333331,405.86666666666667|195.13333333333333,132.86666666666667|686.5333333333333,156.26666666666665;source_fingerprint=1be5047f;geometry_fingerprint=2fca7a40;trusted=true" pos="379.87 290.326" stroke="blue" type="label" width="15.297" height="11.764" depth="0" halign="center" valign="center" size="LARGE">$N$</text>
+<path custom="triangles:v1;role=euler_line;id=t00000001;construction=center;kind=euler_line;source=343.33333333333331,405.86666666666667|195.13333333333333,132.86666666666667|686.5333333333333,156.26666666666665;source_fingerprint=1be5047f;geometry_fingerprint=c217a368;trusted=true" stroke="blue" dash="dashed" join="0">
+499.929 70.0529 m
+285.785 447.895 l
+</path>
+</group>
+</page>
+<page>
+<layer name="alpha"/>
+<view layers="alpha" active="alpha"/>
+<text layer="alpha" transformations="translations" pos="450 558" stroke="black" type="label" width="93.307" height="11.954" depth="3.35" halign="center" valign="center" size="LARGE">Defining lines</text>
+<text transformations="translations" pos="450 520" stroke="darkgray" type="label" width="287.902" height="8.307" depth="2.32" halign="center" valign="center" size="large">Only recognized constructions are drawn for each center</text>
+<text transformations="translations" pos="155 462" stroke="black" type="label" width="51.189" height="9.963" depth="0" halign="center" valign="center" size="Large">Medians</text>
+<path stroke="black" pen="semithick" join="0">
+156.467 363.567 m
+70.6667 137.367 l
+257.867 149.067 l
+156.467 363.567 l
+h
+</path>
+<group custom="triangles:v1;role=group;id=t00000002;construction=triangle_centers;kind=centers;source=156.46666666666667,363.56666666666666|70.666666666666657,137.36666666666667|257.86666666666667,149.06666666666666;source_fingerprint=9dc2c9a4;geometry_fingerprint=665adf72;count=5;trusted=true">
+<path custom="triangles:v1;role=median;id=t00000002;construction=center;kind=centroid_median_a;source=156.46666666666667,363.56666666666666|70.666666666666657,137.36666666666667|257.86666666666667,149.06666666666666;source_fingerprint=9dc2c9a4;geometry_fingerprint=f7140c1a;trusted=true" stroke="blue" dash="dashed" join="0">
+156.467 363.567 m
+164.267 143.217 l
+</path>
+<path custom="triangles:v1;role=median;id=t00000002;construction=center;kind=centroid_median_b;source=156.46666666666667,363.56666666666666|70.666666666666657,137.36666666666667|257.86666666666667,149.06666666666666;source_fingerprint=9dc2c9a4;geometry_fingerprint=0f0e86f7;trusted=true" stroke="blue" dash="dashed" join="0">
+70.6667 137.367 m
+207.167 256.317 l
+</path>
+<path custom="triangles:v1;role=median;id=t00000002;construction=center;kind=centroid_median_c;source=156.46666666666667,363.56666666666666|70.666666666666657,137.36666666666667|257.86666666666667,149.06666666666666;source_fingerprint=9dc2c9a4;geometry_fingerprint=440437da;trusted=true" stroke="blue" dash="dashed" join="0">
+257.867 149.067 m
+113.567 250.467 l
+</path>
+<use custom="triangles:v1;role=center;id=t00000002;construction=center;kind=centroid;source=156.46666666666667,363.56666666666666|70.666666666666657,137.36666666666667|257.86666666666667,149.06666666666666;source_fingerprint=9dc2c9a4;geometry_fingerprint=89e34d7c;trusted=true" name="mark/disk(sx)" pos="161.667 216.667" size="large" stroke="blue"/>
+<text transformations="translations" custom="triangles:v1;role=label;id=t00000002;construction=center;kind=centroid;source=156.46666666666667,363.56666666666666|70.666666666666657,137.36666666666667|257.86666666666667,149.06666666666666;source_fingerprint=9dc2c9a4;geometry_fingerprint=17dc2639;trusted=true" pos="143.707 216.667" stroke="blue" type="label" width="13.296" height="11.764" depth="0" halign="center" valign="center" size="LARGE">$G$</text>
+</group>
+<text transformations="translations" pos="450 462" stroke="black" type="label" width="93.409" height="9.962" depth="2.79" halign="center" valign="center" size="Large">Angle bisectors</text>
+<path stroke="black" pen="semithick" join="0">
+451.1 364.667 m
+361.4 142.367 l
+552.5 157.967 l
+451.1 364.667 l
+h
+</path>
+<group custom="triangles:v1;role=group;id=t00000003;construction=triangle_centers;kind=centers;source=451.10000000000002,364.66666666666663|361.39999999999998,142.36666666666667|552.5,157.96666666666667;source_fingerprint=e82d49d6;geometry_fingerprint=333e9e3b;count=5;trusted=true">
+<path custom="triangles:v1;role=angle_bisector;id=t00000003;construction=center;kind=incenter_angle_bisector_a;source=451.10000000000002,364.66666666666663|361.39999999999998,142.36666666666667|552.5,157.96666666666667;source_fingerprint=e82d49d6;geometry_fingerprint=9ee8497b;trusted=true" stroke="darkgreen" dash="dashed" join="0">
+451.1 364.667 m
+456.624 212.434 l
+</path>
+<path custom="triangles:v1;role=angle_bisector;id=t00000003;construction=center;kind=incenter_angle_bisector_b;source=451.10000000000002,364.66666666666663|361.39999999999998,142.36666666666667|552.5,157.96666666666667;source_fingerprint=e82d49d6;geometry_fingerprint=a064fb97;trusted=true" stroke="darkgreen" dash="dashed" join="0">
+361.4 142.367 m
+456.624 212.434 l
+</path>
+<path custom="triangles:v1;role=angle_bisector;id=t00000003;construction=center;kind=incenter_angle_bisector_c;source=451.10000000000002,364.66666666666663|361.39999999999998,142.36666666666667|552.5,157.96666666666667;source_fingerprint=e82d49d6;geometry_fingerprint=b72019d6;trusted=true" stroke="darkgreen" dash="dashed" join="0">
+552.5 157.967 m
+456.624 212.434 l
+</path>
+<use custom="triangles:v1;role=center;id=t00000003;construction=center;kind=incenter;source=451.10000000000002,364.66666666666663|361.39999999999998,142.36666666666667|552.5,157.96666666666667;source_fingerprint=e82d49d6;geometry_fingerprint=0645573a;trusted=true" name="mark/disk(sx)" pos="456.624 212.434" size="large" stroke="darkgreen"/>
+<text transformations="translations" custom="triangles:v1;role=label;id=t00000003;construction=center;kind=incenter;source=451.10000000000002,364.66666666666663|361.39999999999998,142.36666666666667|552.5,157.96666666666667;source_fingerprint=e82d49d6;geometry_fingerprint=94dfa66e;trusted=true" pos="456.624 194.639" stroke="darkgreen" type="label" width="8.788" height="11.764" depth="0" halign="center" valign="center" size="LARGE">$I$</text>
+</group>
+<text transformations="translations" pos="745 462" stroke="black" type="label" width="140.508" height="9.963" depth="0" halign="center" valign="center" size="Large">Bisectors and altitudes</text>
+<path stroke="black" pen="semithick" join="0">
+745 365.033 m
+651.4 142.733 l
+838.6 162.233 l
+745 365.033 l
+h
+</path>
+<group custom="triangles:v1;role=group;id=t00000004;construction=triangle_centers;kind=centers;source=745,365.0333333333333|651.39999999999998,142.73333333333335|838.60000000000002,162.23333333333335;source_fingerprint=aa8b116a;geometry_fingerprint=0f46ce4a;count=10;trusted=true">
+<path custom="triangles:v1;role=perpendicular_bisector;id=t00000004;construction=center;kind=circumcenter_bisector_a;source=745,365.0333333333333|651.39999999999998,142.73333333333335|838.60000000000002,162.23333333333335;source_fingerprint=aa8b116a;geometry_fingerprint=da915d76;trusted=true" stroke="purple" dash="dashed" join="0">
+745 152.483 m
+736.1 237.926 l
+</path>
+<path custom="triangles:v1;role=perpendicular_bisector;id=t00000004;construction=center;kind=circumcenter_bisector_b;source=745,365.0333333333333|651.39999999999998,142.73333333333335|838.60000000000002,162.23333333333335;source_fingerprint=aa8b116a;geometry_fingerprint=5a8a902f;trusted=true" stroke="purple" dash="dashed" join="0">
+791.8 263.633 m
+736.1 237.926 l
+</path>
+<path custom="triangles:v1;role=perpendicular_bisector;id=t00000004;construction=center;kind=circumcenter_bisector_c;source=745,365.0333333333333|651.39999999999998,142.73333333333335|838.60000000000002,162.23333333333335;source_fingerprint=aa8b116a;geometry_fingerprint=45e8c5ab;trusted=true" stroke="purple" dash="dashed" join="0">
+698.2 253.883 m
+736.1 237.926 l
+</path>
+<path custom="triangles:v1;role=altitude;id=t00000004;construction=center;kind=orthocenter_altitude_a;source=745,365.0333333333333|651.39999999999998,142.73333333333335|838.60000000000002,162.23333333333335;source_fingerprint=aa8b116a;geometry_fingerprint=602041dc;trusted=true" stroke="purple" dash="dashed" join="0">
+745 365.033 m
+766.903 154.765 l
+</path>
+<path custom="triangles:v1;role=altitude;id=t00000004;construction=center;kind=orthocenter_altitude_b;source=745,365.0333333333333|651.39999999999998,142.73333333333335|838.60000000000002,162.23333333333335;source_fingerprint=aa8b116a;geometry_fingerprint=f985046f;trusted=true" stroke="purple" dash="dashed" join="0">
+651.4 142.733 m
+813.145 217.385 l
+</path>
+<path custom="triangles:v1;role=altitude;id=t00000004;construction=center;kind=orthocenter_altitude_c;source=745,365.0333333333333|651.39999999999998,142.73333333333335|838.60000000000002,162.23333333333335;source_fingerprint=aa8b116a;geometry_fingerprint=7826155c;trusted=true" stroke="purple" dash="dashed" join="0">
+838.6 162.233 m
+686.564 226.248 l
+</path>
+<use custom="triangles:v1;role=center;id=t00000004;construction=center;kind=circumcenter;source=745,365.0333333333333|651.39999999999998,142.73333333333335|838.60000000000002,162.23333333333335;source_fingerprint=aa8b116a;geometry_fingerprint=3baf07c3;trusted=true" name="mark/disk(sx)" pos="736.1 237.926" size="large" stroke="purple"/>
+<text transformations="translations" custom="triangles:v1;role=label;id=t00000004;construction=center;kind=circumcenter;source=745,365.0333333333333|651.39999999999998,142.73333333333335|838.60000000000002,162.23333333333335;source_fingerprint=aa8b116a;geometry_fingerprint=eb581510;trusted=true" pos="736.1 255.831" stroke="purple" type="label" width="13.351" height="11.764" depth="0" halign="center" valign="center" size="LARGE">$O$</text>
+<use custom="triangles:v1;role=center;id=t00000004;construction=center;kind=orthocenter;source=745,365.0333333333333|651.39999999999998,142.73333333333335|838.60000000000002,162.23333333333335;source_fingerprint=aa8b116a;geometry_fingerprint=cfab3968;trusted=true" name="mark/disk(sx)" pos="762.8 194.149" size="large" stroke="purple"/>
+<text transformations="translations" custom="triangles:v1;role=label;id=t00000004;construction=center;kind=orthocenter;source=745,365.0333333333333|651.39999999999998,142.73333333333335|838.60000000000002,162.23333333333335;source_fingerprint=aa8b116a;geometry_fingerprint=de9c893b;trusted=true" pos="755.948 177.606" stroke="purple" type="label" width="15.297" height="11.764" depth="0" halign="center" valign="center" size="LARGE">$H$</text>
+</group>
+</page>
+<page>
+<layer name="alpha"/>
+<view layers="alpha" active="alpha"/>
+<text layer="alpha" transformations="translations" pos="450 558" stroke="black" type="label" width="207.327" height="11.954" depth="3.35" halign="center" valign="center" size="LARGE">Contact and Cevian geometry</text>
+<text transformations="translations" pos="450 520" stroke="darkgray" type="label" width="279.849" height="8.307" depth="2.32" halign="center" valign="center" size="large">Contact triangle, Gergonne cevians, and Nagel cevians</text>
+<text transformations="translations" pos="155 462" stroke="black" type="label" width="100.281" height="9.962" depth="2.79" halign="center" valign="center" size="Large">Contact triangle</text>
+<path stroke="black" pen="semithick" join="0">
+155.733 360.4 m
+62.1333 142 l
+257.133 157.6 l
+155.733 360.4 l
+h
+</path>
+<group custom="triangles:v1;role=group;id=t00000005;construction=triangle_derived;kind=derived;source=155.73333333333335,360.39999999999998|62.133333333333326,142|257.13333333333333,157.59999999999999;source_fingerprint=05076989;geometry_fingerprint=ba0878cd;count=8;trusted=true">
+<path custom="triangles:v1;role=polygon;id=t00000005;construction=derived;kind=contact_triangle;source=155.73333333333335,360.39999999999998|62.133333333333326,142|257.13333333333333,157.59999999999999;source_fingerprint=05076989;geometry_fingerprint=e8acf40e;trusted=true" stroke="darkgreen" join="0">
+102.805 236.901 m
+165.053 150.234 l
+215.822 240.222 l
+h
+</path>
+<path custom="triangles:v1;role=circle;id=t00000005;construction=derived;kind=incircle;source=155.73333333333335,360.39999999999998|62.133333333333326,142|257.13333333333333,157.59999999999999;source_fingerprint=05076989;geometry_fingerprint=ff74d607;trusted=true" stroke="darkgreen" join="0">
+62.3175 0 0 62.3175 160.084 212.353 e
+</path>
+<use custom="triangles:v1;role=derived_point;id=t00000005;construction=derived;kind=contact_triangle_point_1;source=155.73333333333335,360.39999999999998|62.133333333333326,142|257.13333333333333,157.59999999999999;source_fingerprint=05076989;geometry_fingerprint=76628462;trusted=true" name="mark/disk(sx)" pos="102.805 236.901" size="large" stroke="darkgreen"/>
+<text transformations="translations" custom="triangles:v1;role=label;id=t00000005;construction=derived;kind=contact_triangle_point_1;source=155.73333333333335,360.39999999999998|62.133333333333326,142|257.13333333333333,157.59999999999999;source_fingerprint=05076989;geometry_fingerprint=a0d3a35c;trusted=true" pos="86.2164 243.772" stroke="darkgreen" type="label" width="28.65" height="11.766" depth="2.58" halign="center" valign="center" size="LARGE">$T_{AB}$</text>
+<use custom="triangles:v1;role=derived_point;id=t00000005;construction=derived;kind=contact_triangle_point_2;source=155.73333333333335,360.39999999999998|62.133333333333326,142|257.13333333333333,157.59999999999999;source_fingerprint=05076989;geometry_fingerprint=30b086de;trusted=true" name="mark/disk(sx)" pos="165.053 150.234" size="large" stroke="darkgreen"/>
+<text transformations="translations" custom="triangles:v1;role=label;id=t00000005;construction=derived;kind=contact_triangle_point_2;source=155.73333333333335,360.39999999999998|62.133333333333326,142|257.13333333333333,157.59999999999999;source_fingerprint=05076989;geometry_fingerprint=4aa1cd4d;trusted=true" pos="165.053 132.278" stroke="darkgreen" type="label" width="29.108" height="11.766" depth="2.58" halign="center" valign="center" size="LARGE">$T_{BC}$</text>
+<use custom="triangles:v1;role=derived_point;id=t00000005;construction=derived;kind=contact_triangle_point_3;source=155.73333333333335,360.39999999999998|62.133333333333326,142|257.13333333333333,157.59999999999999;source_fingerprint=05076989;geometry_fingerprint=36771eeb;trusted=true" name="mark/disk(sx)" pos="215.822 240.222" size="large" stroke="darkgreen"/>
+<text transformations="translations" custom="triangles:v1;role=label;id=t00000005;construction=derived;kind=contact_triangle_point_3;source=155.73333333333335,360.39999999999998|62.133333333333326,142|257.13333333333333,157.59999999999999;source_fingerprint=05076989;geometry_fingerprint=29572b05;trusted=true" pos="232.411 247.093" stroke="darkgreen" type="label" width="28.387" height="11.766" depth="2.58" halign="center" valign="center" size="LARGE">$T_{CA}$</text>
+</group>
+<text transformations="translations" pos="450 462" stroke="black" type="label" width="95.305" height="9.803" depth="2.79" halign="center" valign="center" size="Large">Gergonne point</text>
+<path stroke="black" pen="semithick" join="0">
+450.733 360.4 m
+357.133 142 l
+552.133 157.6 l
+450.733 360.4 l
+h
+</path>
+<group custom="triangles:v1;role=group;id=t00000006;construction=triangle_centers;kind=centers;source=450.73333333333335,360.39999999999998|357.13333333333333,142|552.13333333333333,157.59999999999999;source_fingerprint=852bcef7;geometry_fingerprint=15a3cb14;count=5;trusted=true">
+<path custom="triangles:v1;role=gergonne_cevian;id=t00000006;construction=center;kind=gergonne_point_cevian_a;source=450.73333333333335,360.39999999999998|357.13333333333333,142|552.13333333333333,157.59999999999999;source_fingerprint=852bcef7;geometry_fingerprint=2935df5d;trusted=true" stroke="blue" dash="dashed" join="0">
+450.733 360.4 m
+460.053 150.234 l
+</path>
+<path custom="triangles:v1;role=gergonne_cevian;id=t00000006;construction=center;kind=gergonne_point_cevian_b;source=450.73333333333335,360.39999999999998|357.13333333333333,142|552.13333333333333,157.59999999999999;source_fingerprint=852bcef7;geometry_fingerprint=d6fbb742;trusted=true" stroke="blue" dash="dashed" join="0">
+357.133 142 m
+510.822 240.222 l
+</path>
+<path custom="triangles:v1;role=gergonne_cevian;id=t00000006;construction=center;kind=gergonne_point_cevian_c;source=450.73333333333335,360.39999999999998|357.13333333333333,142|552.13333333333333,157.59999999999999;source_fingerprint=852bcef7;geometry_fingerprint=dbfba30e;trusted=true" stroke="blue" dash="dashed" join="0">
+552.133 157.6 m
+397.805 236.901 l
+</path>
+<use custom="triangles:v1;role=center;id=t00000006;construction=center;kind=gergonne_point;source=450.73333333333335,360.39999999999998|357.13333333333333,142|552.13333333333333,157.59999999999999;source_fingerprint=852bcef7;geometry_fingerprint=c4d7e395;trusted=true" name="mark/disk(sx)" pos="457.572 206.19" size="large" stroke="blue"/>
+<text transformations="translations" custom="triangles:v1;role=label;id=t00000006;construction=center;kind=gergonne_point;source=450.73333333333335,360.39999999999998|357.13333333333333,142|552.13333333333333,157.59999999999999;source_fingerprint=852bcef7;geometry_fingerprint=542789a6;trusted=true" pos="450.822 189.894" stroke="blue" type="label" width="21.109" height="11.764" depth="0" halign="center" valign="center" size="LARGE">$Ge$</text>
+</group>
+<text transformations="translations" pos="745 462" stroke="black" type="label" width="71.401" height="9.962" depth="2.79" halign="center" valign="center" size="Large">Nagel point</text>
+<path stroke="black" pen="semithick" join="0">
+745.733 360.4 m
+652.133 142 l
+847.133 157.6 l
+745.733 360.4 l
+h
+</path>
+<group custom="triangles:v1;role=group;id=t00000007;construction=triangle_centers;kind=centers;source=745.73333333333335,360.39999999999998|652.13333333333333,142|847.13333333333333,157.59999999999999;source_fingerprint=1e88f10f;geometry_fingerprint=0fdd07be;count=5;trusted=true">
+<path custom="triangles:v1;role=nagel_cevian;id=t00000007;construction=center;kind=nagel_point_cevian_a;source=745.73333333333335,360.39999999999998|652.13333333333333,142|847.13333333333333,157.59999999999999;source_fingerprint=1e88f10f;geometry_fingerprint=a9802481;trusted=true" stroke="darkred" dash="dashed" join="0">
+745.733 360.4 m
+744.213 149.366 l
+</path>
+<path custom="triangles:v1;role=nagel_cevian;id=t00000007;construction=center;kind=nagel_point_cevian_b;source=745.73333333333335,360.39999999999998|652.13333333333333,142|847.13333333333333,157.59999999999999;source_fingerprint=1e88f10f;geometry_fingerprint=7e6c2306;trusted=true" stroke="darkred" dash="dashed" join="0">
+652.133 142 m
+787.044 277.778 l
+</path>
+<path custom="triangles:v1;role=nagel_cevian;id=t00000007;construction=center;kind=nagel_point_cevian_c;source=745.73333333333335,360.39999999999998|652.13333333333333,142|847.13333333333333,157.59999999999999;source_fingerprint=1e88f10f;geometry_fingerprint=2ccdce7f;trusted=true" stroke="darkred" dash="dashed" join="0">
+847.133 157.6 m
+705.062 265.499 l
+</path>
+<use custom="triangles:v1;role=center;id=t00000007;construction=center;kind=nagel_point;source=745.73333333333335,360.39999999999998|652.13333333333333,142|847.13333333333333,157.59999999999999;source_fingerprint=1e88f10f;geometry_fingerprint=af422c25;trusted=true" name="mark/disk(sx)" pos="744.832 235.295" size="large" stroke="darkred"/>
+<text transformations="translations" custom="triangles:v1;role=label;id=t00000007;construction=center;kind=nagel_point;source=745.73333333333335,360.39999999999998|652.13333333333333,142|847.13333333333333,157.59999999999999;source_fingerprint=1e88f10f;geometry_fingerprint=828ab0b6;trusted=true" pos="727.193 235.295" stroke="darkred" type="label" width="24.145" height="11.764" depth="0" halign="center" valign="center" size="LARGE">$Na$</text>
+</group>
+</page>
+<page>
+<layer name="alpha"/>
+<view layers="alpha" active="alpha"/>
+<text layer="alpha" transformations="translations" pos="450 558" stroke="black" type="label" width="113.977" height="11.954" depth="3.35" halign="center" valign="center" size="LARGE">Nine-point circle</text>
+<text transformations="translations" pos="450 520" stroke="darkgray" type="label" width="323.996" height="8.307" depth="2.32" halign="center" valign="center" size="large">Side midpoints, altitude feet, and vertex-orthocenter midpoints</text>
+<path stroke="black" pen="semithick" join="0">
+322 405.5 m
+169.9 128.6 l
+708.1 155.9 l
+322 405.5 l
+h
+</path>
+<text transformations="translations" pos="322 425.5" stroke="black" type="label" width="12.636" height="11.764" depth="0" halign="center" valign="center" size="LARGE">$A$</text>
+<text transformations="translations" pos="151.9 113.6" stroke="black" type="label" width="13.675" height="11.764" depth="0" halign="center" valign="center" size="LARGE">$B$</text>
+<text transformations="translations" pos="726.1 140.9" stroke="black" type="label" width="13.296" height="11.764" depth="0" halign="center" valign="center" size="LARGE">$C$</text>
+<group custom="triangles:v1;role=group;id=t00000008;construction=triangle_constructions;kind=mixed;source=322,405.5|169.90000000000001,128.59999999999999|708.10000000000002,155.89999999999998;source_fingerprint=4bc254f6;geometry_fingerprint=09a68897;count=21;trusted=true">
+<path custom="triangles:v1;role=circle;id=t00000008;construction=mixed;kind=nine_point_circle;source=322,405.5|169.90000000000001,128.59999999999999|708.10000000000002,155.89999999999998;source_fingerprint=4bc254f6;geometry_fingerprint=c914ef00;trusted=true" stroke="blue" dash="dotted" join="0">
+135.069 0 0 135.069 380.989 264.227 e
+</path>
+<use custom="triangles:v1;role=center;id=t00000008;construction=center;kind=nine_point_center;source=322,405.5|169.90000000000001,128.59999999999999|708.10000000000002,155.89999999999998;source_fingerprint=4bc254f6;geometry_fingerprint=5a0b53ef;trusted=true" name="mark/disk(sx)" pos="380.989 264.227" size="large" stroke="blue"/>
+<text transformations="translations" custom="triangles:v1;role=label;id=t00000008;construction=center;kind=nine_point_center;source=322,405.5|169.90000000000001,128.59999999999999|708.10000000000002,155.89999999999998;source_fingerprint=4bc254f6;geometry_fingerprint=c5832ded;trusted=true" pos="368.003 295.579" stroke="blue" type="label" width="15.297" height="11.764" depth="0" halign="center" valign="center" size="LARGE">$N$</text>
+<use custom="triangles:v1;role=derived_point;id=t00000008;construction=derived;kind=nine_point_points_point_1;source=322,405.5|169.90000000000001,128.59999999999999|708.10000000000002,155.89999999999998;source_fingerprint=4bc254f6;geometry_fingerprint=638aaeb0;trusted=true" name="mark/disk(sx)" pos="245.95 267.05" size="large" stroke="blue"/>
+<text transformations="translations" custom="triangles:v1;role=label;id=t00000008;construction=derived;kind=nine_point_points_point_1;source=322,405.5|169.90000000000001,128.59999999999999|708.10000000000002,155.89999999999998;source_fingerprint=4bc254f6;geometry_fingerprint=cb56a23f;trusted=true" pos="214.035 280.27" stroke="blue" type="label" width="35.077" height="11.766" depth="2.58" halign="center" valign="center" size="LARGE">$M_{AB}$</text>
+<use custom="triangles:v1;role=derived_point;id=t00000008;construction=derived;kind=nine_point_points_point_2;source=322,405.5|169.90000000000001,128.59999999999999|708.10000000000002,155.89999999999998;source_fingerprint=4bc254f6;geometry_fingerprint=969f3859;trusted=true" name="mark/disk(sx)" pos="439 142.25" size="large" stroke="blue"/>
+<text transformations="translations" custom="triangles:v1;role=label;id=t00000008;construction=derived;kind=nine_point_points_point_2;source=322,405.5|169.90000000000001,128.59999999999999|708.10000000000002,155.89999999999998;source_fingerprint=4bc254f6;geometry_fingerprint=2693fd79;trusted=true" pos="452.22 110.335" stroke="blue" type="label" width="35.536" height="11.766" depth="2.58" halign="center" valign="center" size="LARGE">$M_{BC}$</text>
+<use custom="triangles:v1;role=derived_point;id=t00000008;construction=derived;kind=nine_point_points_point_3;source=322,405.5|169.90000000000001,128.59999999999999|708.10000000000002,155.89999999999998;source_fingerprint=4bc254f6;geometry_fingerprint=9fb7f7d2;trusted=true" name="mark/disk(sx)" pos="515.05 280.7" size="large" stroke="blue"/>
+<text transformations="translations" custom="triangles:v1;role=label;id=t00000008;construction=derived;kind=nine_point_points_point_3;source=322,405.5|169.90000000000001,128.59999999999999|708.10000000000002,155.89999999999998;source_fingerprint=4bc254f6;geometry_fingerprint=51b97ca2;trusted=true" pos="546.965 293.92" stroke="blue" type="label" width="34.815" height="11.766" depth="2.58" halign="center" valign="center" size="LARGE">$M_{CA}$</text>
+<use custom="triangles:v1;role=derived_point;id=t00000008;construction=derived;kind=nine_point_points_point_4;source=322,405.5|169.90000000000001,128.59999999999999|708.10000000000002,155.89999999999998;source_fingerprint=4bc254f6;geometry_fingerprint=c41f7d75;trusted=true" name="mark/disk(sx)" pos="335.619 137.006" size="large" stroke="blue"/>
+<text transformations="translations" custom="triangles:v1;role=label;id=t00000008;construction=derived;kind=nine_point_points_point_4;source=322,405.5|169.90000000000001,128.59999999999999|708.10000000000002,155.89999999999998;source_fingerprint=4bc254f6;geometry_fingerprint=df58bb72;trusted=true" pos="335.619 103.07" stroke="blue" type="label" width="20.61" height="11.766" depth="2.58" halign="center" valign="center" size="LARGE">$H_a$</text>
+<use custom="triangles:v1;role=derived_point;id=t00000008;construction=derived;kind=nine_point_points_point_5;source=322,405.5|169.90000000000001,128.59999999999999|708.10000000000002,155.89999999999998;source_fingerprint=4bc254f6;geometry_fingerprint=fd3df4b5;trusted=true" name="mark/disk(sx)" pos="340.976 393.233" size="large" stroke="blue"/>
+<text transformations="translations" custom="triangles:v1;role=label;id=t00000008;construction=derived;kind=nine_point_points_point_5;source=322,405.5|169.90000000000001,128.59999999999999|708.10000000000002,155.89999999999998;source_fingerprint=4bc254f6;geometry_fingerprint=f6e20bc1;trusted=true" pos="340.976 427.169" stroke="blue" type="label" width="19.442" height="11.766" depth="2.58" halign="center" valign="center" size="LARGE">$H_b$</text>
+<use custom="triangles:v1;role=derived_point;id=t00000008;construction=derived;kind=nine_point_points_point_6;source=322,405.5|169.90000000000001,128.59999999999999|708.10000000000002,155.89999999999998;source_fingerprint=4bc254f6;geometry_fingerprint=37b59584;trusted=true" name="mark/disk(sx)" pos="306.169 376.679" size="large" stroke="blue"/>
+<text transformations="translations" custom="triangles:v1;role=label;id=t00000008;construction=derived;kind=nine_point_points_point_6;source=322,405.5|169.90000000000001,128.59999999999999|708.10000000000002,155.89999999999998;source_fingerprint=4bc254f6;geometry_fingerprint=2033465b;trusted=true" pos="282.173 400.675" stroke="blue" type="label" width="19.503" height="11.766" depth="2.58" halign="center" valign="center" size="LARGE">$H_c$</text>
+<use custom="triangles:v1;role=derived_point;id=t00000008;construction=derived;kind=nine_point_points_point_7;source=322,405.5|169.90000000000001,128.59999999999999|708.10000000000002,155.89999999999998;source_fingerprint=4bc254f6;geometry_fingerprint=4ce99f80;trusted=true" name="mark/disk(sx)" pos="322.979 386.204" size="large" stroke="blue"/>
+<text transformations="translations" custom="triangles:v1;role=label;id=t00000008;construction=derived;kind=nine_point_points_point_7;source=322,405.5|169.90000000000001,128.59999999999999|708.10000000000002,155.89999999999998;source_fingerprint=4bc254f6;geometry_fingerprint=3cc34cd8;trusted=true" pos="336.198 354.289" stroke="blue" type="label" width="36.204" height="11.766" depth="2.58" halign="center" valign="center" size="LARGE">$M_{AH}$</text>
+<use custom="triangles:v1;role=derived_point;id=t00000008;construction=derived;kind=nine_point_points_point_8;source=322,405.5|169.90000000000001,128.59999999999999|708.10000000000002,155.89999999999998;source_fingerprint=4bc254f6;geometry_fingerprint=6d6d4e26;trusted=true" name="mark/disk(sx)" pos="246.929 247.754" size="large" stroke="blue"/>
+<text transformations="translations" custom="triangles:v1;role=label;id=t00000008;construction=derived;kind=nine_point_points_point_8;source=322,405.5|169.90000000000001,128.59999999999999|708.10000000000002,155.89999999999998;source_fingerprint=4bc254f6;geometry_fingerprint=60f45777;trusted=true" pos="278.844 260.974" stroke="blue" type="label" width="36.925" height="11.766" depth="2.58" halign="center" valign="center" size="LARGE">$M_{BH}$</text>
+<use custom="triangles:v1;role=derived_point;id=t00000008;construction=derived;kind=nine_point_points_point_9;source=322,405.5|169.90000000000001,128.59999999999999|708.10000000000002,155.89999999999998;source_fingerprint=4bc254f6;geometry_fingerprint=68dbfb31;trusted=true" name="mark/disk(sx)" pos="516.029 261.404" size="large" stroke="blue"/>
+<text transformations="translations" custom="triangles:v1;role=label;id=t00000008;construction=derived;kind=nine_point_points_point_9;source=322,405.5|169.90000000000001,128.59999999999999|708.10000000000002,155.89999999999998;source_fingerprint=4bc254f6;geometry_fingerprint=75a2fb43;trusted=true" pos="481.484 261.404" stroke="blue" type="label" width="36.662" height="11.766" depth="2.58" halign="center" valign="center" size="LARGE">$M_{CH}$</text>
+</group>
+</page>
+<page>
+<layer name="alpha"/>
+<view layers="alpha" active="alpha"/>
+<text layer="alpha" transformations="translations" pos="450 558" stroke="black" type="label" width="203.732" height="11.954" depth="3.35" halign="center" valign="center" size="LARGE">Reference-point constructions</text>
+<text transformations="translations" pos="450 520" stroke="darkgray" type="label" width="328.444" height="8.307" depth="2.32" halign="center" valign="center" size="large">A selected point P drives the pedal triangle or the three cevians</text>
+<text transformations="translations" pos="245 462" stroke="black" type="label" width="85.646" height="9.962" depth="2.79" halign="center" valign="center" size="Large">Pedal triangle</text>
+<path stroke="black" pen="semithick" join="0">
+244.633 371.367 m
+100.333 129.567 l
+385.033 149.067 l
+244.633 371.367 l
+h
+</path>
+<use name="mark/disk(sx)" pos="244.633 230.967" size="large" stroke="orange"/>
+<text transformations="translations" pos="263.633 249.967" stroke="orange" type="label" width="13.206" height="11.764" depth="0" halign="center" valign="center" size="LARGE">$P$</text>
+<group custom="triangles:v1;role=group;id=t00000009;construction=triangle_derived;kind=derived;source=244.63333333333333,371.36666666666667|100.33333333333334,129.56666666666666|385.0333333333333,149.06666666666666;source_fingerprint=6e111fb6;reference=244.63333333333333,230.96666666666667;geometry_fingerprint=05ef00ee;count=7;trusted=true">
+<path custom="triangles:v1;role=polygon;id=t00000009;construction=derived;kind=pedal_triangle;source=244.63333333333333,371.36666666666667|100.33333333333334,129.56666666666666|385.0333333333333,149.06666666666666;source_fingerprint=6e111fb6;reference=244.63333333333333,230.96666666666667;geometry_fingerprint=af8990aa;trusted=true" stroke="darkgreen" join="0">
+250.872 139.878 m
+308.022 271.002 l
+182.85 267.837 l
+h
+</path>
+<use custom="triangles:v1;role=derived_point;id=t00000009;construction=derived;kind=pedal_triangle_point_1;source=244.63333333333333,371.36666666666667|100.33333333333334,129.56666666666666|385.0333333333333,149.06666666666666;source_fingerprint=6e111fb6;reference=244.63333333333333,230.96666666666667;geometry_fingerprint=8e705d55;trusted=true" name="mark/disk(sx)" pos="250.872 139.878" size="large" stroke="darkgreen"/>
+<text transformations="translations" custom="triangles:v1;role=label;id=t00000009;construction=derived;kind=pedal_triangle_point_1;source=244.63333333333333,371.36666666666667|100.33333333333334,129.56666666666666|385.0333333333333,149.06666666666666;source_fingerprint=6e111fb6;reference=244.63333333333333,230.96666666666667;geometry_fingerprint=50d3ab29;trusted=true" pos="250.872 118.694" stroke="darkgreen" type="label" width="17.508" height="11.766" depth="2.58" halign="center" valign="center" size="LARGE">$P_a$</text>
+<use custom="triangles:v1;role=derived_point;id=t00000009;construction=derived;kind=pedal_triangle_point_2;source=244.63333333333333,371.36666666666667|100.33333333333334,129.56666666666666|385.0333333333333,149.06666666666666;source_fingerprint=6e111fb6;reference=244.63333333333333,230.96666666666667;geometry_fingerprint=e90360fa;trusted=true" name="mark/disk(sx)" pos="308.022 271.002" size="large" stroke="darkgreen"/>
+<text transformations="translations" custom="triangles:v1;role=label;id=t00000009;construction=derived;kind=pedal_triangle_point_2;source=244.63333333333333,371.36666666666667|100.33333333333334,129.56666666666666|385.0333333333333,149.06666666666666;source_fingerprint=6e111fb6;reference=244.63333333333333,230.96666666666667;geometry_fingerprint=daa966e3;trusted=true" pos="323.001 285.981" stroke="darkgreen" type="label" width="16.34" height="11.766" depth="2.58" halign="center" valign="center" size="LARGE">$P_b$</text>
+<use custom="triangles:v1;role=derived_point;id=t00000009;construction=derived;kind=pedal_triangle_point_3;source=244.63333333333333,371.36666666666667|100.33333333333334,129.56666666666666|385.0333333333333,149.06666666666666;source_fingerprint=6e111fb6;reference=244.63333333333333,230.96666666666667;geometry_fingerprint=41b43e1e;trusted=true" name="mark/disk(sx)" pos="182.85 267.837" size="large" stroke="darkgreen"/>
+<text transformations="translations" custom="triangles:v1;role=label;id=t00000009;construction=derived;kind=pedal_triangle_point_3;source=244.63333333333333,371.36666666666667|100.33333333333334,129.56666666666666|385.0333333333333,149.06666666666666;source_fingerprint=6e111fb6;reference=244.63333333333333,230.96666666666667;geometry_fingerprint=3acd6c19;trusted=true" pos="167.87 282.817" stroke="darkgreen" type="label" width="16.401" height="11.766" depth="2.58" halign="center" valign="center" size="LARGE">$P_c$</text>
+</group>
+<text transformations="translations" pos="655 462" stroke="black" type="label" width="106.602" height="9.962" depth="2.79" halign="center" valign="center" size="Large">Cevian endpoints</text>
+<path stroke="black" pen="semithick" join="0">
+656.1 371.733 m
+519.6 129.933 l
+804.3 153.333 l
+656.1 371.733 l
+h
+</path>
+<use name="mark/disk(sx)" pos="671.7 223.533" size="large" stroke="orange"/>
+<text transformations="translations" pos="690.7 242.533" stroke="orange" type="label" width="13.206" height="11.764" depth="0" halign="center" valign="center" size="LARGE">$P$</text>
+<group custom="triangles:v1;role=group;id=t0000000a;construction=triangle_derived;kind=derived;source=656.10000000000002,371.73333333333335|519.60000000000002,129.93333333333334|804.29999999999995,153.33333333333331;source_fingerprint=d8c61060;reference=671.70000000000005,223.53333333333333;geometry_fingerprint=29d0ef43;count=7;trusted=true">
+<path custom="triangles:v1;role=polygon;id=t0000000a;construction=derived;kind=cevian_endpoints;source=656.10000000000002,371.73333333333335|519.60000000000002,129.93333333333334|804.29999999999995,153.33333333333331;source_fingerprint=d8c61060;reference=671.70000000000005,223.53333333333333;geometry_fingerprint=94f39bda;trusted=true" stroke="darkred" join="0">
+680.163 143.13 m
+731.636 260.417 l
+595.278 263.992 l
+h
+</path>
+<use custom="triangles:v1;role=derived_point;id=t0000000a;construction=derived;kind=cevian_endpoints_point_1;source=656.10000000000002,371.73333333333335|519.60000000000002,129.93333333333334|804.29999999999995,153.33333333333331;source_fingerprint=d8c61060;reference=671.70000000000005,223.53333333333333;geometry_fingerprint=adbbb201;trusted=true" name="mark/disk(sx)" pos="680.163 143.13" size="large" stroke="darkred"/>
+<text transformations="translations" custom="triangles:v1;role=label;id=t0000000a;construction=derived;kind=cevian_endpoints_point_1;source=656.10000000000002,371.73333333333335|519.60000000000002,129.93333333333334|804.29999999999995,153.33333333333331;source_fingerprint=d8c61060;reference=671.70000000000005,223.53333333333333;geometry_fingerprint=4f0741f1;trusted=true" pos="688.279 123.539" stroke="darkred" type="label" width="20.639" height="11.766" depth="2.58" halign="center" valign="center" size="LARGE">$D_a$</text>
+<use custom="triangles:v1;role=derived_point;id=t0000000a;construction=derived;kind=cevian_endpoints_point_2;source=656.10000000000002,371.73333333333335|519.60000000000002,129.93333333333334|804.29999999999995,153.33333333333331;source_fingerprint=d8c61060;reference=671.70000000000005,223.53333333333333;geometry_fingerprint=7c845bfd;trusted=true" name="mark/disk(sx)" pos="731.636 260.417" size="large" stroke="darkred"/>
+<text transformations="translations" custom="triangles:v1;role=label;id=t0000000a;construction=derived;kind=cevian_endpoints_point_2;source=656.10000000000002,371.73333333333335|519.60000000000002,129.93333333333334|804.29999999999995,153.33333333333331;source_fingerprint=d8c61060;reference=671.70000000000005,223.53333333333333;geometry_fingerprint=d7dd8b2a;trusted=true" pos="751.228 268.532" stroke="darkred" type="label" width="19.471" height="11.766" depth="2.58" halign="center" valign="center" size="LARGE">$D_b$</text>
+<use custom="triangles:v1;role=derived_point;id=t0000000a;construction=derived;kind=cevian_endpoints_point_3;source=656.10000000000002,371.73333333333335|519.60000000000002,129.93333333333334|804.29999999999995,153.33333333333331;source_fingerprint=d8c61060;reference=671.70000000000005,223.53333333333333;geometry_fingerprint=c352d082;trusted=true" name="mark/disk(sx)" pos="595.278 263.992" size="large" stroke="darkred"/>
+<text transformations="translations" custom="triangles:v1;role=label;id=t0000000a;construction=derived;kind=cevian_endpoints_point_3;source=656.10000000000002,371.73333333333335|519.60000000000002,129.93333333333334|804.29999999999995,153.33333333333331;source_fingerprint=d8c61060;reference=671.70000000000005,223.53333333333333;geometry_fingerprint=1b665873;trusted=true" pos="580.283 278.987" stroke="darkred" type="label" width="19.532" height="11.766" depth="2.58" halign="center" valign="center" size="LARGE">$D_c$</text>
+</group>
+</page>
+<page>
+<layer name="alpha"/>
+<view layers="alpha" active="alpha"/>
+<text layer="alpha" transformations="translations" pos="450 558" stroke="black" type="label" width="226.83" height="11.954" depth="3.35" halign="center" valign="center" size="LARGE">Isogonal and isotomic conjugates</text>
+<text transformations="translations" pos="450 520" stroke="darkgray" type="label" width="320.805" height="8.307" depth="2.32" halign="center" valign="center" size="large">Both conjugates are calculated from the same selected point P</text>
+<path stroke="black" pen="semithick" join="0">
+335.167 405.5 m
+179.167 128.6 l
+705.667 155.9 l
+335.167 405.5 l
+h
+</path>
+<text transformations="translations" pos="335.167 425.5" stroke="black" type="label" width="12.636" height="11.764" depth="0" halign="center" valign="center" size="LARGE">$A$</text>
+<text transformations="translations" pos="161.167 113.6" stroke="black" type="label" width="13.675" height="11.764" depth="0" halign="center" valign="center" size="LARGE">$B$</text>
+<text transformations="translations" pos="723.667 140.9" stroke="black" type="label" width="13.296" height="11.764" depth="0" halign="center" valign="center" size="LARGE">$C$</text>
+<use name="mark/disk(sx)" pos="393.667 241.7" size="large" stroke="orange"/>
+<text transformations="translations" pos="415.667 261.7" stroke="orange" type="label" width="13.206" height="11.764" depth="0" halign="center" valign="center" size="LARGE">$P$</text>
+<group custom="triangles:v1;role=group;id=t0000000b;construction=triangle_constructions;kind=derived;source=335.16666666666669,405.5|179.16666666666666,128.59999999999999|705.66666666666674,155.89999999999998;source_fingerprint=9aeaec7f;reference=393.66666666666669,241.69999999999999;geometry_fingerprint=b2d48e8e;count=4;trusted=true">
+<use custom="triangles:v1;role=derived_point;id=t0000000b;construction=derived;kind=isogonal_conjugate_point_1;source=335.16666666666669,405.5|179.16666666666666,128.59999999999999|705.66666666666674,155.89999999999998;source_fingerprint=9aeaec7f;reference=393.66666666666669,241.69999999999999;geometry_fingerprint=cdd0e621;trusted=true" name="mark/disk(sx)" pos="353.682 254.329" size="large" stroke="purple"/>
+<text transformations="translations" custom="triangles:v1;role=label;id=t0000000b;construction=derived;kind=isogonal_conjugate_point_1;source=335.16666666666669,405.5|179.16666666666666,128.59999999999999|705.66666666666674,155.89999999999998;source_fingerprint=9aeaec7f;reference=393.66666666666669,241.69999999999999;geometry_fingerprint=2db037db;trusted=true" pos="322.329 267.315" stroke="purple" type="label" width="19.682" height="11.81" depth="0" halign="center" valign="center" size="LARGE">$P^{*}$</text>
+<use custom="triangles:v1;role=derived_point;id=t0000000b;construction=derived;kind=isotomic_conjugate_point_1;source=335.16666666666669,405.5|179.16666666666666,128.59999999999999|705.66666666666674,155.89999999999998;source_fingerprint=9aeaec7f;reference=393.66666666666669,241.69999999999999;geometry_fingerprint=fabbe2d0;trusted=true" name="mark/disk(sx)" pos="420.566 219.011" size="large" stroke="purple"/>
+<text transformations="translations" custom="triangles:v1;role=label;id=t0000000b;construction=derived;kind=isotomic_conjugate_point_1;source=335.16666666666669,405.5|179.16666666666666,128.59999999999999|705.66666666666674,155.89999999999998;source_fingerprint=9aeaec7f;reference=393.66666666666669,241.69999999999999;geometry_fingerprint=9fc7ed8e;trusted=true" pos="444.562 195.015" stroke="purple" type="label" width="17.932" height="13.601" depth="0" halign="center" valign="center" size="LARGE">$P^{t}$</text>
+</group>
+</page>
+<page>
+<layer name="alpha"/>
+<view layers="alpha" active="alpha"/>
+<text layer="alpha" transformations="translations" pos="450 558" stroke="black" type="label" width="159.846" height="11.955" depth="0" halign="center" valign="center" size="LARGE">Selected named centers</text>
+<text transformations="translations" pos="450 520" stroke="darkgray" type="label" width="335.338" height="8.307" depth="2.32" halign="center" valign="center" size="large">Brocard, isogonic, isodynamic, symmedian, and Napoleon centers</text>
+<text transformations="translations" pos="155 462" stroke="black" type="label" width="91.577" height="9.962" depth="2.79" halign="center" valign="center" size="Large">Brocard points</text>
+<path stroke="black" pen="semithick" join="0">
+155.733 360.4 m
+62.1333 142 l
+257.133 157.6 l
+155.733 360.4 l
+h
+</path>
+<group custom="triangles:v1;role=group;id=t0000000c;construction=triangle_centers;kind=centers;source=155.73333333333335,360.39999999999998|62.133333333333326,142|257.13333333333333,157.59999999999999;source_fingerprint=05076989;geometry_fingerprint=4e58da45;count=4;trusted=true">
+<use custom="triangles:v1;role=center;id=t0000000c;construction=center;kind=first_brocard;source=155.73333333333335,360.39999999999998|62.133333333333326,142|257.13333333333333,157.59999999999999;source_fingerprint=05076989;geometry_fingerprint=cf92f48d;trusted=true" name="mark/disk(sx)" pos="171.404 215.559" size="large" stroke="blue"/>
+<text transformations="translations" custom="triangles:v1;role=label;id=t0000000c;construction=center;kind=first_brocard;source=155.73333333333335,360.39999999999998|62.133333333333326,142|257.13333333333333,157.59999999999999;source_fingerprint=05076989;geometry_fingerprint=2d657062;trusted=true" pos="187.701 208.809" stroke="blue" type="label" width="17.844" height="11.764" depth="2.58" halign="center" valign="center" size="LARGE">$\Omega_1$</text>
+<use custom="triangles:v1;role=center;id=t0000000c;construction=center;kind=second_brocard;source=155.73333333333335,360.39999999999998|62.133333333333326,142|257.13333333333333,157.59999999999999;source_fingerprint=05076989;geometry_fingerprint=68ee6f0a;trusted=true" name="mark/disk(sx)" pos="148.252 207.909" size="large" stroke="blue"/>
+<text transformations="translations" custom="triangles:v1;role=label;id=t0000000c;construction=center;kind=second_brocard;source=155.73333333333335,360.39999999999998|62.133333333333326,142|257.13333333333333,157.59999999999999;source_fingerprint=05076989;geometry_fingerprint=b239b437;trusted=true" pos="135.78 195.437" stroke="blue" type="label" width="17.844" height="11.764" depth="2.58" halign="center" valign="center" size="LARGE">$\Omega_2$</text>
+</group>
+<text transformations="translations" pos="450 462" stroke="black" type="label" width="150.378" height="9.962" depth="2.79" halign="center" valign="center" size="Large">Isogonic and isodynamic</text>
+<path stroke="black" pen="semithick" join="0">
+450 201.2 m
+356.4 154.4 l
+543.6 154.4 l
+450 201.2 l
+h
+</path>
+<group custom="triangles:v1;role=group;id=t0000000d;construction=triangle_centers;kind=centers;source=450,201.19999999999999|356.39999999999998,154.40000000000001|543.60000000000002,154.40000000000001;source_fingerprint=f0c317cc;geometry_fingerprint=d624a63e;count=8;trusted=true">
+<use custom="triangles:v1;role=center;id=t0000000d;construction=center;kind=first_fermat;source=450,201.19999999999999|356.39999999999998,154.40000000000001|543.60000000000002,154.40000000000001;source_fingerprint=f0c317cc;geometry_fingerprint=62740b46;trusted=true" name="mark/disk(sx)" pos="450 208.44" size="large" stroke="purple"/>
+<text transformations="translations" custom="triangles:v1;role=label;id=t0000000d;construction=center;kind=first_fermat;source=450,201.19999999999999|356.39999999999998,154.40000000000001|543.60000000000002,154.40000000000001;source_fingerprint=f0c317cc;geometry_fingerprint=267e8235;trusted=true" pos="450 225.712" stroke="purple" type="label" width="26.194" height="11.766" depth="2.58" halign="center" valign="center" size="LARGE">$X_{13}$</text>
+<use custom="triangles:v1;role=center;id=t0000000d;construction=center;kind=second_fermat;source=450,201.19999999999999|356.39999999999998,154.40000000000001|543.60000000000002,154.40000000000001;source_fingerprint=f0c317cc;geometry_fingerprint=d2e22730;trusted=true" name="mark/disk(sx)" pos="450 100.36" size="large" stroke="purple"/>
+<text transformations="translations" custom="triangles:v1;role=label;id=t0000000d;construction=center;kind=second_fermat;source=450,201.19999999999999|356.39999999999998,154.40000000000001|543.60000000000002,154.40000000000001;source_fingerprint=f0c317cc;geometry_fingerprint=56991d5e;trusted=true" pos="450 83.0877" stroke="purple" type="label" width="26.194" height="11.766" depth="2.58" halign="center" valign="center" size="LARGE">$X_{14}$</text>
+<use custom="triangles:v1;role=center;id=t0000000d;construction=center;kind=first_isodynamic;source=450,201.19999999999999|356.39999999999998,154.40000000000001|543.60000000000002,154.40000000000001;source_fingerprint=f0c317cc;geometry_fingerprint=68a4ea28;trusted=true" name="mark/disk(sx)" pos="450 148.782" size="large" stroke="purple"/>
+<text transformations="translations" custom="triangles:v1;role=label;id=t0000000d;construction=center;kind=first_isodynamic;source=450,201.19999999999999|356.39999999999998,154.40000000000001|543.60000000000002,154.40000000000001;source_fingerprint=f0c317cc;geometry_fingerprint=d9ecd97f;trusted=true" pos="450 131.51" stroke="purple" type="label" width="26.194" height="11.766" depth="2.58" halign="center" valign="center" size="LARGE">$X_{15}$</text>
+<use custom="triangles:v1;role=center;id=t0000000d;construction=center;kind=second_isodynamic;source=450,201.19999999999999|356.39999999999998,154.40000000000001|543.60000000000002,154.40000000000001;source_fingerprint=f0c317cc;geometry_fingerprint=36ae2628;trusted=true" name="mark/disk(sx)" pos="450 296.164" size="large" stroke="purple"/>
+<text transformations="translations" custom="triangles:v1;role=label;id=t0000000d;construction=center;kind=second_isodynamic;source=450,201.19999999999999|356.39999999999998,154.40000000000001|543.60000000000002,154.40000000000001;source_fingerprint=f0c317cc;geometry_fingerprint=1c6e9863;trusted=true" pos="450 313.436" stroke="purple" type="label" width="26.194" height="11.766" depth="2.58" halign="center" valign="center" size="LARGE">$X_{16}$</text>
+</group>
+<text transformations="translations" pos="745 462" stroke="black" type="label" width="104.558" height="9.962" depth="2.79" halign="center" valign="center" size="Large">K, X17, and X18</text>
+<path stroke="black" pen="semithick" join="0">
+745.733 360.4 m
+652.133 142 l
+847.133 157.6 l
+745.733 360.4 l
+h
+</path>
+<group custom="triangles:v1;role=group;id=t0000000e;construction=triangle_centers;kind=centers;source=745.73333333333335,360.39999999999998|652.13333333333333,142|847.13333333333333,157.59999999999999;source_fingerprint=1e88f10f;geometry_fingerprint=f5df0dec;count=6;trusted=true">
+<use custom="triangles:v1;role=center;id=t0000000e;construction=center;kind=symmedian_point;source=745.73333333333335,360.39999999999998|652.13333333333333,142|847.13333333333333,157.59999999999999;source_fingerprint=1e88f10f;geometry_fingerprint=524dd476;trusted=true" name="mark/disk(sx)" pos="751.981 205.218" size="large" stroke="darkred"/>
+<text transformations="translations" custom="triangles:v1;role=label;id=t0000000e;construction=center;kind=symmedian_point;source=745.73333333333335,360.39999999999998|652.13333333333333,142|847.13333333333333,157.59999999999999;source_fingerprint=1e88f10f;geometry_fingerprint=af47f426;trusted=true" pos="758.731 188.922" stroke="darkred" type="label" width="15.577" height="11.764" depth="0" halign="center" valign="center" size="LARGE">$K$</text>
+<use custom="triangles:v1;role=center;id=t0000000e;construction=center;kind=first_napoleon;source=745.73333333333335,360.39999999999998|652.13333333333333,142|847.13333333333333,157.59999999999999;source_fingerprint=1e88f10f;geometry_fingerprint=fdc58a45;trusted=true" name="mark/disk(sx)" pos="750.379 212.846" size="large" stroke="darkred"/>
+<text transformations="translations" custom="triangles:v1;role=label;id=t0000000e;construction=center;kind=first_napoleon;source=745.73333333333335,360.39999999999998|652.13333333333333,142|847.13333333333333,157.59999999999999;source_fingerprint=1e88f10f;geometry_fingerprint=6b295630;trusted=true" pos="768.335 212.846" stroke="darkred" type="label" width="26.194" height="11.766" depth="2.58" halign="center" valign="center" size="LARGE">$X_{17}$</text>
+<use custom="triangles:v1;role=center;id=t0000000e;construction=center;kind=second_napoleon;source=745.73333333333335,360.39999999999998|652.13333333333333,142|847.13333333333333,157.59999999999999;source_fingerprint=1e88f10f;geometry_fingerprint=b5480518;trusted=true" name="mark/disk(sx)" pos="745.252 237.259" size="large" stroke="darkred"/>
+<text transformations="translations" custom="triangles:v1;role=label;id=t0000000e;construction=center;kind=second_napoleon;source=745.73333333333335,360.39999999999998|652.13333333333333,142|847.13333333333333,157.59999999999999;source_fingerprint=1e88f10f;geometry_fingerprint=ad779f0d;trusted=true" pos="745.252 255.215" stroke="darkred" type="label" width="26.194" height="11.766" depth="2.58" halign="center" valign="center" size="LARGE">$X_{18}$</text>
+</group>
+</page>
+</ipe>

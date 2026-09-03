@@ -31,6 +31,12 @@ For a focused Conics check:
 ./scripts/validate.sh conics
 ```
 
+For a focused Triangles check:
+
+```bash
+./scripts/validate.sh triangles
+```
+
 For a focused Vectors check:
 
 ```bash

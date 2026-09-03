@@ -11,6 +11,7 @@ body:
       options:
         - Circles
         - Conics
+        - Triangles
         - Vectors
     validations:
       required: true
